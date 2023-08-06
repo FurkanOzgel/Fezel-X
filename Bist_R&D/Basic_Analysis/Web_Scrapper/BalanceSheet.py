@@ -99,7 +99,7 @@ def get_ready_ratio_tradingview(stock, path):
     url = f"https://tr.tradingview.com/symbols/{stock}/financials-statistics-and-ratios/"
 
     driver.get(url)
-
+    
     time.sleep(4)
 
     page_html = driver.page_source

@@ -29,15 +29,31 @@ def calculate_ratios(stock):
     aktif_devir_hızı = 0
     donem_karı_oz_kaynaklar_oranı = 0
     stok_devir_hızı = 0
-    pd_dd_oranı = BalanceSheet.get_ready_ratio(stock, '//*[@id="ctl00_ctl58_g_e55f617d_8944_4235_a4a3_cb95ded58989"]/div/div/div[2]/div/div/table/tbody/tr/td[6]')
-    ozkaynak_karlılıgı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", "/html/body/div[3]/div[4]/div[2]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]/div[8]/div/div")
-    varlık_getirisi = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[12]/div[5]/div[8]/div/div")
-    özkakynak_karlılıgı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]/div[8]/div/div")
-    yatırılan_sermayenin_getirisi = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[14]/div[5]/div[8]/div/div')
-    brüt_kar_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[15]/div[5]/div[8]/div/div')
-    faaliyet_kar_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[16]/div[5]/div[8]/div/div')
-    favök_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]/div[8]/div/div')
-    net_marj = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]/div[8]/div/div')
+    
+    try:
+        pd_dd_oranı = BalanceSheet.get_ready_ratio(stock, '//*[@id="ctl00_ctl58_g_e55f617d_8944_4235_a4a3_cb95ded58989"]/div/div/div[2]/div/div/table/tbody/tr/td[6]')
+    except:
+        pd_dd_oranı = None
+        
+    try:
+        varlık_getirisi = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[12]/div[5]/div[8]/div/div")
+        özkakynak_karlılıgı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]/div[8]/div/div")
+        yatırılan_sermayenin_getirisi = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[14]/div[5]/div[8]/div/div')
+        brüt_kar_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[15]/div[5]/div[8]/div/div')
+        faaliyet_kar_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[16]/div[5]/div[8]/div/div')
+        favök_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]/div[8]/div/div')
+        net_marj = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]/div[8]/div/div')
+    
+    except:
+        varlık_getirisi = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[12]/div[5]/div[7]/div/div")
+        özkakynak_karlılıgı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]/div[7]/div/div")
+        yatırılan_sermayenin_getirisi = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[14]/div[5]/div[7]/div/div')
+        brüt_kar_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[15]/div[5]/div[7]/div/div')
+        faaliyet_kar_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[16]/div[5]/div[7]/div/div')
+        favök_marjı = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]/div[7]/div/div')
+        net_marj = BalanceSheet.get_ready_ratio_tradingview(f"BIST-{stock}", '//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[18]/div[5]/div[7]/div/div')
+    
+    
     hbk = BalanceSheet.get_ready_ratio_tradingview_summary(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/section/div[2]/div[2]/div[4]/div[2]/div[1]")
     fiyat_kazanc = BalanceSheet.get_ready_ratio_tradingview_summary(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/section/div[2]/div[2]/div[3]/div[2]/div[1]")
 
@@ -56,7 +72,6 @@ def calculate_ratios(stock):
     toplam_varlıklar = 0
     donem_karı = 0
     satis_maliyeti = 0
-    stok = 0
     ortalama_stok = 0
 
     for i, row in bilanco_df.iterrows():
@@ -152,8 +167,6 @@ def calculate_ratios(stock):
 
     ratio_json["PD/DD"] = pd_dd_oranı
 
-    ratio_json["Özkaynak_Karlılığı"] = ozkaynak_karlılıgı
-
     ratio_json["Varlık_Getirisi_%"] = varlık_getirisi
     ratio_json["Özkaynak_Karlılığı_%"] = özkakynak_karlılıgı
     ratio_json["Yatrılan_Sermayenin_Getirisi_%"] = yatırılan_sermayenin_getirisi
@@ -175,4 +188,4 @@ def calculate_ratios(stock):
 
 
 if __name__ == "__main__":
-    calculate_ratios("ODAS")
+    calculate_ratios("SMRTG")

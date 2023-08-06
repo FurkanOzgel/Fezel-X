@@ -3,7 +3,7 @@
 Cari oran, bir şirketin kısa vadeli borçlarını ödeyebilme yeteneğini ölçen bir finansal orandır. 
 Bu oran, şirketin mevcut varlıklarının, kısa vadeli borçlarının ne kadarını karşılayabileceğini gösterir.
 
-1- Cari oranın ideal seviyesi 2'dir.
+1- Cari oranın ideal seviyesi 1.5 - 2 aralığıdır.
 
 2- Cari oranda sektör ortalaması bulunmalı. Cari oran sektör ortalamasının altındaysa bu şirketin kısa vadede borçlarını 
 ödeme zorluğu çekebileceğini gösterir ama ortalamanın üstündeyse bu şirketin finansal durumunun diğer şirketlerden daha 
@@ -16,7 +16,12 @@ Cari oranın düşmesi, şirketin kısa vadeli borçlarını ödeyememe riskini 
 
 import json
 
-with open("Bist_R&D/Basic_Analysis/Analyzer/RatioSheet.json", "r") as file:
-    ratios = json.loads(file.readline())
 
-print(ratios["Cari_Oran"])
+def analyseCariOran():
+
+    with open("Bist_R&D/Basic_Analysis/Analyzer/RatioSheet.json", "r") as file:
+        ratios = json.loads(file.readline())
+
+    print(ratios["Cari_Oran"])
+    
+analyseCariOran()
