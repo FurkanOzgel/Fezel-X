@@ -12,12 +12,11 @@ iyi olduğunu gösterebilir.
 3-  Şirketin cari oranı, zaman içinde değişebilir. Bu nedenle, şirketin cari oranının trendini takip etmek önemlidir.
 Cari oranın düşmesi, şirketin kısa vadeli borçlarını ödeyememe riskini artırabilir. Öte yandan, cari oranın yükselmesi,
 şirketin finansal durumunun iyileştiğine işaret edebilir.
-
 '''
 
 import json
 
-with open("Bist_R&D/Basic_Analysis/Analyzer/BlanceSheet.json", "r") as file:
+with open("Bist_R&D/Basic_Analysis/Analyzer/RatioSheet.json", "r") as file:
     ratios = json.loads(file.readline())
 
 print(ratios["Cari_Oran"])

@@ -169,7 +169,7 @@ def calculate_ratios(stock):
     with open("Bist_R&D/Basic_Analysis/Analyzer/RatioSheet.json", "w", encoding="UTF-8") as file:
         file.write(json.dumps(ratio_json, ensure_ascii=False))
 
-    print("Done")
+    print("Done Ratio Calculating")
 
     return ratio_json
 

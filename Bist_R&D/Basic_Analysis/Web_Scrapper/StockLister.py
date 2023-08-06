@@ -5,17 +5,9 @@ import pandas as pd
 
 url = "https://www.kap.org.tr/tr/bist-sirketler"
 
-
 html = requests.get(url).text
 
-# with open("index.html", "w") as html:
-#     html.writelines(res)
-
-# print(res)
-
 soup = BeautifulSoup(html, 'html.parser')
-
-# symbols = []
 
 symbols = soup.findAll('div', class_='_04')
 

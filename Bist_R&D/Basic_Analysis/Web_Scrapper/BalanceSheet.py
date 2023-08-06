@@ -100,7 +100,7 @@ def get_ready_ratio_tradingview(stock, path):
 
     driver.get(url)
 
-    time.sleep(7)
+    time.sleep(4)
 
     page_html = driver.page_source
 
@@ -116,7 +116,7 @@ def get_ready_ratio_tradingview_summary(stock, path):
 
     driver.get(url)
 
-    time.sleep(7)
+    time.sleep(4)
 
     page_html = driver.page_source
 
@@ -132,7 +132,7 @@ def get_ready_ratio_tradingview_test(stock, path):
 
     driver.get(url)
 
-    time.sleep(7)
+    time.sleep(4)
 
     page_html = driver.page_source
 
