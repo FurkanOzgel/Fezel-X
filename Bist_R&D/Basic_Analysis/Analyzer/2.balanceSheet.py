@@ -7,5 +7,7 @@ sys.path.append(parent_path)
 
 from RatioCalculator import calculate_ratios
 
-
-print(calculate_ratios("ODAS"))
+def analyseCariOran(symbol):
+    calculate_ratios(symbol)
+    
+analyseCariOran("PENTA")

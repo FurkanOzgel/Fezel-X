@@ -1,4 +1,7 @@
+# encoding:utf-8
+
 import BalanceSheet
+import json
 
 def calculate_ratios(stock):
 
@@ -167,13 +170,14 @@ def calculate_ratios(stock):
     ratio_json["Hisse_Başı_Kazanç"] = hbk
 
     ratio_json["Fiyat_Kazanç_Oranı"] = fiyat_kazanc
+    
+    with open("Bist_R&D/Basic_Analysis/Analyzer/RatioSheet.json", "w", encoding="UTF-8") as file:
+        file.write(json.dumps(ratio_json, ensure_ascii=False))
+    
+    print("Done")
 
     return ratio_json
 
-# BalanceSheet.run_driver()
 
-# data_object = calculate_ratios("PENTA")
-
-# for i in data_object.keys():
-
-#     print(i+": "+str(round(data_object[i], 2)))
+if __name__ == "__main__":
+    calculate_ratios("ODAS")
