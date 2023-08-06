@@ -6,9 +6,11 @@ from selenium import webdriver
 import time
 import unicodedata
 
+
 def run_driver():
     global driver
     driver = webdriver.Chrome()
+
 
 def remove_unicode_control_characters(text):
     cleaned_text = ""
@@ -17,7 +19,6 @@ def remove_unicode_control_characters(text):
             cleaned_text += char
     return cleaned_text
 
-    
 
 def get_finance_data_dates(stock):
 
@@ -29,7 +30,7 @@ def get_finance_data_dates(stock):
 
     choice = soup.find("select", id="ddlMaliTabloFirst")
     children = choice.findChildren("option")
-    
+
     for i in children:
         dates.append(i.text)
 
@@ -41,8 +42,6 @@ def get_financal_tables(stock, year, month):
     table_items = []
     table_values = []
     table_item_codes = []
-    
-
 
     url = "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo"
 
@@ -53,7 +52,7 @@ def get_financal_tables(stock, year, month):
     choice = soup.find("select", id="ddlMaliTabloGroup")
     grup = choice.find("option")["value"]
 
-    if(grup == "UFRS"):
+    if (grup == "UFRS"):
         grup = "UFRS_K"
 
     parametreler = (
@@ -71,19 +70,20 @@ def get_financal_tables(stock, year, month):
         )
 
     response = requests.get(url, params=parametreler).json()["value"]
-    
+
     for i in response:
-        
+
         table_items.append(i["itemDescTr"])
         table_values.append(i["value1"])
         table_item_codes.append(i["itemCode"])
-    
-    df = pd.DataFrame( index=table_items, columns = ["ItemCode", "Values"] )
+
+    df = pd.DataFrame(index=table_items, columns=["ItemCode", "Values"])
 
     df["Values"] = table_values
     df["ItemCode"] = table_item_codes
-    
+
     return df
+
 
 def get_ready_ratio(stock, path):
     url = "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse="+stock
@@ -104,11 +104,12 @@ def get_ready_ratio_tradingview(stock, path):
 
     page_html = driver.page_source
 
-    soup = BeautifulSoup(page_html , 'html.parser')
+    soup = BeautifulSoup(page_html, 'html.parser')
 
     dom = etree.HTML(str(soup))
 
     return float(remove_unicode_control_characters(dom.xpath(path)[0].text))
+
 
 def get_ready_ratio_tradingview_summary(stock, path):
     url = f"https://tr.tradingview.com/symbols/{stock}/"
@@ -119,7 +120,7 @@ def get_ready_ratio_tradingview_summary(stock, path):
 
     page_html = driver.page_source
 
-    soup = BeautifulSoup(page_html , 'html.parser')
+    soup = BeautifulSoup(page_html, 'html.parser')
 
     dom = etree.HTML(str(soup))
 
@@ -135,7 +136,7 @@ def get_ready_ratio_tradingview_test(stock, path):
 
     page_html = driver.page_source
 
-    soup = BeautifulSoup(page_html , 'html.parser')
+    soup = BeautifulSoup(page_html, 'html.parser')
 
     dom = etree.HTML(str(soup))
 

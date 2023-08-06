@@ -3,10 +3,11 @@
 import BalanceSheet
 import json
 
+
 def calculate_ratios(stock):
 
     BalanceSheet.run_driver()
-    
+
     global bilanco_df
 
     ratio_json = {}
@@ -40,8 +41,6 @@ def calculate_ratios(stock):
     hbk = BalanceSheet.get_ready_ratio_tradingview_summary(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/section/div[2]/div[2]/div[4]/div[2]/div[1]")
     fiyat_kazanc = BalanceSheet.get_ready_ratio_tradingview_summary(f"BIST-{stock}", "//*[@id='js-category-content']/div[2]/div/section/div[2]/div[2]/div[3]/div[2]/div[1]")
 
-
-
     kisa_vadeli_yabanci_kaynaklar = 0
     uzun_vadeli_yabanci_kaynaklar = 0
     tum_donen_varlıklar = 0
@@ -49,19 +48,17 @@ def calculate_ratios(stock):
     finansal_yatırımlar = 0
     pasif_toplam = 0
     oz_kaynaklar = 0
-    ticari_alacaklar_ortalamasi = 0
     sales_ortalamasi = 0
     alacak_ortalamasi = 0
-    sales = 0 
-    alacaklar = 0 
+    sales = 0
+    alacaklar = 0
     diger_alacaklar = 0
     toplam_varlıklar = 0
     donem_karı = 0
     satis_maliyeti = 0
     stok = 0
     ortalama_stok = 0
-    ortalama_borclar = 0
-    
+
     for i, row in bilanco_df.iterrows():
         if row.ItemCode == "2A":
             kisa_vadeli_yabanci_kaynaklar = float(row.Values)
@@ -86,7 +83,7 @@ def calculate_ratios(stock):
 
         elif row.ItemCode == "3C":
 
-            sales = float(row.Values) 
+            sales = float(row.Values)
 
             for i, y in last_year_df.iterrows():
                 if y.ItemCode == "3C":
@@ -102,10 +99,10 @@ def calculate_ratios(stock):
                     last_year_alacak = float(y.Values)
 
             alacak_ortalamasi = (float(row.Values) + last_year_alacak) / 2
-            
+
         elif row.ItemCode == "1AE":
             diger_alacaklar = float(row.Values)
-        
+
         elif row.ItemCode == "1BL":
             toplam_varlıklar = float(row.Values)
 
@@ -117,14 +114,12 @@ def calculate_ratios(stock):
 
         elif row.ItemCode == "1AF":
 
-            stok = float(row.Values)
-
             for i, y in last_year_df.iterrows():
                 if y.ItemCode == "1AF":
                     last_year_stok = float(y.Values)
 
             ortalama_stok = (float(row.Values) + last_year_stok) / 2
-            
+
     cari_oran = tum_donen_varlıklar / kisa_vadeli_yabanci_kaynaklar
     ratio_json["Cari_Oran"] = cari_oran
 
@@ -159,21 +154,21 @@ def calculate_ratios(stock):
 
     ratio_json["Özkaynak_Karlılığı"] = ozkaynak_karlılıgı
 
-    ratio_json["Varlık_Getirisi_%"] = varlık_getirisi 
-    ratio_json["Özkaynak_Karlılığı_%"] = özkakynak_karlılıgı  
-    ratio_json["Yatrılan_Sermayenin_Getirisi_%"] = yatırılan_sermayenin_getirisi  
-    ratio_json["Brüt_Kar_Marjı_%"] = brüt_kar_marjı  
-    ratio_json["Faaliyet_Kar_Marjı_%"] = faaliyet_kar_marjı  
-    ratio_json["Favök_Marjı_%"] = favök_marjı  
-    ratio_json["Net_Marj_%"] = net_marj 
+    ratio_json["Varlık_Getirisi_%"] = varlık_getirisi
+    ratio_json["Özkaynak_Karlılığı_%"] = özkakynak_karlılıgı
+    ratio_json["Yatrılan_Sermayenin_Getirisi_%"] = yatırılan_sermayenin_getirisi
+    ratio_json["Brüt_Kar_Marjı_%"] = brüt_kar_marjı
+    ratio_json["Faaliyet_Kar_Marjı_%"] = faaliyet_kar_marjı
+    ratio_json["Favök_Marjı_%"] = favök_marjı
+    ratio_json["Net_Marj_%"] = net_marj
 
     ratio_json["Hisse_Başı_Kazanç"] = hbk
 
     ratio_json["Fiyat_Kazanç_Oranı"] = fiyat_kazanc
-    
+
     with open("Bist_R&D/Basic_Analysis/Analyzer/RatioSheet.json", "w", encoding="UTF-8") as file:
         file.write(json.dumps(ratio_json, ensure_ascii=False))
-    
+
     print("Done")
 
     return ratio_json
