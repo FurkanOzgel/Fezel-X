@@ -1,4 +1,3 @@
-
 '''
 Cari oran, bir şirketin kısa vadeli borçlarını ödeyebilme yeteneğini ölçen bir finansal orandır. 
 Bu oran, şirketin mevcut varlıklarının, kısa vadeli borçlarının ne kadarını karşılayabileceğini gösterir.
