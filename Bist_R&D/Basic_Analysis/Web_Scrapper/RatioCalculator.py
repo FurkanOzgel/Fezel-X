@@ -188,4 +188,4 @@ def calculate_ratios(stock):
 
 
 if __name__ == "__main__":
-    calculate_ratios("SMRTG")
+    calculate_ratios("ODAS")

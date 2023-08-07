@@ -7,24 +7,18 @@
 
 ***3-*** Nakit oran adımlarını izle
 
-***4-*** Toplam Yabancı Kaynaklar / Öz Kaynaklar adımlarını izle Buffet Borcu az olan hisseleri sevmiyor.
+***4-*** Toplam Yabancı Kaynaklar / Öz Kaynaklar adımlarını izle Buffet Borcu az olan hisseleri seviyor.
 
 ***5-*** Alacak devir hızı adımlarını izle. Alacaklar az olmalı.
 
 ***6-*** Aktif devir hızı analizi
 
-***7-*** Dönem Karı  / Öz Kaynaklar adımlarını izle
+***7-*** Özvarlık Kârlılığı adımlarını izle
 
-***8-*** Stok yönetimi incelenmeli
+***8-*** Kâr Marjları adımlarını izle. Buffet çok sever.
 
-***9-*** Özvarlık Kârlılığı adımlarını izle
+***9-*** Hisse Başı Kazanç oranı adımlarını izle
 
-***10-*** Kâr Marjları adımlarını izle. Buffet çok sever.
+***10-*** Fiyat/Satış Oranı adımlarını izle
 
-***11-*** Aktif ve Özsermaye Verimliliği adımlarını izle
-
-***12-*** Hisse Başı Kazanç oranı adımlarını izle
-
-***13-*** Fiyat/Satış Oranı adımlarını izle
-
-***14-*** Şirketin pazardaki boyutunu incele. Sektöründe önde mi?
+***11-*** Şirketin pazardaki boyutunu incele. Sektöründe önde mi?
