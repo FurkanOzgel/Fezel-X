@@ -206,6 +206,20 @@ def get_ready_ratio_tradingview(stock, path):
 
     return float(remove_unicode_control_characters(dom.xpath(path)[0].text))
 
+def get_ready_historical_ratio_tradingview(stock, path):
+    url = f"https://tr.tradingview.com/symbols/{stock}/financials-statistics-and-ratios/"
+
+    driver.get(url)
+    
+    time.sleep(4)
+    
+    element = driver.find_elements("xpath",path)[0]
+
+    # Elementin çocuklarını seçin ve metinlerini alın
+    child_elements = element.find_elements("xpath", "./*")
+    child_texts = [remove_unicode_control_characters(child.text) for child in child_elements]
+
+    return child_texts.reverse()
 
 def get_ready_ratio_tradingview_summary(stock, path):
     url = f"https://tr.tradingview.com/symbols/{stock}/"
@@ -237,3 +251,21 @@ def get_ready_ratio_tradingview_test(stock, path):
     dom = etree.HTML(str(soup))
 
     return float(remove_unicode_control_characters(dom.xpath(path)[0].text))
+
+def get_historical_hbk(stock):
+    url = f"https://tr.tradingview.com/symbols/BIST-{stock}/financials-income-statement/earnings-per-share-basic/"
+
+    driver.get(url)
+
+    time.sleep(4)
+    
+    def text_returner(element):
+        return element.text
+
+    historical_hbk = driver.find_elements("xpath", "//div[@class='item-CbBHHTvu']/div[2]")
+    
+    historical_hbk = list(map(text_returner, historical_hbk))
+    
+    historical_hbk = list(map(remove_unicode_control_characters, historical_hbk))[1:4]
+
+    return historical_hbk
