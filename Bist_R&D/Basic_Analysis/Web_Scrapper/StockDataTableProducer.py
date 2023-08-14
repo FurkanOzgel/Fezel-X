@@ -7,16 +7,31 @@ stock_list = pd.read_csv("Bist_R&D/Basic_Analysis/StockList.csv", index_col=0)
 columns = ["Stock_Name", "Bilanco_Date", "Cari_Oran", "Nakit_Oran", "Toplam_Yabancı_Kaynaklar_Oz_Kaynaklar_Oranı", "Alacak_Devir_Hızı",
            "Aktif_Devir_Hızı", "Oz_Varlık_Karlılıgı", "Kar_Marjları", "Hisse_Bası_Kazanc", "Fiyat_Satıs_Oranı"]
 
-
 try:
     stock_data_list = pd.read_csv("Bist_R&D/Basic_Analysis/StockDataList.csv", index_col=0)
+    
 except:
     stock_data_list = pd.DataFrame(columns=columns)
+    
+with open("Bist_R&D/Basic_Analysis/lastItem.txt", "r", encoding="UTF-8") as file:
+    mistake_count = len(file.readlines()) - 1
+    
+    if mistake_count == -1:
+        mistake_count = 0
+    
+start_index = stock_data_list.shape[0] + mistake_count
 
-for index, row in stock_list.iterrows():
+for index, row in stock_list[start_index:].iterrows():
+    
+    with open("Bist_R&D/Basic_Analysis/loop_stopper.txt", "r", encoding="UTF-8") as file:
+        runLoop = file.read()
+            
     try:
+        if runLoop == "0":
+            raise Exception("You Stopped Loop")
+        
         if("," in row["Stock"]):
-            raise("Invalid stock")
+            raise Exception("Invalid stock")
         
         stock = Stock(row["Stock"])
         
@@ -46,8 +61,13 @@ for index, row in stock_list.iterrows():
         
         print(f"{stock.stockName} Scarapping Done")
         
-    except Exception as a:
+    except Exception as e:
+        print(e)
+        
         with open("Bist_R&D/Basic_Analysis/lastItem.txt", "a", encoding="UTF-8") as file:
-            file.write(stock.stockName + "\n")
+            file.write(row["Stock"] + "\n")
+            
+        if runLoop == "0":
+           break
 
 stock_data_list.to_csv("Bist_R&D/Basic_Analysis/StockDataList.csv")
