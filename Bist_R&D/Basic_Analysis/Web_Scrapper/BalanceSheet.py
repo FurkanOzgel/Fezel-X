@@ -188,8 +188,11 @@ def get_ready_ratio(stock, path):
     soup = BeautifulSoup(response.text, "html.parser")
 
     dom = etree.HTML(str(soup))
-
-    return float(dom.xpath(path)[0].text.replace(",", "."))
+    
+    try:
+        return float(dom.xpath(path)[0].text.replace(",", "."))
+    except:
+        return dom.xpath(path)[0].text.replace(",", ".")
 
 def get_ready_ratio_tradingview(stock, path):
     url = f"https://tr.tradingview.com/symbols/{stock}/financials-statistics-and-ratios/"
@@ -204,14 +207,20 @@ def get_ready_ratio_tradingview(stock, path):
 
     dom = etree.HTML(str(soup))
 
-    return float(remove_unicode_control_characters(dom.xpath(path)[0].text))
+    
+    try:
+        return float(remove_unicode_control_characters(dom.xpath(path)[0].text))
+    except:
+        return remove_unicode_control_characters(dom.xpath(path)[0].text)
 
-def get_ready_historical_ratio_tradingview(stock, path):
+def set_driver_for_historical(stock):
     url = f"https://tr.tradingview.com/symbols/{stock}/financials-statistics-and-ratios/"
 
     driver.get(url)
     
     time.sleep(5)
+
+def get_ready_historical_ratio_tradingview(path):
     
     element = driver.find_elements("xpath",path)[0]
 
@@ -232,8 +241,11 @@ def get_ready_ratio_tradingview_summary(stock, path):
     soup = BeautifulSoup(page_html, 'html.parser')
 
     dom = etree.HTML(str(soup))
-
-    return float(dom.xpath(path)[0].text)
+    
+    try:
+        return float(dom.xpath(path)[0].text)
+    except:
+        return dom.xpath(path)[0].text
 
 
 def get_ready_ratio_tradingview_test(stock, path):
@@ -248,8 +260,11 @@ def get_ready_ratio_tradingview_test(stock, path):
     soup = BeautifulSoup(page_html, 'html.parser')
 
     dom = etree.HTML(str(soup))
-
-    return float(remove_unicode_control_characters(dom.xpath(path)[0].text))
+    
+    try:
+        return float(remove_unicode_control_characters(dom.xpath(path)[0].text))
+    except:
+        return remove_unicode_control_characters(dom.xpath(path)[0].text)
 
 def get_historical_hbk(stock):
     url = f"https://tr.tradingview.com/symbols/BIST-{stock}/financials-income-statement/earnings-per-share-basic/"

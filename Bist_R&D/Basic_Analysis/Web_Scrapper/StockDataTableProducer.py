@@ -21,6 +21,8 @@ with open("Bist_R&D/Basic_Analysis/lastItem.txt", "r", encoding="UTF-8") as file
     
 start_index = stock_data_list.shape[0] + mistake_count
 
+BalanceSheet.run_driver()
+
 for index, row in stock_list[start_index:].iterrows():
     
     with open("Bist_R&D/Basic_Analysis/loop_stopper.txt", "r", encoding="UTF-8") as file:
@@ -46,8 +48,6 @@ for index, row in stock_list[start_index:].iterrows():
         kar_marjları = stock.karMarjları()
         hisse_bası_kazanc = stock.hisseBasıKazanc()
         fiyat_satıs_oranı = stock.fiyatSatısOranı()
-        
-        BalanceSheet.stop_driver()
 
         new_row = {
                    "Stock_Name": stock_name, "Bilanco_Date": bilanco_date, "Cari_Oran": cari_oran,
@@ -69,5 +69,7 @@ for index, row in stock_list[start_index:].iterrows():
         else:
             with open("Bist_R&D/Basic_Analysis/lastItem.txt", "a", encoding="UTF-8") as file:
                 file.write(row["Stock"] + "\n")
+
+BalanceSheet.stop_driver()
 
 stock_data_list.to_csv("Bist_R&D/Basic_Analysis/StockDataList.csv")

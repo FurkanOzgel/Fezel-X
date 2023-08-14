@@ -5,7 +5,6 @@ import numpy as np
 
 class Stock:
     def __init__(self, stockName):
-        BalanceSheet.run_driver()
 
         self.stockName = stockName
         
@@ -63,13 +62,13 @@ class Stock:
         
         return sales/toplam_varlıklar
     
-    def karMarjları(self):
-        varlık_getirisi = BalanceSheet.get_ready_historical_ratio_tradingview(self.stockName,"//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[12]/div[5]")
-        yatırılan_sermayenin_getirisi = BalanceSheet.get_ready_historical_ratio_tradingview(self.stockName,'//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[14]/div[5]')
-        brüt_kar_marjı = BalanceSheet.get_ready_historical_ratio_tradingview(self.stockName,'//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[15]/div[5]')
-        faliyet_kar_marjı = BalanceSheet.get_ready_historical_ratio_tradingview(self.stockName,'//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[16]/div[5]')
-        favök_marjı = BalanceSheet.get_ready_historical_ratio_tradingview(self.stockName,'//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]')
-        net_marj = BalanceSheet.get_ready_historical_ratio_tradingview(self.stockName,'//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[18]/div[5]')
+    def karMarjları(self):        
+        varlık_getirisi = BalanceSheet.get_ready_historical_ratio_tradingview("//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[12]/div[5]")
+        yatırılan_sermayenin_getirisi = BalanceSheet.get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[14]/div[5]')
+        brüt_kar_marjı = BalanceSheet.get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[15]/div[5]')
+        faliyet_kar_marjı = BalanceSheet.get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[16]/div[5]')
+        favök_marjı = BalanceSheet.get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]')
+        net_marj = BalanceSheet.get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[18]/div[5]')
         
         return {
             "varlık_getirisi": varlık_getirisi,
@@ -81,7 +80,9 @@ class Stock:
             }
     
     def ozvarlıkKarlılıgı(self):
-        return BalanceSheet.get_ready_historical_ratio_tradingview(self.stockName, "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]")
+        BalanceSheet.set_driver_for_historical(self.stockName)
+        
+        return BalanceSheet.get_ready_historical_ratio_tradingview( "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]")
     
     def hisseBasıKazanc(self):
         return BalanceSheet.get_historical_hbk(self.stockName)
