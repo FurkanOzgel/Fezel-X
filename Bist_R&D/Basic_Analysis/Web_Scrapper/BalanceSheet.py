@@ -21,7 +21,6 @@ def remove_unicode_control_characters(text):
             cleaned_text += char
     return cleaned_text
 
-
 def get_finance_data_dates(stock):
 
     dates = []
@@ -37,7 +36,6 @@ def get_finance_data_dates(stock):
         dates.append(i.text)
 
     return dates
-
 
 def get_financal_tables(stock, year, month):
 
@@ -86,18 +84,19 @@ def get_financal_tables(stock, year, month):
 
     return df
 
-
 def get_historical_financal_tables(stock):
+        
     stock = "odas"
     firs_table_items = np.array([0 ,0 ,0 ,0])
     second_table_items = np.array([0 ,0 ,0 ,0])
     third_table_items = np.array([0 ,0 ,0 ,0])
     table_items = []
     table_item_codes = []
-    columns = ["ItemCode"] + get_finance_data_dates(stock)[:12]
+    sheet_date = get_finance_data_dates(stock)
+    columns = ["ItemCode"] + sheet_date[:12]
 
     url = "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo"
-
+    
     main_url = "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=" + stock
     grup_respone = requests.get(main_url)
     soup = BeautifulSoup(grup_respone.text, "html.parser")
@@ -113,40 +112,40 @@ def get_historical_financal_tables(stock):
         ("companyCode", stock),
         ("exchange", "TRY"),
         ("financialGroup", grup),
-        ("year1", get_finance_data_dates(stock)[0].split("/")[0]),
-        ("period1", get_finance_data_dates(stock)[0].split("/")[1]),
-        ("year2", get_finance_data_dates(stock)[1].split("/")[0]),
-        ("period2", get_finance_data_dates(stock)[1].split("/")[1]),
-        ("year3", get_finance_data_dates(stock)[2].split("/")[0]),
-        ("period3", get_finance_data_dates(stock)[2].split("/")[1]),
-        ("year4", get_finance_data_dates(stock)[3].split("/")[0]),
-        ("period4", get_finance_data_dates(stock)[3].split("/")[1]),
+        ("year1", sheet_date[0].split("/")[0]),
+        ("period1", sheet_date[0].split("/")[1]),
+        ("year2", sheet_date[1].split("/")[0]),
+        ("period2", sheet_date[1].split("/")[1]),
+        ("year3", sheet_date[2].split("/")[0]),
+        ("period3", sheet_date[2].split("/")[1]),
+        ("year4", sheet_date[3].split("/")[0]),
+        ("period4", sheet_date[3].split("/")[1]),
         ),
         (
         ("companyCode", stock),
         ("exchange", "TRY"),
         ("financialGroup", grup),
-        ("year1", get_finance_data_dates(stock)[4].split("/")[0]),
-        ("period1", get_finance_data_dates(stock)[4].split("/")[1]),
-        ("year2", get_finance_data_dates(stock)[5].split("/")[0]),
-        ("period2", get_finance_data_dates(stock)[5].split("/")[1]),
-        ("year3", get_finance_data_dates(stock)[6].split("/")[0]),
-        ("period3", get_finance_data_dates(stock)[6].split("/")[1]),
-        ("year4", get_finance_data_dates(stock)[7].split("/")[0]),
-        ("period4", get_finance_data_dates(stock)[7].split("/")[1]),
+        ("year1", sheet_date[4].split("/")[0]),
+        ("period1", sheet_date[4].split("/")[1]),
+        ("year2", sheet_date[5].split("/")[0]),
+        ("period2", sheet_date[5].split("/")[1]),
+        ("year3", sheet_date[6].split("/")[0]),
+        ("period3", sheet_date[6].split("/")[1]),
+        ("year4", sheet_date[7].split("/")[0]),
+        ("period4", sheet_date[7].split("/")[1]),
         ),
         (
         ("companyCode", stock),
         ("exchange", "TRY"),
         ("financialGroup", grup),
-        ("year1", get_finance_data_dates(stock)[8].split("/")[0]),
-        ("period1", get_finance_data_dates(stock)[8].split("/")[1]),
-        ("year2", get_finance_data_dates(stock)[9].split("/")[0]),
-        ("period2", get_finance_data_dates(stock)[9].split("/")[1]),
-        ("year3", get_finance_data_dates(stock)[10].split("/")[0]),
-        ("period3", get_finance_data_dates(stock)[10].split("/")[1]),
-        ("year4", get_finance_data_dates(stock)[11].split("/")[0]),
-        ("period4", get_finance_data_dates(stock)[11].split("/")[1]),
+        ("year1", sheet_date[8].split("/")[0]),
+        ("period1", sheet_date[8].split("/")[1]),
+        ("year2", sheet_date[9].split("/")[0]),
+        ("period2", sheet_date[9].split("/")[1]),
+        ("year3", sheet_date[10].split("/")[0]),
+        ("period3", sheet_date[10].split("/")[1]),
+        ("year4", sheet_date[11].split("/")[0]),
+        ("period4", sheet_date[11].split("/")[1]),
         )
         ]
 
@@ -191,7 +190,6 @@ def get_ready_ratio(stock, path):
     dom = etree.HTML(str(soup))
 
     return float(dom.xpath(path)[0].text.replace(",", "."))
-
 
 def get_ready_ratio_tradingview(stock, path):
     url = f"https://tr.tradingview.com/symbols/{stock}/financials-statistics-and-ratios/"

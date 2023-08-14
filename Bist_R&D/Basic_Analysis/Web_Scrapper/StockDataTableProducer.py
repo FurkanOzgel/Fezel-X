@@ -63,11 +63,11 @@ for index, row in stock_list[start_index:].iterrows():
         
     except Exception as e:
         print(e)
-        
-        with open("Bist_R&D/Basic_Analysis/lastItem.txt", "a", encoding="UTF-8") as file:
-            file.write(row["Stock"] + "\n")
-            
+
         if runLoop == "0":
-           break
+            break
+        else:
+            with open("Bist_R&D/Basic_Analysis/lastItem.txt", "a", encoding="UTF-8") as file:
+                file.write(row["Stock"] + "\n")
 
 stock_data_list.to_csv("Bist_R&D/Basic_Analysis/StockDataList.csv")
