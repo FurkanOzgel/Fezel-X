@@ -10,7 +10,9 @@ import numpy as np
 def run_driver():
     global driver
     driver = webdriver.Chrome()
-
+    
+def stop_driver():
+    driver.quit()
 
 def remove_unicode_control_characters(text):
     cleaned_text = ""
@@ -211,15 +213,14 @@ def get_ready_historical_ratio_tradingview(stock, path):
 
     driver.get(url)
     
-    time.sleep(4)
+    time.sleep(5)
     
     element = driver.find_elements("xpath",path)[0]
 
-    # Elementin çocuklarını seçin ve metinlerini alın
     child_elements = element.find_elements("xpath", "./*")
     child_texts = [remove_unicode_control_characters(child.text) for child in child_elements]
 
-    return child_texts.reverse()
+    return list(reversed(child_texts))
 
 def get_ready_ratio_tradingview_summary(stock, path):
     url = f"https://tr.tradingview.com/symbols/{stock}/"

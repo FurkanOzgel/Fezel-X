@@ -9,13 +9,13 @@ class Stock:
 
         self.stockName = stockName
         
-        sheetDate = BalanceSheet.get_finance_data_dates(stockName)[0].split("/")
+        self.sheetDate = BalanceSheet.get_finance_data_dates(stockName)[0].split("/")
 
         last_year = BalanceSheet.get_finance_data_dates(stockName)[4].split("/")
-        last_year_sheet = BalanceSheet.get_financal_tables(stockName, last_year[0],
+        self.last_year_sheet = BalanceSheet.get_financal_tables(stockName, last_year[0],
                                                         last_year[1])
         
-        self.sheet = BalanceSheet.get_financal_tables(stockName, sheetDate[0], sheetDate[1])
+        self.sheet = BalanceSheet.get_financal_tables(stockName, self.sheetDate[0], self.sheetDate[1])
         self.historicalSheet = BalanceSheet.get_historical_financal_tables(stockName)
         
         
