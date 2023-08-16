@@ -13,7 +13,7 @@ try:
 except:
     stock_data_list = pd.DataFrame(columns=columns)
     
-with open("Bist_R&D/Basic_Analysis/lastItem.txt", "r", encoding="UTF-8") as file:
+with open("Bist_R&D/Basic_Analysis/faulty_stocks.txt", "r", encoding="UTF-8") as file:
     mistake_count = len(file.readlines()) - 1
     
     if mistake_count == -1:
@@ -58,6 +58,8 @@ for index, row in stock_list[start_index:].iterrows():
                    }
         
         stock_data_list.loc[len(stock_data_list)] = new_row 
+
+        stock_data_list.to_csv("Bist_R&D/Basic_Analysis/StockDataList.csv")
         
         print(f"{stock.stockName} Scarapping Done")
         
@@ -67,7 +69,7 @@ for index, row in stock_list[start_index:].iterrows():
         if runLoop == "0":
             break
         else:
-            with open("Bist_R&D/Basic_Analysis/lastItem.txt", "a", encoding="UTF-8") as file:
+            with open("Bist_R&D/Basic_Analysis/faulty_stocks.txt", "a", encoding="UTF-8") as file:
                 file.write(row["Stock"] + "\n")
 
 BalanceSheet.stop_driver()
