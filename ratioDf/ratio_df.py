@@ -433,9 +433,12 @@ def getData():
 
             share_ratio_df.to_csv("data/share_ratio_df.csv")
             
+            print("")
             print(f"{share.share_name} Scarapping Done")
             
         except Exception as e:
+            print("")
+            print("!!!"+row["Share"]+"!!!:")
             print(e)
 
             if runLoop == "0":
@@ -516,4 +519,3 @@ def produce_sector_average_df():
         break
     
     # print(df)
-    

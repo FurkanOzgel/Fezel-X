@@ -1,3 +1,3 @@
 import ratioDf
 
-ratioDf.get()
+ratioDf.getData()
