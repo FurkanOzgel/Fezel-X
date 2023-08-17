@@ -7,6 +7,7 @@ import numpy as np
 import time
 from selenium import webdriver
 import unicodedata
+import ast
 
 def get_sheet_dates(share_name):
 
@@ -87,7 +88,6 @@ def get_financal_tables(share_name, year, month):
     
 def get_historical_financal_tables(share_name):
     
-    share_name = "odas"
     firs_table_items = np.array([0 ,0 ,0 ,0])
     second_table_items = np.array([0 ,0 ,0 ,0])
     third_table_items = np.array([0 ,0 ,0 ,0])
@@ -298,26 +298,25 @@ class Share:
         self.sheet = get_financal_tables(share_name, self.sheetDate[0], self.sheetDate[1])
         self.historicalSheet = get_historical_financal_tables(share_name)
         
-        
     def cariOran(self):
         tum_donen_varlıklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '1AI'].iloc[0, 1:].tolist(), dtype=float)
         kisa_vadeli_yabanci_kaynaklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '2A'].iloc[0, 1:].tolist(), dtype=float)
-
-        return (tum_donen_varlıklar / kisa_vadeli_yabanci_kaynaklar)
+        
+        return np.array(tum_donen_varlıklar / kisa_vadeli_yabanci_kaynaklar).tolist()
     
     def nakitOran(self):
         nakit_nakit_benzeri = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '1AA'].iloc[0, 1:].tolist(), dtype=float)
         finansal_yatırımlar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '1AB'].iloc[0, 1:].tolist(), dtype=float)
         kisa_vadeli_yabanci_kaynaklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '2A'].iloc[0, 1:].tolist(), dtype=float)
         
-        return (nakit_nakit_benzeri + finansal_yatırımlar) / kisa_vadeli_yabanci_kaynaklar
+        return np.array((nakit_nakit_benzeri + finansal_yatırımlar) / kisa_vadeli_yabanci_kaynaklar).tolist()
     
     def toplamYabancıKaynaklarOzKaynaklar(self):
         uzun_vadeli_yabanci_kaynaklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '2B'].iloc[0, 1:].tolist(), dtype=float)
         kisa_vadeli_yabanci_kaynaklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '2A'].iloc[0, 1:].tolist(), dtype=float)
         oz_kaynaklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '2N'].iloc[0, 1:].tolist(), dtype=float)
         
-        return (uzun_vadeli_yabanci_kaynaklar + kisa_vadeli_yabanci_kaynaklar) / oz_kaynaklar
+        return np.array((uzun_vadeli_yabanci_kaynaklar + kisa_vadeli_yabanci_kaynaklar) / oz_kaynaklar).tolist()
     
     def alacakDevirHızı(self):
         sales = float(self.sheet[self.sheet["ItemCode"] == '3C'].iloc[0, 1])
@@ -482,3 +481,39 @@ def update_share_sector_df():
     print(df)
 
     df.to_csv("data/share_sector_df.csv")
+
+def produce_sector_average_df():
+    
+    def first_element(lst):
+        return lst[0]
+    
+    share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
+    share_ratio_df = pd.read_csv("data/share_ratio_df.csv", index_col=0)
+
+    sector_list = share_sector_df["Sector"].unique()
+
+    columns = ["Sector", "Cari_Oran", "Alacak_Devir_Hızı", "Aktif_Devir_Hızı", "Oz_Varlık_Karlılıgı", "Kar_Marjları", "Fiyat_Satıs_Oranı"]
+    df = pd.DataFrame(columns=columns)
+    
+    df["Sector"] = sector_list
+    
+    for index, row in df.iterrows():
+        share_sector = row["Sector"]
+        
+        filtered_share_sector_df = share_sector_df[share_sector_df['Sector'] == share_sector]
+        share_name_list = filtered_share_sector_df["Share"].tolist()
+        
+        filtered_share_ratio_df = share_ratio_df[share_ratio_df["Share_Name"].isin(share_name_list)]
+        
+        print(filtered_share_ratio_df["Share_Name"])
+
+        # last_cari_oran = [print(sublist[1:-1].split(" ")[0]) for sublist in filtered_share_ratio_df["Cari_Oran"].tolist()]
+        # print(last_cari_oran)
+        # average_cari_oran = sum(last_cari_oran) / len(last_cari_oran)
+        # df.loc[df["Sector"] == share_sector, 'Cari_Oran'] = average_cari_oran
+        
+
+        break
+    
+    # print(df)
+    
