@@ -7,5 +7,6 @@
 
 import os
 
-url = "https://www.kap.org.tr/tr/"
-os.system(f"google-chrome {url}")
+def dew():
+    url = "https://www.kap.org.tr/tr/"
+    os.system(f"google-chrome {url}")
