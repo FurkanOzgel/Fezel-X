@@ -7,7 +7,7 @@ import numpy as np
 import time
 from selenium import webdriver
 import unicodedata
-import ast
+import json
 
 def get_sheet_dates(share_name):
 
@@ -484,11 +484,14 @@ def update_share_sector_df():
     print(df)
 
     df.to_csv("data/share_sector_df.csv")
+    
+def calculate_average(numbers):
+    total = sum(numbers)
+    count = len(numbers)
+    average = total / count
+    return average
 
 def produce_sector_average_df():
-    
-    def first_element(lst):
-        return lst[0]
     
     share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
     share_ratio_df = pd.read_csv("data/share_ratio_df.csv", index_col=0)
@@ -501,6 +504,7 @@ def produce_sector_average_df():
     df["Sector"] = sector_list
     
     for index, row in df.iterrows():
+        
         share_sector = row["Sector"]
         
         filtered_share_sector_df = share_sector_df[share_sector_df['Sector'] == share_sector]
@@ -508,14 +512,119 @@ def produce_sector_average_df():
         
         filtered_share_ratio_df = share_ratio_df[share_ratio_df["Share_Name"].isin(share_name_list)]
         
-        print(filtered_share_ratio_df["Share_Name"])
+        try:
+            ratio_list = []
+            
+            for sublist in filtered_share_ratio_df['Cari_Oran'].tolist():
+                try:
+                    ratio_list.append(float(sublist.split(",")[0][1:]))
+                except:
+                    continue
 
-        # last_cari_oran = [print(sublist[1:-1].split(" ")[0]) for sublist in filtered_share_ratio_df["Cari_Oran"].tolist()]
-        # print(last_cari_oran)
-        # average_cari_oran = sum(last_cari_oran) / len(last_cari_oran)
-        # df.loc[df["Sector"] == share_sector, 'Cari_Oran'] = average_cari_oran
+            
+            average = sum(ratio_list) / len(ratio_list)
+            df.loc[df["Sector"] == share_sector, 'Cari_Oran'] = average
+        except:
+            pass
         
+        try:
+            ratio_list = filtered_share_ratio_df["Alacak_Devir_Hızı"].tolist()
+            average = sum(ratio_list) / len(ratio_list)
+            df.loc[df["Sector"] == share_sector, 'Alacak_Devir_Hızı'] = average
+        except:
+            pass
+        
+        try:
+            ratio_list = filtered_share_ratio_df["Aktif_Devir_Hızı"].tolist()
+            average = sum(ratio_list) / len(ratio_list)
+            df.loc[df["Sector"] == share_sector, 'Aktif_Devir_Hızı'] = average
+        except:
+            pass
+        
+        try:
+            ratio_list = []
+            
+            for sublist in filtered_share_ratio_df['Oz_Varlık_Karlılıgı'].tolist():
+                try:
+                    ratio_list.append(float(sublist.split(",")[0][1:].replace("−", "-").replace("'", "")))
+                except:
+                    continue
 
-        break
-    
-    # print(df)
+            average = sum(ratio_list) / len(ratio_list)
+            df.loc[df["Sector"] == share_sector, 'Oz_Varlık_Karlılıgı'] = average
+
+        except Exception as e:
+            print(e)
+
+        try:
+            ratio_list = []
+            
+            for i in filtered_share_ratio_df['Fiyat_Satıs_Oranı'].tolist():
+                try:
+                    ratio_list.append(float(i))
+                except:
+                    continue
+            average = sum(ratio_list) / len(ratio_list)
+            df.loc[df["Sector"] == share_sector, 'Fiyat_Satıs_Oranı'] = average
+        except:
+            pass
+        
+        try:
+            ratio_list = []
+            
+            json_list = [json.loads(i.replace("'", '"').replace("−", "-")) for i in filtered_share_ratio_df['Kar_Marjları'].tolist()]
+            
+            average_object = {
+                    'varlık_getirisi':[],
+                    'yatırılan_sermayenin_getirisi':[],
+                    'brüt_kar_marjı':[],
+                    'faliyet_kar_marjı':[],
+                    'favök_marjı':[],
+                    'net_marj':[]
+                }
+            
+            for i in json_list:
+                
+                try:
+                    average_object["varlık_getirisi"].append(float(i['varlık_getirisi'][0]))
+                except:
+                    pass
+                
+                try:
+                    average_object["yatırılan_sermayenin_getirisi"].append(float(i['yatırılan_sermayenin_getirisi'][0]))
+                except:
+                    pass
+                
+                try:
+                    average_object["brüt_kar_marjı"].append(float(i['brüt_kar_marjı'][0]))
+                except:
+                    pass
+                
+                try:
+                    average_object["faliyet_kar_marjı"].append(float(i['faliyet_kar_marjı'][0]))
+                except:
+                    pass
+                
+                try:
+                    average_object["net_marj"].append(float(i['net_marj'][0]))
+                except:
+                    pass
+                
+                try:
+                    average_object["favök_marjı"].append(float(i['favök_marjı'][0]))
+                except:
+                    pass
+                
+            average_object["varlık_getirisi"] = calculate_average(average_object["varlık_getirisi"])
+            average_object["yatırılan_sermayenin_getirisi"] = calculate_average(average_object["yatırılan_sermayenin_getirisi"])
+            average_object["brüt_kar_marjı"] = calculate_average(average_object["brüt_kar_marjı"])
+            average_object["faliyet_kar_marjı"] = calculate_average(average_object["faliyet_kar_marjı"])
+            average_object["favök_marjı"] = calculate_average(average_object["favök_marjı"])
+            average_object["net_marj"] = calculate_average(average_object["net_marj"])
+            
+            df.loc[df["Sector"] == share_sector, 'Kar_Marjları'] = json.dumps(average_object, ensure_ascii=False)
+ 
+        except Exception as e:
+            print(e)
+            
+    df.to_csv("data/sector_average_df.csv")

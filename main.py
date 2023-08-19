@@ -1,3 +1,3 @@
 import ratioDf
 
-ratioDf.getData()
+ratioDf.produce_sector_average_df()
