@@ -1,2 +1,6 @@
 # Cache files for Pythom
 *.pyc
+
+# IDLE Settings
+.VSCodeCounter
+.vscode

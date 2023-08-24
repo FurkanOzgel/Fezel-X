@@ -1,12 +1,18 @@
 import requests
+import json
 
 import pandas as pd
 from bs4 import BeautifulSoup
 from lxml import etree
 import numpy as np
-import json
 
 from .scapper_fns import *
+
+def calculate_average(numbers):
+    total = sum(numbers)
+    count = len(numbers)
+    average = total / count
+    return average
 
 class Share:
     def __init__(self, share_name):
@@ -95,8 +101,8 @@ class Share:
         fiyat_kazanc = get_ready_ratio_tradingview_summary(f"BIST-{self.share_name}", "//*[@id='js-category-content']/div[2]/div/section/div[2]/div[2]/div[3]/div[2]/div[1]")
         
         return fiyat_kazanc
-       
-def getData():
+
+def create_share_ratio_df():
     share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
 
     columns = ["Share_Name", "Bilanco_Date", "Cari_Oran", "Nakit_Oran", "Toplam_Yabancı_Kaynaklar_Oz_Kaynaklar_Oranı",
@@ -174,10 +180,10 @@ def getData():
 
     share_ratio_df.to_csv("data/share_ratio_df.csv")
     
-def updateData():
+def update_share_ratio_df():
     print("updated df")
 
-def update_share_sector_df():
+def create_share_sector_df():
     url = "https://www.kap.org.tr/tr/bist-sirketler"
     html = requests.get(url).text
     soup = BeautifulSoup(html, 'html.parser')
@@ -207,12 +213,9 @@ def update_share_sector_df():
     print(df)
 
     df.to_csv("data/share_sector_df.csv")
-    
-def calculate_average(numbers):
-    total = sum(numbers)
-    count = len(numbers)
-    average = total / count
-    return average
+
+def update_share_sector_df():
+    pass
 
 def produce_sector_average_df():
     share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)

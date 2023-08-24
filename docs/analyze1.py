@@ -7,6 +7,6 @@
 
 import os
 
-def dew():
+def news():
     url = "https://www.kap.org.tr/tr/"
     os.system(f"google-chrome {url}")
