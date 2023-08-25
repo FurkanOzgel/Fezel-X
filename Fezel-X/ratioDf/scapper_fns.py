@@ -264,3 +264,23 @@ def get_historical_hbk(share_name):
     historical_hbk = list(map(remove_unicode_control_characters, historical_hbk))[1:4]
 
     return historical_hbk
+
+def get_historical_fko_with_date(share_name, date):
+    url = f"https://tr.tradingview.com/symbols/BIST-{share_name}/financials-statistics-and-ratios/price-earnings/"
+
+    driver.get(url)
+
+    time.sleep(6)
+    
+    def text_returner(element):
+        return element.text
+
+    xpath_div_order = get_sheet_dates(share_name).index(date) + 2
+
+    historical_fko = driver.find_elements("xpath", f"//*[@id='js-category-content']/div[2]/div/div[2]/div[6]/div[{xpath_div_order}]/div[2]")
+    
+    historical_fko = list(map(text_returner, historical_fko))
+    
+    historical_fko = list(map(remove_unicode_control_characters, historical_fko))
+
+    return historical_fko[0]

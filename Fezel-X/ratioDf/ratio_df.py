@@ -102,15 +102,16 @@ class Share:
         
         return fiyat_kazanc
 
-def create_share_ratio_df():
+def create_share_ratio_df(date):
     share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
+    date = date.replace("/", "-")
 
     columns = ["Share_Name", "Bilanco_Date", "Cari_Oran", "Nakit_Oran", "Toplam_Yabancı_Kaynaklar_Oz_Kaynaklar_Oranı",
                 "Alacak_Devir_Hızı", "Aktif_Devir_Hızı", "Oz_Varlık_Karlılıgı", "Kar_Marjları", "Hisse_Bası_Kazanc",
                 "Fiyat_Satıs_Oranı"]
     
     try:
-        share_ratio_df = pd.read_csv("data/share_ratio_df.csv", index_col=0)
+        share_ratio_df = pd.read_csv(f"data/share_ratio_df_{date}.csv", index_col=0)
     except:
         share_ratio_df = pd.DataFrame(columns=columns)
         
@@ -160,7 +161,7 @@ def create_share_ratio_df():
             
             share_ratio_df.loc[len(share_ratio_df)] = new_row 
 
-            share_ratio_df.to_csv("data/share_ratio_df.csv")
+            share_ratio_df.to_csv(f"data/share_ratio_df_{date}.csv")
             
             print("")
             print(f"{share.share_name} Scarapping Done")
@@ -178,7 +179,7 @@ def create_share_ratio_df():
 
     stop_driver()
 
-    share_ratio_df.to_csv("data/share_ratio_df.csv")
+    share_ratio_df.to_csv(f"data/share_ratio_df_{date}.csv")
     
 def update_share_ratio_df():
     print("updated df")
@@ -217,9 +218,11 @@ def create_share_sector_df():
 def update_share_sector_df():
     pass
 
-def produce_sector_average_df():
+def produce_sector_average_df(date):
+    date = date.replace("/", "-")
+
     share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
-    share_ratio_df = pd.read_csv("data/share_ratio_df.csv", index_col=0)
+    share_ratio_df = pd.read_csv(f"data/share_ratio_df_{date}.csv", index_col=0)
 
     sector_list = share_sector_df["Sector"].unique()
 
@@ -352,4 +355,4 @@ def produce_sector_average_df():
         except Exception as e:
             print(e)
             
-    df.to_csv("data/sector_average_df.csv")
+    df.to_csv(f"data/sector_average_df_{date}.csv")

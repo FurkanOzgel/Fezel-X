@@ -39,21 +39,26 @@ class Analyzer:
         share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
         sector = share_sector_df[share_sector_df["Share"] == self.shareName].iloc[0]["Sector"]
 
-        share_ratio_df = pd.read_csv("data/share_ratio_df.csv", index_col=0)
+        self.date = config.df_date.replace("/", "-")
+        share_ratio_df = pd.read_csv(f"data/share_ratio_df_{self.date}.csv", index_col=0)
         self.ratios = share_ratio_df[share_ratio_df["Share_Name"] == self.shareName]
 
-        sector_average_df = pd.read_csv("data/sector_average_df.csv", index_col=0)
+        sector_average_df = pd.read_csv(f"data/sector_average_df_{date}.csv", index_col=0)
         self.sector_average_ratios = sector_average_df[sector_average_df["Sector"] == sector]
         
         self.point_df = pd.read_csv("data/point_df.csv", index_col=0)
 
-    def produce_empty_point_df():
-        df = pd.read_csv("data/share_ratio_df.csv", index_col=0)
-        columns_to_zero = df.columns.difference(['Share_Name'])  
+    def produce_empty_point_df(self):
+        df = pd.read_csv(f"data/share_ratio_df_{self.date}.csv", index_col=0)
 
+        df['Total'] = 0
+
+        columns_to_zero = df.columns.difference(['Share_Name'])  
         df[columns_to_zero] = 0
-        
-        df.to_csv("data/emty_point_df.csv")
+
+        date = date.replace("/", "-")
+
+        df.to_csv(f"data/share_point_df_{self.date}.csv")
 
     def initilaze(self):
         analyse_cari_oran(self)
