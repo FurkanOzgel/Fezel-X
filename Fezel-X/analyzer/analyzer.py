@@ -40,7 +40,7 @@ class Analyzer:
         sector = share_sector_df[share_sector_df["Share"] == self.shareName].iloc[0]["Sector"]
 
         self.date = config["df_date"].replace("/", "-")
-        share_ratio_df = pd.read_csv(f"data/share_ratio_df_{self.date}.csv", index_col=0)
+        share_ratio_df = pd.read_csv(f"data/{self.date}/share_ratio_df_{self.date}.csv", index_col=0)
         self.ratios = share_ratio_df[share_ratio_df["Share_Name"] == self.shareName]
 
         sector_average_df = pd.read_csv(f"data/sector_average_df_{self.date}.csv", index_col=0)
@@ -50,7 +50,7 @@ class Analyzer:
 
     def produce_empty_point_df(self):
         print("selam")
-        df = pd.read_csv(f"data/share_ratio_df_{self.date}.csv", index_col=0)
+        df = pd.read_csv(f"data/{self.date}/share_ratio_df_{self.date}.csv", index_col=0)
 
         df['Total'] = 0
 

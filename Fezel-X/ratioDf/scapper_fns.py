@@ -94,7 +94,7 @@ def get_historical_financal_tables(share_name, dateIndex):
     table_items = []
     table_item_codes = []
     sheet_date = get_sheet_dates(share_name)
-    columns = ["ItemCode"] + sheet_date[:12]
+    columns = ["ItemCode"] + sheet_date[dateIndex: dateIndex + 12]
 
     url = "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo"
     
@@ -221,14 +221,14 @@ def set_driver_for_historical(share_name):
     
     time.sleep(5)
 
-def get_ready_historical_ratio_tradingview(path):
+def get_ready_historical_ratio_tradingview(path, dateIndex):
     
     element = driver.find_elements("xpath",path)[0]
 
     child_elements = element.find_elements("xpath", "./*")
     child_texts = [remove_unicode_control_characters(child.text) for child in child_elements]
 
-    return list(reversed(child_texts))
+    return list(reversed(child_texts))[dateIndex + 1:]
 
 def get_ready_ratio_tradingview_summary(share_name, path):
     url = f"https://tr.tradingview.com/symbols/{share_name}/"

@@ -5,6 +5,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from lxml import etree
 import numpy as np
+import os
 
 from .scapper_fns import *
 
@@ -19,18 +20,18 @@ class Share:
 
         self.share_name = share_name
 
-        dateList = get_sheet_dates(share_name)
+        self.dateList = get_sheet_dates(share_name)
 
-        self.sheetDate = sheetDate.split("/")
+        self.sheetDate = sheetDate.replace("-","/")
         
-        dateIndex = dateList.index(sheetDate)
+        self.dateIndex = self.dateList.index(self.sheetDate)
 
-        last_year = sheetDate[ dateIndex + 4 ].split("/")
+        last_year = self.dateList[ self.dateIndex + 4 ].split("/")
         self.last_year_sheet = get_financal_tables(share_name, last_year[0],
                                                         last_year[1])
         
-        self.sheet = get_financal_tables(share_name, self.sheetDate[0], self.sheetDate[1])
-        self.historicalSheet = get_historical_financal_tables(share_name, dateIndex)
+        self.sheet = get_financal_tables(share_name, self.sheetDate.split("/")[0], self.sheetDate.split("/")[1])
+        self.historicalSheet = get_historical_financal_tables(share_name, self.dateIndex)
         
     def cariOran(self):
         tum_donen_varlıklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '1AI'].iloc[0, 1:].tolist(), dtype=float)
@@ -77,12 +78,12 @@ class Share:
         return sales/toplam_varlıklar
     
     def karMarjları(self):        
-        varlık_getirisi = get_ready_historical_ratio_tradingview("//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[12]/div[5]")
-        yatırılan_sermayenin_getirisi = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[14]/div[5]')
-        brüt_kar_marjı = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[15]/div[5]')
-        faliyet_kar_marjı = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[16]/div[5]')
-        favök_marjı = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]')
-        net_marj = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[18]/div[5]')
+        varlık_getirisi = get_ready_historical_ratio_tradingview("//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[12]/div[5]", self.dateIndex)
+        yatırılan_sermayenin_getirisi = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[14]/div[5]', self.dateIndex)
+        brüt_kar_marjı = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[15]/div[5]', self.dateIndex)
+        faliyet_kar_marjı = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[16]/div[5]', self.dateIndex)
+        favök_marjı = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[17]/div[5]', self.dateIndex)
+        net_marj = get_ready_historical_ratio_tradingview('//*[@id="js-category-content"]/div[2]/div/div/div[6]/div[2]/div/div[1]/div[18]/div[5]', self.dateIndex)
         
         return {
             "varlık_getirisi": varlık_getirisi,
@@ -96,41 +97,52 @@ class Share:
     def ozvarlıkKarlılıgı(self):
         set_driver_for_historical(self.share_name)
         
-        return get_ready_historical_ratio_tradingview( "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]")
+        return get_ready_historical_ratio_tradingview( "//*[@id='js-category-content']/div[2]/div/div/div[6]/div[2]/div/div[1]/div[13]/div[5]", self.dateIndex)
     
     def hisseBasıKazanc(self):
-        return get_historical_hbk(self.share_name)
+        return get_historical_hbk(self.share_name, self.sheetDate)
     
     def fiyatSatısOranı(self):
-        fiyat_kazanc = get_ready_ratio_tradingview_summary(f"BIST-{self.share_name}", "//*[@id='js-category-content']/div[2]/div/section/div[2]/div[2]/div[3]/div[2]/div[1]")
-        
+        fiyat_kazanc = get_historical_fko_with_date(self.share_name, self.sheetDate)
         return fiyat_kazanc
 
 def create_share_ratio_df(date):
     share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
     date = date.replace("/", "-")
 
+    target_directory = "data"
+    folder_name = date 
+
+    new_folder_path = os.path.join(target_directory, folder_name)
+    if not os.path.exists(new_folder_path):
+        os.mkdir(new_folder_path)
+        print(f"Folder '{folder_name}' created successfully.")
+    else:
+        print(f"Folder '{folder_name}' already exists.")
+
     columns = ["Share_Name", "Bilanco_Date", "Cari_Oran", "Nakit_Oran", "Toplam_Yabancı_Kaynaklar_Oz_Kaynaklar_Oranı",
                 "Alacak_Devir_Hızı", "Aktif_Devir_Hızı", "Oz_Varlık_Karlılıgı", "Kar_Marjları", "Hisse_Bası_Kazanc",
                 "Fiyat_Satıs_Oranı"]
-    
+
     try:
-        share_ratio_df = pd.read_csv(f"data/share_ratio_df_{date}.csv", index_col=0)
+        share_ratio_df = pd.read_csv(f"data/{date}/share_ratio_df_{date}.csv", index_col=0)
     except:
         share_ratio_df = pd.DataFrame(columns=columns)
-        
-    with open("data/faulty_shares.txt", "r", encoding="UTF-8") as file:
+ 
+    with open(f"data/{date}/faulty_shares_{date}.txt", "a", encoding="UTF-8") as file:
+        pass
+    
+    with open(f"data/{date}/faulty_shares_{date}.txt", "r", encoding="UTF-8") as file:
         mistake_count = len(file.readlines()) - 1
         
         if mistake_count == -1:
             mistake_count = 0
     
     start_index = share_ratio_df.shape[0] + mistake_count
-    
+
     run_driver()
 
     for index, row in share_sector_df[start_index:].iterrows():
-        
         with open("config/loop_stopper.txt", "r", encoding="UTF-8") as file:
             runLoop = file.read()
                 
@@ -141,10 +153,10 @@ def create_share_ratio_df(date):
             if("," in row["Share"]):
                 raise Exception("Invalid share")
             
-            share = Share(row["Share"])
-            
+            share = Share(row["Share"], date)
+
             share_name = share.share_name
-            bilanco_date = share.sheetDate[0] + "/" +share.sheetDate[1]
+            bilanco_date = share.sheetDate
             cari_oran = share.cariOran()
             nakit_oran = share.nakitOran()
             toplam_yabancı_kaynaklar_oz_kaynaklar = share.toplamYabancıKaynaklarOzKaynaklar()
@@ -165,11 +177,11 @@ def create_share_ratio_df(date):
             
             share_ratio_df.loc[len(share_ratio_df)] = new_row 
 
-            share_ratio_df.to_csv(f"data/share_ratio_df_{date}.csv")
+            share_ratio_df.to_csv(f"data/{date}/share_ratio_df_{date}.csv")
             
             print("")
             print(f"{share.share_name} Scarapping Done")
-            
+                
         except Exception as e:
             print("")
             print("!!!"+row["Share"]+"!!!:")
@@ -178,12 +190,12 @@ def create_share_ratio_df(date):
             if runLoop == "0":
                 break
             else:
-                with open("data/faulty_shares.txt", "a", encoding="UTF-8") as file:
+                with open(f"data/{date}/faulty_shares_{date}.txt", "a", encoding="UTF-8") as file:
                     file.write(row["Share"] + "\n")
 
     stop_driver()
 
-    share_ratio_df.to_csv(f"data/share_ratio_df_{date}.csv")
+    share_ratio_df.to_csv(f"data/{date}/share_ratio_df_{date}.csv")
     
 def update_share_ratio_df():
     print("updated df")
@@ -226,7 +238,7 @@ def produce_sector_average_df(date):
     date = date.replace("/", "-")
 
     share_sector_df = pd.read_csv("data/share_sector_df.csv", index_col=0)
-    share_ratio_df = pd.read_csv(f"data/share_ratio_df_{date}.csv", index_col=0)
+    share_ratio_df = pd.read_csv(f"data/{date}/share_ratio_df_{date}.csv", index_col=0)
 
     sector_list = share_sector_df["Sector"].unique()
 
@@ -359,7 +371,4 @@ def produce_sector_average_df(date):
         except Exception as e:
             print(e)
             
-    df.to_csv(f"data/sector_average_df_{date}.csv")
-
-
-class miniShare(Share):
+    df.to_csv(f"data/{date}/sector_average_df_{date}.csv")
