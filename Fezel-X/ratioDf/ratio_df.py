@@ -15,18 +15,22 @@ def calculate_average(numbers):
     return average
 
 class Share:
-    def __init__(self, share_name):
+    def __init__(self, share_name ,sheetDate):
 
         self.share_name = share_name
-        
-        self.sheetDate = get_sheet_dates(share_name)[0].split("/")
 
-        last_year = get_sheet_dates(share_name)[4].split("/")
+        dateList = get_sheet_dates(share_name)
+
+        self.sheetDate = sheetDate.split("/")
+        
+        dateIndex = dateList.index(sheetDate)
+
+        last_year = sheetDate[ dateIndex + 4 ].split("/")
         self.last_year_sheet = get_financal_tables(share_name, last_year[0],
                                                         last_year[1])
         
         self.sheet = get_financal_tables(share_name, self.sheetDate[0], self.sheetDate[1])
-        self.historicalSheet = get_historical_financal_tables(share_name)
+        self.historicalSheet = get_historical_financal_tables(share_name, dateIndex)
         
     def cariOran(self):
         tum_donen_varlıklar = np.array(self.historicalSheet[self.historicalSheet["ItemCode"] == '1AI'].iloc[0, 1:].tolist(), dtype=float)
@@ -356,3 +360,6 @@ def produce_sector_average_df(date):
             print(e)
             
     df.to_csv(f"data/sector_average_df_{date}.csv")
+
+
+class miniShare(Share):

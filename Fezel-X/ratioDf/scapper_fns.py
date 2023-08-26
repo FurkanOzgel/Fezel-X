@@ -7,6 +7,7 @@ import numpy as np
 import time
 from selenium import webdriver
 import unicodedata
+import datetime
 
 def get_sheet_dates(share_name):
 
@@ -85,7 +86,7 @@ def get_financal_tables(share_name, year, month):
 
     return df
     
-def get_historical_financal_tables(share_name):
+def get_historical_financal_tables(share_name, dateIndex):
     
     firs_table_items = np.array([0 ,0 ,0 ,0])
     second_table_items = np.array([0 ,0 ,0 ,0])
@@ -112,40 +113,40 @@ def get_historical_financal_tables(share_name):
         ("companyCode", share_name),
         ("exchange", "TRY"),
         ("financialGroup", grup),
-        ("year1", sheet_date[0].split("/")[0]),
-        ("period1", sheet_date[0].split("/")[1]),
-        ("year2", sheet_date[1].split("/")[0]),
-        ("period2", sheet_date[1].split("/")[1]),
-        ("year3", sheet_date[2].split("/")[0]),
-        ("period3", sheet_date[2].split("/")[1]),
-        ("year4", sheet_date[3].split("/")[0]),
-        ("period4", sheet_date[3].split("/")[1]),
+        ("year1", sheet_date[dateIndex].split("/")[0]),
+        ("period1", sheet_date[dateIndex].split("/")[1]),
+        ("year2", sheet_date[dateIndex + 1].split("/")[0]),
+        ("period2", sheet_date[dateIndex + 1].split("/")[1]),
+        ("year3", sheet_date[dateIndex + 2].split("/")[0]),
+        ("period3", sheet_date[dateIndex + 2].split("/")[1]),
+        ("year4", sheet_date[dateIndex + 3].split("/")[0]),
+        ("period4", sheet_date[dateIndex + 3].split("/")[1]),
         ),
         (
         ("companyCode", share_name),
         ("exchange", "TRY"),
         ("financialGroup", grup),
-        ("year1", sheet_date[4].split("/")[0]),
-        ("period1", sheet_date[4].split("/")[1]),
-        ("year2", sheet_date[5].split("/")[0]),
-        ("period2", sheet_date[5].split("/")[1]),
-        ("year3", sheet_date[6].split("/")[0]),
-        ("period3", sheet_date[6].split("/")[1]),
-        ("year4", sheet_date[7].split("/")[0]),
-        ("period4", sheet_date[7].split("/")[1]),
+        ("year1", sheet_date[dateIndex + 4].split("/")[0]),
+        ("period1", sheet_date[dateIndex + 4].split("/")[1]),
+        ("year2", sheet_date[dateIndex + 5].split("/")[0]),
+        ("period2", sheet_date[dateIndex + 5].split("/")[1]),
+        ("year3", sheet_date[dateIndex + 6].split("/")[0]),
+        ("period3", sheet_date[dateIndex + 6].split("/")[1]),
+        ("year4", sheet_date[dateIndex + 7].split("/")[0]),
+        ("period4", sheet_date[dateIndex + 7].split("/")[1]),
         ),
         (
         ("companyCode", share_name),
         ("exchange", "TRY"),
         ("financialGroup", grup),
-        ("year1", sheet_date[8].split("/")[0]),
-        ("period1", sheet_date[8].split("/")[1]),
-        ("year2", sheet_date[9].split("/")[0]),
-        ("period2", sheet_date[9].split("/")[1]),
-        ("year3", sheet_date[10].split("/")[0]),
-        ("period3", sheet_date[10].split("/")[1]),
-        ("year4", sheet_date[11].split("/")[0]),
-        ("period4", sheet_date[11].split("/")[1]),
+        ("year1", sheet_date[dateIndex + 8].split("/")[0]),
+        ("period1", sheet_date[dateIndex + 8].split("/")[1]),
+        ("year2", sheet_date[dateIndex + 9].split("/")[0]),
+        ("period2", sheet_date[dateIndex + 9].split("/")[1]),
+        ("year3", sheet_date[dateIndex + 10].split("/")[0]),
+        ("period3", sheet_date[dateIndex + 10].split("/")[1]),
+        ("year4", sheet_date[dateIndex + 11].split("/")[0]),
+        ("period4", sheet_date[dateIndex + 11].split("/")[1]),
         )
         ]
 
@@ -247,12 +248,19 @@ def get_ready_ratio_tradingview_summary(share_name, path):
     except:
         return dom.xpath(path)[0].text
 
-def get_historical_hbk(share_name):
+def get_historical_hbk(share_name, date):
     url = f"https://tr.tradingview.com/symbols/BIST-{share_name}/financials-income-statement/earnings-per-share-basic/"
 
     driver.get(url)
 
     time.sleep(4)
+
+    last_sheet_year = int(datetime.datetime.now().year) - 1
+
+    date_year = int(date.split("/")[0])
+
+    date_difference = last_sheet_year - date_year
+
     
     def text_returner(element):
         return element.text
@@ -261,7 +269,14 @@ def get_historical_hbk(share_name):
     
     historical_hbk = list(map(text_returner, historical_hbk))
     
-    historical_hbk = list(map(remove_unicode_control_characters, historical_hbk))[1:4]
+    if date_year > last_sheet_year:
+        historical_hbk = list(map(remove_unicode_control_characters, historical_hbk))[2: 5]
+    elif date_year == last_sheet_year:
+        historical_hbk = list(map(remove_unicode_control_characters, historical_hbk))[3: 6]
+    else:
+        historical_hbk = list(map(remove_unicode_control_characters, historical_hbk))[3 + date_difference: 9]
+
+
 
     return historical_hbk
 

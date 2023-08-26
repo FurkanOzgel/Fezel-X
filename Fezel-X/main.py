@@ -1,7 +1,7 @@
 import ratioDf
 from analyzer import Analyzer
 
-ratioDf.create_share_ratio_df("06/2023")
+# ratioDf.create_share_ratio_df()
 # ratioDf.update_share_ratio_df()
 # ratioDf.create_share_sector_df()
 # ratioDf.update_share_sector_df()
