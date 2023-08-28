@@ -1,0 +1,2668 @@
+{"data": [
+    {
+      "Id": "19255",
+      "Symbol": "ADEL",
+      "Url": "/equities/adel-kalemcilik"
+    },
+    {
+      "Id": "19256",
+      "Symbol": "ADESE",
+      "Url": "/equities/adese-alisveris-ticaret"
+    },
+    {
+      "Id": "19258",
+      "Symbol": "AEFES",
+      "Url": "/equities/anadolu-efes"
+    },
+    {
+      "Id": "19260",
+      "Symbol": "AFYON",
+      "Url": "/equities/afyon-cimento"
+    },
+    {
+      "Id": "19261",
+      "Symbol": "AGYO",
+      "Url": "/equities/atakule-gmyo"
+    },
+    {
+      "Id": "19263",
+      "Symbol": "AKBNK",
+      "Url": "/equities/akbank"
+    },
+    {
+      "Id": "19265",
+      "Symbol": "AKCNS",
+      "Url": "/equities/akcansa"
+    },
+    {
+      "Id": "19266",
+      "Symbol": "AKENR",
+      "Url": "/equities/ak-enerji"
+    },
+    {
+      "Id": "19268",
+      "Symbol": "AKFGY",
+      "Url": "/equities/akfen-gmyo"
+    },
+    {
+      "Id": "19269",
+      "Symbol": "AKGRT",
+      "Url": "/equities/aksigorta"
+    },
+    {
+      "Id": "19270",
+      "Symbol": "AKMGY",
+      "Url": "/equities/akmerkez-gmyo"
+    },
+    {
+      "Id": "19271",
+      "Symbol": "AKSA",
+      "Url": "/equities/aksa"
+    },
+    {
+      "Id": "19272",
+      "Symbol": "AKSEN",
+      "Url": "/equities/aksa-enerji-uretim"
+    },
+    {
+      "Id": "19273",
+      "Symbol": "AKSUE",
+      "Url": "/equities/aksu-enerji-ve-ticaret"
+    },
+    {
+      "Id": "19274",
+      "Symbol": "ALARK",
+      "Url": "/equities/alarko-holding"
+    },
+    {
+      "Id": "19275",
+      "Symbol": "ALBRK",
+      "Url": "/equities/albaraka-turk"
+    },
+    {
+      "Id": "19276",
+      "Symbol": "ALCAR",
+      "Url": "/equities/alarko-carrier"
+    },
+    {
+      "Id": "19277",
+      "Symbol": "ALCTL",
+      "Url": "/equities/alcatel-lucent-teletas"
+    },
+    {
+      "Id": "19278",
+      "Symbol": "ALGYO",
+      "Url": "/equities/alarko-gmyo"
+    },
+    {
+      "Id": "19279",
+      "Symbol": "ALKA",
+      "Url": "/equities/alkim-kagit"
+    },
+    {
+      "Id": "19280",
+      "Symbol": "ALKIM",
+      "Url": "/equities/alkim-kimya"
+    },
+    {
+      "Id": "19283",
+      "Symbol": "ALMAD",
+      "Url": "/equities/altinyag"
+    },
+    {
+      "Id": "19285",
+      "Symbol": "ANELE",
+      "Url": "/equities/anel-elektrik"
+    },
+    {
+      "Id": "19287",
+      "Symbol": "ANHYT",
+      "Url": "/equities/anadolu-hayat-emek."
+    },
+    {
+      "Id": "19288",
+      "Symbol": "ANSGR",
+      "Url": "/equities/anadolu-sigorta"
+    },
+    {
+      "Id": "19289",
+      "Symbol": "ARCLK",
+      "Url": "/equities/arcelik"
+    },
+    {
+      "Id": "19290",
+      "Symbol": "ARENA",
+      "Url": "/equities/arena-bilgisayar"
+    },
+    {
+      "Id": "19292",
+      "Symbol": "INGRM",
+      "Url": "/equities/armada-bilgisayar"
+    },
+    {
+      "Id": "19293",
+      "Symbol": "ARSAN",
+      "Url": "/equities/arsan-tekstil"
+    },
+    {
+      "Id": "19294",
+      "Symbol": "ASELS",
+      "Url": "/equities/aselsan"
+    },
+    {
+      "Id": "19296",
+      "Symbol": "ASUZU",
+      "Url": "/equities/anadolu-isuzu"
+    },
+    {
+      "Id": "19299",
+      "Symbol": "ATAGY",
+      "Url": "/equities/ata-yat.ort."
+    },
+    {
+      "Id": "19300",
+      "Symbol": "ATEKS",
+      "Url": "/equities/akin-tekstil"
+    },
+    {
+      "Id": "19301",
+      "Symbol": "ATLAS",
+      "Url": "/equities/atlas-yat.-ort."
+    },
+    {
+      "Id": "19303",
+      "Symbol": "AVGYO",
+      "Url": "/equities/avrasya-gmyo"
+    },
+    {
+      "Id": "19305",
+      "Symbol": "AVOD",
+      "Url": "/equities/a.v.o.d-gida-ve-tarim"
+    },
+    {
+      "Id": "19306",
+      "Symbol": "AVTUR",
+      "Url": "/equities/avrasya-petrol-ve-tur."
+    },
+    {
+      "Id": "19307",
+      "Symbol": "AYCES",
+      "Url": "/equities/altinyunus-cesme"
+    },
+    {
+      "Id": "19308",
+      "Symbol": "AYEN",
+      "Url": "/equities/ayen-enerji"
+    },
+    {
+      "Id": "19309",
+      "Symbol": "AYGAZ",
+      "Url": "/equities/aygaz"
+    },
+    {
+      "Id": "19310",
+      "Symbol": "BAGFS",
+      "Url": "/equities/bagfas"
+    },
+    {
+      "Id": "19311",
+      "Symbol": "BAKAB",
+      "Url": "/equities/bak-ambalaj"
+    },
+    {
+      "Id": "19312",
+      "Symbol": "BANVT",
+      "Url": "/equities/banvit"
+    },
+    {
+      "Id": "19314",
+      "Symbol": "BFREN",
+      "Url": "/equities/bosch-fren-sistemleri"
+    },
+    {
+      "Id": "19315",
+      "Symbol": "BIMAS",
+      "Url": "/equities/bim-magazalar"
+    },
+    {
+      "Id": "19316",
+      "Symbol": "RALYH",
+      "Url": "/equities/bisas-tekstil"
+    },
+    {
+      "Id": "19317",
+      "Symbol": "BIZIM",
+      "Url": "/equities/bizim-magazalari"
+    },
+    {
+      "Id": "19318",
+      "Symbol": "BJKAS",
+      "Url": "/equities/besiktas-futbol-yat."
+    },
+    {
+      "Id": "19319",
+      "Symbol": "BLCYT",
+      "Url": "/equities/bilici-yatirim"
+    },
+    {
+      "Id": "19322",
+      "Symbol": "BOSSA",
+      "Url": "/equities/bossa"
+    },
+    {
+      "Id": "19324",
+      "Symbol": "BRKO",
+      "Url": "/equities/birko-mensucat"
+    },
+    {
+      "Id": "19325",
+      "Symbol": "BRKSN",
+      "Url": "/equities/berkosan-yalitim"
+    },
+    {
+      "Id": "19326",
+      "Symbol": "BRMEN",
+      "Url": "/equities/birlik-mensucat"
+    },
+    {
+      "Id": "19327",
+      "Symbol": "YYAPI",
+      "Url": "/equities/borova-yapi"
+    },
+    {
+      "Id": "19328",
+      "Symbol": "BRSAN",
+      "Url": "/equities/borusan-mannesmann"
+    },
+    {
+      "Id": "19329",
+      "Symbol": "BRYAT",
+      "Url": "/equities/borusan-yat.-paz."
+    },
+    {
+      "Id": "19331",
+      "Symbol": "BSOKE",
+      "Url": "/equities/batisoke-cimento"
+    },
+    {
+      "Id": "19332",
+      "Symbol": "BTCIM",
+      "Url": "/equities/bati-cimento"
+    },
+    {
+      "Id": "19333",
+      "Symbol": "BUCIM",
+      "Url": "/equities/bursa-cimento"
+    },
+    {
+      "Id": "19334",
+      "Symbol": "BURCE",
+      "Url": "/equities/burcelik"
+    },
+    {
+      "Id": "19335",
+      "Symbol": "BURVA",
+      "Url": "/equities/burcelik-vana"
+    },
+    {
+      "Id": "19336",
+      "Symbol": "CRFSA",
+      "Url": "/equities/carrefoursa(a)"
+    },
+    {
+      "Id": "19339",
+      "Symbol": "CCOLA",
+      "Url": "/equities/coca-cola-icecek"
+    },
+    {
+      "Id": "19340",
+      "Symbol": "CELHA",
+      "Url": "/equities/celik-halat"
+    },
+    {
+      "Id": "19341",
+      "Symbol": "CEMAS",
+      "Url": "/equities/cemas-dokum"
+    },
+    {
+      "Id": "19342",
+      "Symbol": "CEMTS",
+      "Url": "/equities/cemtas"
+    },
+    {
+      "Id": "19344",
+      "Symbol": "CIMSA",
+      "Url": "/equities/cimsa"
+    },
+    {
+      "Id": "19345",
+      "Symbol": "CLEBI",
+      "Url": "/equities/celebi"
+    },
+    {
+      "Id": "19346",
+      "Symbol": "CMBTN",
+      "Url": "/equities/cimbeton"
+    },
+    {
+      "Id": "19347",
+      "Symbol": "CMENT",
+      "Url": "/equities/cimentas"
+    },
+    {
+      "Id": "19348",
+      "Symbol": "DOKTA",
+      "Url": "/equities/componenta-dokumculuk"
+    },
+    {
+      "Id": "19349",
+      "Symbol": "COSMO",
+      "Url": "/equities/cosmos-yat.-ort."
+    },
+    {
+      "Id": "19350",
+      "Symbol": "CRDFA",
+      "Url": "/equities/creditwest-faktoring"
+    },
+    {
+      "Id": "19351",
+      "Symbol": "DAGI",
+      "Url": "/equities/dagi-giyim"
+    },
+    {
+      "Id": "19352",
+      "Symbol": "DARDL",
+      "Url": "/equities/dardanel"
+    },
+    {
+      "Id": "19356",
+      "Symbol": "DERIM",
+      "Url": "/equities/derimod"
+    },
+    {
+      "Id": "19357",
+      "Symbol": "DESA",
+      "Url": "/equities/desa-deri"
+    },
+    {
+      "Id": "19358",
+      "Symbol": "DESPC",
+      "Url": "/equities/despec-bilgisayar"
+    },
+    {
+      "Id": "19359",
+      "Symbol": "DEVA",
+      "Url": "/equities/deva-holding"
+    },
+    {
+      "Id": "19360",
+      "Symbol": "DGATE",
+      "Url": "/equities/datagate-bilgisayar"
+    },
+    {
+      "Id": "19361",
+      "Symbol": "DGGYO",
+      "Url": "/equities/dogus-gmyo"
+    },
+    {
+      "Id": "19363",
+      "Symbol": "DITAS",
+      "Url": "/equities/ditas-dogan"
+    },
+    {
+      "Id": "19364",
+      "Symbol": "DMSAS",
+      "Url": "/equities/demisas-dokum"
+    },
+    {
+      "Id": "19365",
+      "Symbol": "DZGYO",
+      "Url": "/equities/deniz-yat.ort."
+    },
+    {
+      "Id": "19366",
+      "Symbol": "DOAS",
+      "Url": "/equities/dogus-otomotiv"
+    },
+    {
+      "Id": "19367",
+      "Symbol": "DOBUR",
+      "Url": "/equities/dogan-burda"
+    },
+    {
+      "Id": "19368",
+      "Symbol": "DOCO",
+      "Url": "/equities/do---co-rest---cat?cid=19368"
+    },
+    {
+      "Id": "19369",
+      "Symbol": "DOGUB",
+      "Url": "/equities/dogusan"
+    },
+    {
+      "Id": "19370",
+      "Symbol": "DOHOL",
+      "Url": "/equities/dogan-holding"
+    },
+    {
+      "Id": "19371",
+      "Symbol": "DURDO",
+      "Url": "/equities/duran-dogan-basim"
+    },
+    {
+      "Id": "19373",
+      "Symbol": "DYOBY",
+      "Url": "/equities/dyo-boya"
+    },
+    {
+      "Id": "19374",
+      "Symbol": "MTRYO",
+      "Url": "/equities/eczacibasi-yat.-ort."
+    },
+    {
+      "Id": "19375",
+      "Symbol": "ECILC",
+      "Url": "/equities/eczacibasi-ilac"
+    },
+    {
+      "Id": "19377",
+      "Symbol": "ECZYT",
+      "Url": "/equities/eczacibasi-yatirim"
+    },
+    {
+      "Id": "19378",
+      "Symbol": "EDIP",
+      "Url": "/equities/edip-gayrimenkul"
+    },
+    {
+      "Id": "19381",
+      "Symbol": "EGEEN",
+      "Url": "/equities/ege-endustri"
+    },
+    {
+      "Id": "19382",
+      "Symbol": "EGGUB",
+      "Url": "/equities/ege-gubre"
+    },
+    {
+      "Id": "19383",
+      "Symbol": "EGPRO",
+      "Url": "/equities/ege-profil"
+    },
+    {
+      "Id": "19384",
+      "Symbol": "EGSER",
+      "Url": "/equities/ege-seramik"
+    },
+    {
+      "Id": "19386",
+      "Symbol": "EKGYO",
+      "Url": "/equities/emlak-konut-gmyo"
+    },
+    {
+        "Id": "19387",
+        "Symbol": "EKIZ",
+        "Url": "/equities/ekiz-yag-sanayii"
+      },
+      {
+        "Id": "19388",
+        "Symbol": "EUYO",
+        "Url": "/equities/euro-b-tipi-yat.-ort."
+      },
+      {
+        "Id": "19389",
+        "Symbol": "EMKEL",
+        "Url": "/equities/emek-elektrik"
+      },
+      {
+        "Id": "19390",
+        "Symbol": "EMNIS",
+        "Url": "/equities/eminis-ambalaj"
+      },
+      {
+        "Id": "19391",
+        "Symbol": "ENKAI",
+        "Url": "/equities/enka-insaat"
+      },
+      {
+        "Id": "19392",
+        "Symbol": "EPLAS",
+        "Url": "/equities/egeplast"
+      },
+      {
+        "Id": "19393",
+        "Symbol": "ERBOS",
+        "Url": "/equities/erbosan"
+      },
+      {
+        "Id": "19394",
+        "Symbol": "EREGL",
+        "Url": "/equities/eregli-demir-celik"
+      },
+      {
+        "Id": "19396",
+        "Symbol": "ERSU",
+        "Url": "/equities/ersu-gida"
+      },
+      {
+        "Id": "19397",
+        "Symbol": "ESCOM",
+        "Url": "/equities/escort-teknoloji"
+      },
+      {
+        "Id": "19399",
+        "Symbol": "ETYAT",
+        "Url": "/equities/euro-trend-yat.-ort."
+      },
+      {
+        "Id": "19400",
+        "Symbol": "EUKYO",
+        "Url": "/equities/euro-kapital-yat.-ort."
+      },
+      {
+        "Id": "19401",
+        "Symbol": "EUHOL",
+        "Url": "/equities/euro-yat.men.deg."
+      },
+      {
+        "Id": "19402",
+        "Symbol": "FENER",
+        "Url": "/equities/fenerbahce-sportif"
+      },
+      {
+        "Id": "19404",
+        "Symbol": "QNBFL",
+        "Url": "/equities/finans-fin.-kir."
+      },
+      {
+        "Id": "19405",
+        "Symbol": "QNBFB",
+        "Url": "/equities/finansbank"
+      },
+      {
+        "Id": "19406",
+        "Symbol": "FMIZP",
+        "Url": "/equities/f-m-izmit-piston"
+      },
+      {
+        "Id": "19408",
+        "Symbol": "UFUK",
+        "Url": "/equities/fon-fin.kir."
+      },
+      {
+        "Id": "19409",
+        "Symbol": "FRIGO",
+        "Url": "/equities/frigo-pak-gida"
+      },
+      {
+        "Id": "19410",
+        "Symbol": "FROTO",
+        "Url": "/equities/ford-otosan"
+      },
+      {
+        "Id": "19412",
+        "Symbol": "GARAN",
+        "Url": "/equities/garanti-bankasi"
+      },
+      {
+        "Id": "19413",
+        "Symbol": "GARFA",
+        "Url": "/equities/garanti-faktoring"
+      },
+      {
+        "Id": "19414",
+        "Symbol": "INVEO",
+        "Url": "/equities/gedik-yat.ort."
+      },
+      {
+        "Id": "19415",
+        "Symbol": "GEDIK",
+        "Url": "/equities/gedik-y.-men.-deg."
+      },
+      {
+        "Id": "19417",
+        "Symbol": "GENTS",
+        "Url": "/equities/gentas"
+      },
+      {
+        "Id": "19418",
+        "Symbol": "GEREL",
+        "Url": "/equities/gersan-elektrik"
+      },
+      {
+        "Id": "19419",
+        "Symbol": "GLBMD",
+        "Url": "/equities/global-men.-deg."
+      },
+      {
+        "Id": "19420",
+        "Symbol": "GLRYH",
+        "Url": "/equities/guler-yat.-holding"
+      },
+      {
+        "Id": "19421",
+        "Symbol": "GLYHO",
+        "Url": "/equities/global-yat.-holding"
+      },
+      {
+        "Id": "19424",
+        "Symbol": "GOLTS",
+        "Url": "/equities/goltas-cimento"
+      },
+      {
+        "Id": "19425",
+        "Symbol": "GOODY",
+        "Url": "/equities/good-year"
+      },
+      {
+        "Id": "19426",
+        "Symbol": "GOZDE",
+        "Url": "/equities/gozde-girisim"
+      },
+      {
+        "Id": "19427",
+        "Symbol": "GRNYO",
+        "Url": "/equities/garanti-yat.-ort."
+      },
+      {
+        "Id": "19428",
+        "Symbol": "GSDDE",
+        "Url": "/equities/gsd-denizcilik"
+      },
+      {
+        "Id": "19429",
+        "Symbol": "GSDHO",
+        "Url": "/equities/gsd-holding"
+      },
+      {
+        "Id": "19430",
+        "Symbol": "GSRAY",
+        "Url": "/equities/galatasaray-sportif"
+      },
+      {
+        "Id": "19431",
+        "Symbol": "GUBRF",
+        "Url": "/equities/gubre-fabrik."
+      },
+      {
+        "Id": "19432",
+        "Symbol": "TURSG",
+        "Url": "/equities/gunes-sigorta"
+      },
+      {
+        "Id": "19433",
+        "Symbol": "HALKB",
+        "Url": "/equities/t.-halk-bankasi"
+      },
+      {
+        "Id": "19434",
+        "Symbol": "HATEK",
+        "Url": "/equities/hatay-tekstil"
+      },
+      {
+        "Id": "19436",
+        "Symbol": "HEKTS",
+        "Url": "/equities/hektas"
+      },
+      {
+        "Id": "19437",
+        "Symbol": "HURGZ",
+        "Url": "/equities/hurriyet-gzt."
+      },
+      {
+        "Id": "19441",
+        "Symbol": "IDGYO",
+        "Url": "/equities/idealist-gmyo"
+      },
+      {
+        "Id": "19442",
+        "Symbol": "IHEVA",
+        "Url": "/equities/ihlas-ev-aletleri"
+      },
+      {
+        "Id": "19443",
+        "Symbol": "IHGZT",
+        "Url": "/equities/ihlas-gazetecilik"
+      },
+      {
+        "Id": "19444",
+        "Symbol": "IHLAS",
+        "Url": "/equities/ihlas-holding"
+      },
+      {
+        "Id": "19445",
+        "Symbol": "IHLGM",
+        "Url": "/equities/ihlas-madencilik"
+      },
+      {
+        "Id": "19446",
+        "Symbol": "IHYAY",
+        "Url": "/equities/ihlas-yayin-holding"
+      },
+      {
+        "Id": "19447",
+        "Symbol": "INDES",
+        "Url": "/equities/indeks-bilgisayar"
+      },
+      {
+        "Id": "19448",
+        "Symbol": "INFO",
+        "Url": "/equities/info-yatirim"
+      },
+      {
+        "Id": "19450",
+        "Symbol": "INTEM",
+        "Url": "/equities/intema"
+      },
+      {
+        "Id": "19451",
+        "Symbol": "IPEKE",
+        "Url": "/equities/ipek-dogal-enerji"
+      },
+      {
+        "Id": "19452",
+        "Symbol": "ISATR",
+        "Url": "/equities/is-bankasi-(a)"
+      },
+      {
+        "Id": "19453",
+        "Symbol": "ISBTR",
+        "Url": "/equities/is-bankasi-(b)"
+      },
+      {
+        "Id": "19454",
+        "Symbol": "ISCTR",
+        "Url": "/equities/is-bankasi-(c)"
+      },
+      {
+        "Id": "19455",
+        "Symbol": "ISFIN",
+        "Url": "/equities/is-fin.kir."
+      },
+      {
+        "Id": "19456",
+        "Symbol": "ISGSY",
+        "Url": "/equities/is-girisim"
+      },
+      {
+        "Id": "19457",
+        "Symbol": "ISGYO",
+        "Url": "/equities/is-gmyo"
+      },
+      {
+        "Id": "19458",
+        "Symbol": "ISMEN",
+        "Url": "/equities/is-y.-men.-deg."
+      },
+      {
+        "Id": "19459",
+        "Symbol": "ISYAT",
+        "Url": "/equities/is-yat.-ort."
+      },
+      {
+        "Id": "19461",
+        "Symbol": "ITTFH",
+        "Url": "/equities/ittifak-holding"
+      },
+      {
+        "Id": "19462",
+        "Symbol": "IZMDC",
+        "Url": "/equities/izmir-demir-celik"
+      },
+      {
+        "Id": "19464",
+        "Symbol": "KAPLM",
+        "Url": "/equities/kaplamin"
+      },
+      {
+        "Id": "19465",
+        "Symbol": "KAREL",
+        "Url": "/equities/karel-elektronik"
+      },
+      {
+        "Id": "19467",
+        "Symbol": "KARSN",
+        "Url": "/equities/karsan-otomotiv"
+      },
+      {
+        "Id": "19468",
+        "Symbol": "KARTN",
+        "Url": "/equities/kartonsan"
+      },
+      {
+        "Id": "19469",
+        "Symbol": "KATMR",
+        "Url": "/equities/katmerciler-ekipman"
+      },
+      {
+        "Id": "19470",
+        "Symbol": "KCHOL",
+        "Url": "/equities/koc-holding"
+      },
+      {
+        "Id": "19471",
+        "Symbol": "KENT",
+        "Url": "/equities/kent-gida"
+      },
+      {
+        "Id": "19472",
+        "Symbol": "KERVT",
+        "Url": "/equities/kerevitas-gida"
+      },
+      {
+        "Id": "19475",
+        "Symbol": "DGNMO",
+        "Url": "/equities/kelebek-mobilya"
+      },
+      {
+        "Id": "19476",
+        "Symbol": "KLGYO",
+        "Url": "/equities/kiler-gmyo"
+      },
+      {
+        "Id": "19477",
+        "Symbol": "KLMSN",
+        "Url": "/equities/klimasan-klima"
+      },
+      {
+        "Id": "19478",
+        "Symbol": "KLNMA",
+        "Url": "/equities/t.-kalkinma-bank."
+      },
+      {
+        "Id": "19479",
+        "Symbol": "KNFRT",
+        "Url": "/equities/konfrut-gida"
+      },
+      {
+        "Id": "19480",
+        "Symbol": "KONYA",
+        "Url": "/equities/konya-cimento"
+      },
+      {
+        "Id": "19481",
+        "Symbol": "KORDS",
+        "Url": "/equities/kordsa-global"
+      },
+      {
+        "Id": "19482",
+        "Symbol": "KOZAA",
+        "Url": "/equities/koza-madencilik"
+      },
+      {
+        "Id": "19483",
+        "Symbol": "KOZAL",
+        "Url": "/equities/koza-altin"
+      },
+      {
+        "Id": "19485",
+        "Symbol": "KRDMA",
+        "Url": "/equities/kardemir-(a)"
+      },
+      {
+        "Id": "19486",
+        "Symbol": "KRDMB",
+        "Url": "/equities/kardemir-(b)"
+      },
+      {
+        "Id": "19487",
+        "Symbol": "KRDMD",
+        "Url": "/equities/kardemir-(d)"
+      },
+      {
+        "Id": "19488",
+        "Symbol": "KRONT",
+        "Url": "/equities/kron-telekomunikasyon"
+      },
+      {
+        "Id": "19489",
+        "Symbol": "KRSTL",
+        "Url": "/equities/kristal-kola"
+      },
+      {
+        "Id": "19490",
+        "Symbol": "KRTEK",
+        "Url": "/equities/karsu-tekstil"
+      },
+      {
+        "Id": "19491",
+        "Symbol": "KUTPO",
+        "Url": "/equities/kutahya-porselen"
+      },
+      {
+        "Id": "19493",
+        "Symbol": "LINK",
+        "Url": "/equities/link-bilgisayar"
+      },
+      {
+        "Id": "19494",
+        "Symbol": "LKMNH",
+        "Url": "/equities/lokman-hekim-saglik"
+      },
+      {
+        "Id": "19495",
+        "Symbol": "LOGO",
+        "Url": "/equities/logo-yazilim"
+      },
+      {
+        "Id": "19496",
+        "Symbol": "LUKSK",
+        "Url": "/equities/luks-kadife"
+      },
+      {
+        "Id": "19497",
+        "Symbol": "MAALT",
+        "Url": "/equities/marmaris-altinyunus"
+      },
+      {
+        "Id": "19498",
+        "Symbol": "MAKTK",
+        "Url": "/equities/makina-takim"
+      },
+      {
+        "Id": "19500",
+        "Symbol": "MARTI",
+        "Url": "/equities/marti-otel"
+      },
+      {
+        "Id": "19504",
+        "Symbol": "MEPET",
+        "Url": "/equities/metro-petrol-ve-tesisleri"
+      },
+      {
+        "Id": "19505",
+        "Symbol": "MERKO",
+        "Url": "/equities/merko-gida"
+      },
+      {
+        "Id": "19507",
+        "Symbol": "METRO",
+        "Url": "/equities/metro-holding"
+      },
+      {
+        "Id": "19508",
+        "Symbol": "METUR",
+        "Url": "/equities/metemtur-otelcilik"
+      },
+      {
+        "Id": "19509",
+        "Symbol": "MGROS",
+        "Url": "/equities/migros-ticaret"
+      },
+      {
+        "Id": "19510",
+        "Symbol": "MIPAZ",
+        "Url": "/equities/milpa"
+      },
+      {
+        "Id": "19511",
+        "Symbol": "MNDRS",
+        "Url": "/equities/menderes-tekstil"
+      },
+      {
+        "Id": "19513",
+        "Symbol": "OYAKC",
+        "Url": "/equities/mardin-cimento"
+      },
+      {
+        "Id": "19514",
+        "Symbol": "MRGYO",
+        "Url": "/equities/marti-gmyo"
+      },
+      {
+        "Id": "19515",
+        "Symbol": "MRSHL",
+        "Url": "/equities/marshall"
+      },
+      {
+        "Id": "19517",
+        "Symbol": "IEYHO",
+        "Url": "/equities/isiklar-enerji-yapi"
+      },
+      {
+        "Id": "19520",
+        "Symbol": "MZHLD",
+        "Url": "/equities/mazhar-zorlu-holding"
+      },
+      {
+        "Id": "19522",
+        "Symbol": "NETAS",
+        "Url": "/equities/netas-telekom."
+      },
+      {
+        "Id": "19523",
+        "Symbol": "NTHOL",
+        "Url": "/equities/net-holding"
+      },
+      {
+        "Id": "19525",
+        "Symbol": "NUGYO",
+        "Url": "/equities/nurol-gmyo"
+      },
+      {
+        "Id": "19526",
+        "Symbol": "NUHCM",
+        "Url": "/equities/nuh-cimento"
+      },
+      {
+        "Id": "19528",
+        "Symbol": "OTKAR",
+        "Url": "/equities/otokar"
+      },
+      {
+        "Id": "19529",
+        "Symbol": "OYAYO",
+        "Url": "/equities/oyak-yat.-ort."
+      },
+      {
+        "Id": "19531",
+        "Symbol": "OZGYO",
+        "Url": "/equities/ozderici-gmyo"
+      },
+      {
+        "Id": "19532",
+        "Symbol": "PARSN",
+        "Url": "/equities/parsan"
+      },
+      {
+        "Id": "19533",
+        "Symbol": "PEGYO",
+        "Url": "/equities/pera-gmyo"
+      },
+      {
+        "Id": "19534",
+        "Symbol": "PENGD",
+        "Url": "/equities/penguen-gida"
+      },
+      {
+        "Id": "19535",
+        "Symbol": "PETKM",
+        "Url": "/equities/petkim"
+      },
+      {
+        "Id": "19536",
+        "Symbol": "PETUN",
+        "Url": "/equities/pinar-et-ve-un"
+      },
+      {
+        "Id": "19538",
+        "Symbol": "PINSU",
+        "Url": "/equities/pinar-su"
+      },
+      {
+        "Id": "19539",
+        "Symbol": "PKART",
+        "Url": "/equities/plastikkart"
+      },
+      {
+        "Id": "19540",
+        "Symbol": "PKENT",
+        "Url": "/equities/petrokent-turizm"
+      },
+      {
+        "Id": "19541",
+        "Symbol": "PNSUT",
+        "Url": "/equities/pinar-sut"
+      },
+      {
+        "Id": "19543",
+        "Symbol": "PRKAB",
+        "Url": "/equities/turk-prysmian-kablo"
+      },
+      {
+        "Id": "19544",
+        "Symbol": "PRKME",
+        "Url": "/equities/park-elek.madencilik"
+      },
+      {
+        "Id": "19548",
+        "Symbol": "RAYSG",
+        "Url": "/equities/ray-sigorta"
+      },
+      {
+        "Id": "19549",
+        "Symbol": "ICUGS",
+        "Url": "/equities/rhea-girisim"
+      },
+      {
+        "Id": "19550",
+        "Symbol": "RYGYO",
+        "Url": "/equities/reysas-gmyo"
+      },
+      {
+        "Id": "19551",
+        "Symbol": "RYSAS",
+        "Url": "/equities/reysas-lojistik"
+      },
+      {
+        "Id": "19553",
+        "Symbol": "SAHOL",
+        "Url": "/equities/sabanci-holding"
+      },
+      {
+        "Id": "19554",
+        "Symbol": "SAMAT",
+        "Url": "/equities/saray-matbaacilik"
+      },
+      {
+        "Id": "19555",
+        "Symbol": "SANKO",
+        "Url": "/equities/sanko-pazarlama"
+      },
+      {
+        "Id": "19556",
+        "Symbol": "SARKY",
+        "Url": "/equities/sarkuysan"
+      },
+      {
+        "Id": "19557",
+        "Symbol": "SASA",
+        "Url": "/equities/sasa-polyester"
+      },
+      {
+        "Id": "19558",
+        "Symbol": "SEKFK",
+        "Url": "/equities/seker-fin.-kir."
+      },
+      {
+        "Id": "19559",
+        "Symbol": "SELEC",
+        "Url": "/equities/selcuk-ecza-deposu"
+      },
+      {
+        "Id": "19560",
+        "Symbol": "SELGD",
+        "Url": "/equities/selcuk-gida"
+      },
+      {
+        "Id": "19561",
+        "Symbol": "KUVVA",
+        "Url": "/equities/serve-kirtasiye"
+      },
+      {
+        "Id": "19562",
+        "Symbol": "ISKUR",
+        "Url": "/equities/is-bankasi-(kur.)"
+      },
+      {
+        "Id": "19563",
+        "Symbol": "SILVR",
+        "Url": "/equities/silverline-endustri"
+      },
+      {
+        "Id": "19564",
+        "Symbol": "SISE",
+        "Url": "/equities/sise-cam"
+      },
+      {
+        "Id": "19565",
+        "Symbol": "SKBNK",
+        "Url": "/equities/sekerbank"
+      },
+      {
+        "Id": "19567",
+        "Symbol": "SKTAS",
+        "Url": "/equities/soktas"
+      },
+      {
+        "Id": "19568",
+        "Symbol": "SNGYO",
+        "Url": "/equities/sinpas-gmyo"
+      },
+      {
+        "Id": "19569",
+        "Symbol": "SNPAM",
+        "Url": "/equities/sonmez-pamuklu"
+      },
+      {
+        "Id": "19571",
+        "Symbol": "SONME",
+        "Url": "/equities/sonmez-filament"
+      },
+      {
+        "Id": "19574",
+        "Symbol": "TAVHL",
+        "Url": "/equities/tav-havalimanlari"
+      },
+      {
+        "Id": "19575",
+        "Symbol": "TBORG",
+        "Url": "/equities/t.tuborg"
+      },
+      {
+        "Id": "19576",
+        "Symbol": "TCELL",
+        "Url": "/equities/turkcell"
+      },
+      {
+        "Id": "19579",
+        "Symbol": "ICBCT",
+        "Url": "/equities/tekstilbank"
+      },
+      {
+        "Id": "19580",
+        "Symbol": "TEKTU",
+        "Url": "/equities/tek-art-turizm"
+      },
+      {
+        "Id": "19581",
+        "Symbol": "THYAO",
+        "Url": "/equities/turk-hava-yollari"
+      },
+      {
+        "Id": "19582",
+        "Symbol": "MNDTR",
+        "Url": "/equities/mondi-tire-kutsan"
+      },
+      {
+        "Id": "19583",
+        "Symbol": "TKFEN",
+        "Url": "/equities/tekfen-holding"
+      },
+      {
+        "Id": "19585",
+        "Symbol": "TOASO",
+        "Url": "/equities/tofas-oto.-fab."
+      },
+      {
+        "Id": "19586",
+        "Symbol": "TRCAS",
+        "Url": "/equities/turcas-petrol"
+      },
+      {
+        "Id": "19587",
+        "Symbol": "TRGYO",
+        "Url": "/equities/torunlar-gmyo"
+      },
+      {
+        "Id": "19590",
+        "Symbol": "TSGYO",
+        "Url": "/equities/tskb-gmyo"
+      },
+      {
+        "Id": "19591",
+        "Symbol": "TSKB",
+        "Url": "/equities/t.s.k.b."
+      },
+      {
+        "Id": "19593",
+        "Symbol": "TSPOR",
+        "Url": "/equities/trabzonspor-sportif"
+      },
+      {
+        "Id": "19594",
+        "Symbol": "TTKOM",
+        "Url": "/equities/turk-telekom"
+      },
+      {
+        "Id": "19595",
+        "Symbol": "TTRAK",
+        "Url": "/equities/turk-traktor"
+      },
+      {
+        "Id": "19597",
+        "Symbol": "TUKAS",
+        "Url": "/equities/tukas"
+      },
+      {
+        "Id": "19598",
+        "Symbol": "TUPRS",
+        "Url": "/equities/tupras"
+      },
+      {
+        "Id": "19601",
+        "Symbol": "ULKER",
+        "Url": "/equities/ulker-biskuvi"
+      },
+      {
+        "Id": "19603",
+        "Symbol": "USAK",
+        "Url": "/equities/usak-seramik"
+      },
+      {
+        "Id": "19604",
+        "Symbol": "ZEDUR",
+        "Url": "/equities/utopya-turizm"
+      },
+      {
+        "Id": "19607",
+        "Symbol": "VAKBN",
+        "Url": "/equities/vakiflar-bankasi"
+      },
+      {
+        "Id": "19608",
+        "Symbol": "VAKFN",
+        "Url": "/equities/vakif-fin.-kir."
+      },
+      {
+        "Id": "19609",
+        "Symbol": "VAKKO",
+        "Url": "/equities/vakko-tekstil"
+      },
+      {
+        "Id": "19610",
+        "Symbol": "VANGD",
+        "Url": "/equities/vanet-gida"
+      },
+      {
+        "Id": "19611",
+        "Symbol": "VESBE",
+        "Url": "/equities/vestel-beyaz-esya"
+      },
+      {
+        "Id": "19612",
+        "Symbol": "VESTL",
+        "Url": "/equities/vestel"
+      },
+      {
+        "Id": "19614",
+        "Symbol": "VKGYO",
+        "Url": "/equities/vakif-gmyo"
+      },
+      {
+        "Id": "19615",
+        "Symbol": "VKING",
+        "Url": "/equities/viking-kagit"
+      },
+      {
+        "Id": "19616",
+        "Symbol": "YAPRK",
+        "Url": "/equities/yaprak-sut-ve-besi-cift."
+      },
+      {
+        "Id": "19617",
+        "Symbol": "YATAS",
+        "Url": "/equities/yatas"
+      },
+      {
+        "Id": "19618",
+        "Symbol": "AGHOL",
+        "Url": "/equities/yazicilar-holding"
+      },
+      {
+        "Id": "19619",
+        "Symbol": "YGYO",
+        "Url": "/equities/yesil-gmyo"
+      },
+      {
+        "Id": "19620",
+        "Symbol": "YKBNK",
+        "Url": "/equities/yapi-ve-kredi-bank."
+      },
+      {
+        "Id": "19623",
+        "Symbol": "KGYO",
+        "Url": "/equities/yapi-kredi-koray-gmyo"
+      },
+      {
+        "Id": "19625",
+        "Symbol": "YUNSA",
+        "Url": "/equities/yunsa"
+      },
+      {
+        "Id": "19626",
+        "Symbol": "ZOREN",
+        "Url": "/equities/zorlu-enerji"
+      },
+      {
+        "Id": "19627",
+        "Symbol": "BRISA",
+        "Url": "/equities/brisa-bridgestone"
+      },
+      {
+        "Id": "30974",
+        "Symbol": "MARKA",
+        "Url": "/equities/ansa-yatirim-holding-as"
+      },
+      {
+        "Id": "30977",
+        "Symbol": "ATSYH",
+        "Url": "/equities/atlantis-yatirim-ortakligi-as"
+      },
+      {
+        "Id": "30978",
+        "Symbol": "BALAT",
+        "Url": "/equities/balatacilar-balatacilik-san-ve-tic"
+      },
+      {
+        "Id": "30979",
+        "Symbol": "BEYAZ",
+        "Url": "/equities/beyaz-filo-oto-kiralama-as"
+      },
+      {
+        "Id": "30980",
+        "Symbol": "DAGHL",
+        "Url": "/equities/dagi-yatirim-holding-as"
+      },
+      {
+        "Id": "30981",
+        "Symbol": "DENGE",
+        "Url": "/equities/denge-yatirim-holding-as"
+      },
+      {
+        "Id": "30983",
+        "Symbol": "HUBVC",
+        "Url": "/equities/gedik-girisim-sermayesi-yat-ort"
+      },
+      {
+        "Id": "30988",
+        "Symbol": "IDEAS",
+        "Url": "/equities/mct-danismanlik-as"
+      },
+      {
+        "Id": "30989",
+        "Symbol": "MMCAS",
+        "Url": "/equities/mmc-sanayi-ve-ticari-yatirimlar"
+      },
+      {
+        "Id": "30990",
+        "Symbol": "NIBAS",
+        "Url": "/equities/nigbas-nigde-beton-san-ve-tic"
+      },
+      {
+        "Id": "30991",
+        "Symbol": "ORGE",
+        "Url": "/equities/orge-enerji-elektrik-taahhut-as"
+      },
+      {
+        "Id": "30992",
+        "Symbol": "OSMEN",
+        "Url": "/equities/osmanli-menkul-degerler"
+      },
+      {
+        "Id": "30993",
+        "Symbol": "OSTIM",
+        "Url": "/equities/ostim-endustriyel-yat-ve-isletme"
+      },
+      {
+        "Id": "30994",
+        "Symbol": "OYLUM",
+        "Url": "/equities/oylum-sinai-yatirimlar-as"
+      },
+      {
+        "Id": "30995",
+        "Symbol": "OZKGY",
+        "Url": "/equities/ozak-gayrimenkul-yatirim-ortakligi"
+      },
+      {
+        "Id": "30996",
+        "Symbol": "POLHO",
+        "Url": "/equities/polisan-holding-as"
+      },
+      {
+        "Id": "30997",
+        "Symbol": "SANFM",
+        "Url": "/equities/sanifoam-sunger-san-ve-tic-as"
+      },
+      {
+        "Id": "30998",
+        "Symbol": "SODSN",
+        "Url": "/equities/sodas-sodyum-sanayii-as"
+      },
+      {
+        "Id": "31000",
+        "Symbol": "TKNSA",
+        "Url": "/equities/teknosa-ic-ve-dis-ticaret-as"
+      },
+      {
+        "Id": "31001",
+        "Symbol": "ULAS",
+        "Url": "/equities/ulaslar-turizm-yatirimlari"
+      },
+      {
+        "Id": "31002",
+        "Symbol": "VKFYO",
+        "Url": "/equities/vakif-menkul-kiymetler-yatirim-ort"
+      },
+      {
+        "Id": "31003",
+        "Symbol": "YBTAS",
+        "Url": "/equities/yibitas-yozgat"
+      },
+      {
+        "Id": "31004",
+        "Symbol": "YESIL",
+        "Url": "/equities/yesil-yatirim-holding-as"
+      },
+      {
+        "Id": "40440",
+        "Symbol": "AKYHO",
+        "Url": "/equities/akdeniz-guvenlik-hizmetleri-as"
+      },
+      {
+        "Id": "40442",
+        "Symbol": "AYES",
+        "Url": "/equities/ayes-celik-hasir-ve-cit"
+      },
+      {
+        "Id": "40443",
+        "Symbol": "BASCM",
+        "Url": "/equities/bastas-baskent-cimento"
+      },
+      {
+        "Id": "40444",
+        "Symbol": "AVHOL",
+        "Url": "/equities/baysan-trafo-radyatorleri"
+      },
+      {
+        "Id": "40445",
+        "Symbol": "DIRIT",
+        "Url": "/equities/diriteks-dirilis-tekstil"
+      },
+      {
+        "Id": "40446",
+        "Symbol": "ETILR",
+        "Url": "/equities/etiler-inci-bufe-gida"
+      },
+      {
+        "Id": "40447",
+        "Symbol": "FLAP",
+        "Url": "/equities/flap-kong"
+      },
+      {
+        "Id": "40448",
+        "Symbol": "HLGYO",
+        "Url": "/equities/halk-gayrimenkul-yatirim"
+      },
+      {
+        "Id": "40449",
+        "Symbol": "JANTS",
+        "Url": "/equities/jantsa-jant-sanayi-ve-ticaret"
+      },
+      {
+        "Id": "40450",
+        "Symbol": "KERVN",
+        "Url": "/equities/kervansaray-yatirim-holding"
+      },
+      {
+        "Id": "40451",
+        "Symbol": "BERA",
+        "Url": "/equities/kombassan-holding-as"
+      },
+      {
+        "Id": "40452",
+        "Symbol": "CASA",
+        "Url": "/equities/karsusan-su-urunleri-san"
+      },
+      {
+        "Id": "40453",
+        "Symbol": "KUYAS",
+        "Url": "/equities/kuyumcukent"
+      },
+      {
+        "Id": "40454",
+        "Symbol": "MEGAP",
+        "Url": "/equities/mega-polietilen-kopuk"
+      },
+      {
+        "Id": "40455",
+        "Symbol": "MERIT",
+        "Url": "/equities/merit-turizm-yatirim-ve-isletme"
+      },
+      {
+        "Id": "40456",
+        "Symbol": "PGSUS",
+        "Url": "/equities/pegasus-hava-tasimaciligi"
+      },
+      {
+        "Id": "40457",
+        "Symbol": "PRZMA",
+        "Url": "/equities/prizma-pres-matbaacilik-yayincilik"
+      },
+      {
+        "Id": "40458",
+        "Symbol": "TGSAS",
+        "Url": "/equities/tgs-dis-ticaret-as"
+      },
+      {
+        "Id": "40459",
+        "Symbol": "TETMT",
+        "Url": "/equities/taze---kuru"
+      },
+      {
+        "Id": "40460",
+        "Symbol": "TMSN",
+        "Url": "/equities/tumosan-motor"
+      },
+      {
+        "Id": "40461",
+        "Symbol": "UZERB",
+        "Url": "/equities/uzertas-boya-sanayi-ticaret"
+      },
+      {
+        "Id": "40512",
+        "Symbol": "ROYAL",
+        "Url": "/equities/royal-hali-iplik-mobilya"
+      },
+      {
+        "Id": "40513",
+        "Symbol": "ODAS",
+        "Url": "/equities/odas-elektrik"
+      },
+      {
+        "Id": "40514",
+        "Symbol": "PAGYO",
+        "Url": "/equities/panora-gyo"
+      },
+      {
+        "Id": "40957",
+        "Symbol": "TURGG",
+        "Url": "/equities/mutlu-g.-gelİŞtİrme-a.Ş."
+      },
+      {
+        "Id": "40967",
+        "Symbol": "ACSEL",
+        "Url": "/equities/aciselsan-acipayam-san.-ticaret-as"
+      },
+      {
+        "Id": "40968",
+        "Symbol": "AKSGY",
+        "Url": "/equities/akis-gayrimenkul-yatirimi-as"
+      },
+      {
+        "Id": "41030",
+        "Symbol": "OTTO",
+        "Url": "/equities/tac-gıda-san-ve-tic-as"
+      },
+      {
+        "Id": "41595",
+        "Symbol": "SEKUR",
+        "Url": "/equities/sekuro-plastik-ambalaj-sanayi-as"
+      },
+      {
+        "Id": "44470",
+        "Symbol": "IZINV",
+        "Url": "/equities/iz-tarim-ve-gida"
+      },
+      {
+        "Id": "44471",
+        "Symbol": "VERUS",
+        "Url": "/equities/verusa-holding"
+      },
+      {
+        "Id": "44472",
+        "Symbol": "ORMA",
+        "Url": "/equities/orma-ormann"
+      },
+      {
+        "Id": "44473",
+        "Symbol": "YAYLA",
+        "Url": "/equities/yayla-enerji"
+      },
+      {
+        "Id": "44474",
+        "Symbol": "SANEL",
+        "Url": "/equities/sanel-muhendislik"
+      },
+      {
+        "Id": "48640",
+        "Symbol": "TMPOL",
+        "Url": "/equities/temapol-polimer"
+      },
+      {
+        "Id": "102074",
+        "Symbol": "RODRG",
+        "Url": "/equities/rodrigo-tekstil-sanayi-ve-ticaret"
+      },
+      {
+        "Id": "941121",
+        "Symbol": "TATGD",
+        "Url": "/equities/tat-konserve-exch"
+      },
+      {
+        "Id": "941213",
+        "Symbol": "GEDZA",
+        "Url": "/equities/gediz-ambalaj"
+      },
+      {
+        "Id": "941214",
+        "Symbol": "KRGYO",
+        "Url": "/equities/korfez-gayrimen"
+      },
+      {
+        "Id": "941215",
+        "Symbol": "LIDFA",
+        "Url": "/equities/lider-faktoring"
+      },
+      {
+        "Id": "941217",
+        "Symbol": "RTALB",
+        "Url": "/equities/rta-lab-biyoloji"
+      },
+      {
+        "Id": "941218",
+        "Symbol": "SRVGY",
+        "Url": "/equities/servet-gyo-a"
+      },
+      {
+        "Id": "941219",
+        "Symbol": "TUCLK",
+        "Url": "/equities/tugcelik-alum-a"
+      },
+      {
+        "Id": "941220",
+        "Symbol": "YGGYO",
+        "Url": "/equities/yeni-gimat-gmyo"
+      },
+      {
+        "Id": "941684",
+        "Symbol": "PAMEL",
+        "Url": "/equities/bomonti-elektrik"
+      },
+      {
+        "Id": "942789",
+        "Symbol": "AGESA",
+        "Url": "/equities/avivasa-emeklilik-ve-hayat-as"
+      },
+      {
+        "Id": "942790",
+        "Symbol": "PSDTC",
+        "Url": "/equities/pergamon-status-dis-ticaret-as"
+      },
+      {
+        "Id": "942791",
+        "Symbol": "ULUUN",
+        "Url": "/equities/ulusoy-un-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "942792",
+        "Symbol": "ULUSE",
+        "Url": "/equities/ulusoy-elektrik-imalat-taahhut"
+      },
+      {
+        "Id": "945159",
+        "Symbol": "HDFGS",
+        "Url": "/equities/hedef-girisim-sermayesi-as"
+      },
+      {
+        "Id": "945716",
+        "Symbol": "OZRDN",
+        "Url": "/equities/ozerden-plastik-sanayi"
+      },
+      {
+        "Id": "945933",
+        "Symbol": "SNKRN",
+        "Url": "/equities/senkron-guvenlik-as"
+      },
+      {
+        "Id": "950050",
+        "Symbol": "POLTK",
+        "Url": "/equities/politeknik-metal-sanayi-ve-t"
+      },
+      {
+        "Id": "950051",
+        "Symbol": "SAYAS",
+        "Url": "/equities/say-reklamcilik-yapi-dekorasyon"
+      },
+      {
+        "Id": "953595",
+        "Symbol": "BNTAS",
+        "Url": "/equities/bantas-bandirma-ambalaj-sanayi"
+      },
+      {
+        "Id": "958340",
+        "Symbol": "SEYKM",
+        "Url": "/equities/seyitler-kimya-sanayi-as"
+      },
+      {
+        "Id": "961704",
+        "Symbol": "VERTU",
+        "Url": "/equities/verusaturk-girisim-sermayesi-yatiri"
+      },
+      {
+        "Id": "963743",
+        "Symbol": "CUSAN",
+        "Url": "/equities/cuhadaroglu-metal-sanayi"
+      },
+      {
+        "Id": "976217",
+        "Symbol": "ISDMR",
+        "Url": "/equities/iskenderun-demir-ve-celik-as"
+      },
+      {
+        "Id": "993680",
+        "Symbol": "ISBIR",
+        "Url": "/equities/isbir-holding-as"
+      },
+      {
+        "Id": "993681",
+        "Symbol": "IZFAS",
+        "Url": "/equities/izmir-firca-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "993682",
+        "Symbol": "KSTUR",
+        "Url": "/equities/kustur-kusadasi-turizm-endustrisi-a"
+      },
+      {
+        "Id": "993684",
+        "Symbol": "UMPAS",
+        "Url": "/equities/umpas-holding-as"
+      },
+      {
+        "Id": "993685",
+        "Symbol": "YONGA",
+        "Url": "/equities/yonga-mobilya-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "997134",
+        "Symbol": "MSGYO",
+        "Url": "/equities/mistral-gayrimenkul-yatirim-ortakli"
+      },
+      {
+        "Id": "1010701",
+        "Symbol": "FONET",
+        "Url": "/equities/fonet-bilgi-teknolojileri-as"
+      },
+      {
+        "Id": "1013385",
+        "Symbol": "MAVI",
+        "Url": "/equities/mavi-giyim-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1058448",
+        "Symbol": "SAFKR",
+        "Url": "/equities/safkar-ege-sogutmacilik"
+      },
+      {
+        "Id": "1061403",
+        "Symbol": "TLMAN",
+        "Url": "/equities/trabzon-liman-isletmeciligi"
+      },
+      {
+        "Id": "1062273",
+        "Symbol": "ENJSA",
+        "Url": "/equities/enerjisa-enerji"
+      },
+      {
+        "Id": "1062839",
+        "Symbol": "MPARK",
+        "Url": "/equities/mlp-saglik"
+      },
+      {
+        "Id": "1066607",
+        "Symbol": "PEKGY",
+        "Url": "/equities/peker-gayrimenkul-yatirim-ortakligi"
+      },
+      {
+        "Id": "1066608",
+        "Symbol": "TDGYO",
+        "Url": "/equities/trend-gayrimenkul-yatirim-ortakligi"
+      },
+      {
+        "Id": "1076665",
+        "Symbol": "SOKM",
+        "Url": "/equities/sok-marketler"
+      },
+      {
+        "Id": "1076877",
+        "Symbol": "KFEIN",
+        "Url": "/equities/kafein-yazilim"
+      },
+      {
+        "Id": "1080076",
+        "Symbol": "FORMT",
+        "Url": "/equities/formet-celik-kapi"
+      },
+      {
+        "Id": "1081555",
+        "Symbol": "SUMAS",
+        "Url": "/equities/sumas-suni-tahta"
+      },
+      {
+        "Id": "1131042",
+        "Symbol": "SMART",
+        "Url": "/equities/smartiks-yazilim"
+      },
+      {
+        "Id": "1135867",
+        "Symbol": "CEOEM",
+        "Url": "/equities/ceo-event-medya"
+      },
+      {
+        "Id": "1141314",
+        "Symbol": "DERHL",
+        "Url": "/equities/derluks-deri-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1152250",
+        "Symbol": "NATEN",
+        "Url": "/equities/naturel-yenilenebilir-enerji-ticare"
+      },
+      {
+        "Id": "1155597",
+        "Symbol": "YKSLN",
+        "Url": "/equities/yukselen-celik-as"
+      },
+      {
+        "Id": "1155980",
+        "Symbol": "PAPIL",
+        "Url": "/equities/papilon-savunma-guvenlik-sistemleri"
+      },
+      {
+        "Id": "1156756",
+        "Symbol": "ARDYZ",
+        "Url": "/equities/ard-grup-bilisim-teknolojileri-as"
+      },
+      {
+        "Id": "1161499",
+        "Symbol": "ALBTS",
+        "Url": "/equities/albaraka-portfoy-yonetimi-as"
+      },
+      {
+        "Id": "1161500",
+        "Symbol": "MPATA",
+        "Url": "/equities/mukafat-portfoy-yonetimi-as"
+      },
+      {
+        "Id": "1161501",
+        "Symbol": "QPERP",
+        "Url": "/equities/qinvest-portfoy-yonetimi-as"
+      },
+      {
+        "Id": "1161502",
+        "Symbol": "RPAVS",
+        "Url": "/equities/re-pie-gayrimenkul-ve-girisim"
+      },
+      {
+        "Id": "1162576",
+        "Symbol": "BAYRK",
+        "Url": "/equities/bayrak-ebt-taban-sanayi-v"
+      },
+      {
+        "Id": "1164166",
+        "Symbol": "FADE",
+        "Url": "/equities/fade-gida-yatirim-sanayi-ticaret-as"
+      },
+      {
+        "Id": "1165959",
+        "Symbol": "ALDUK",
+        "Url": "/equities/albaraka-portfoy-yonetimi-par"
+      },
+      {
+        "Id": "1165960",
+        "Symbol": "ALONE",
+        "Url": "/equities/albaraka-portfoy-yonetimi-par-sh"
+      },
+      {
+        "Id": "1165961",
+        "Symbol": "DNISI",
+        "Url": "/equities/dinamik-isi-makina-yalitim"
+      },
+      {
+        "Id": "1166937",
+        "Symbol": "ESEN",
+        "Url": "/equities/esenboga-elektrik-uretim-as"
+      },
+      {
+        "Id": "1167207",
+        "Symbol": "KONTR",
+        "Url": "/equities/kontrolmatik-teknoloji-enerji-ve-mu"
+      },
+      {
+        "Id": "1167543",
+        "Symbol": "KRVGD",
+        "Url": "/equities/karven-gida"
+      },
+      {
+        "Id": "1168577",
+        "Symbol": "ARZUM",
+        "Url": "/equities/arzum-elektrikli-ev-aletleri-sanayi"
+      },
+      {
+        "Id": "1169242",
+        "Symbol": "NNF",
+        "Url": "/equities/hedef-portfolio-1st-equity-hedge"
+      },
+      {
+        "Id": "1169426",
+        "Symbol": "ISKPL",
+        "Url": "/equities/isik-plastik-sanayi-ve-dis-tic-paz"
+      },
+      {
+        "Id": "1171469",
+        "Symbol": "APYVC",
+        "Url": "/equities/albaraka-portfoy-yonetimi-ps"
+      },
+      {
+        "Id": "1171470",
+        "Symbol": "RPFGY",
+        "Url": "/equities/fiba-portfoy-yonetimi-as"
+      },
+      {
+        "Id": "1171471",
+        "Symbol": "TRILC",
+        "Url": "/equities/turk-ilac-ve-serum-sanayi-as"
+      },
+      {
+        "Id": "1172079",
+        "Symbol": "NTGAZ",
+        "Url": "/equities/naturelgaz-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1172466",
+        "Symbol": "TUREX",
+        "Url": "/equities/tureks-turizm-tasimacilik-as"
+      },
+      {
+        "Id": "1172467",
+        "Symbol": "QUAGR",
+        "Url": "/equities/qua-granite-hayal"
+      },
+      {
+        "Id": "1172487",
+        "Symbol": "MTRKS",
+        "Url": "/equities/matriks-bilgi-dagitim-hizmetleri-as"
+      },
+      {
+        "Id": "1172762",
+        "Symbol": "GWIND",
+        "Url": "/equities/galata-wind-enerji-anonim-sirket"
+      },
+      {
+        "Id": "1172935",
+        "Symbol": "BIOEN",
+        "Url": "/equities/biotrend-cevre-ve-enerji-yat"
+      },
+      {
+        "Id": "1172936",
+        "Symbol": "AYDEM",
+        "Url": "/equities/aydem-yenilenebilir-enerji-as"
+      },
+      {
+        "Id": "1172944",
+        "Symbol": "CANTE",
+        "Url": "/equities/can2-termik-as"
+      },
+      {
+        "Id": "1173037",
+        "Symbol": "ZRGYO",
+        "Url": "/equities/ziraat-gyo"
+      },
+      {
+        "Id": "1173339",
+        "Symbol": "KLKIM",
+        "Url": "/equities/kalekim-kimyevi-madd"
+      },
+      {
+        "Id": "1173350",
+        "Symbol": "PENTA",
+        "Url": "/equities/penta-teknoloji-urunleri"
+      },
+      {
+        "Id": "1173592",
+        "Symbol": "MERCN",
+        "Url": "/equities/mercan-kimya-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1173865",
+        "Symbol": "ATATP",
+        "Url": "/equities/atp-ticari-bilgisayar-agi-elektrik"
+      },
+      {
+        "Id": "1174286",
+        "Symbol": "BMSCH",
+        "Url": "/equities/bms-celik-hasir-sanayi"
+      },
+      {
+        "Id": "1174291",
+        "Symbol": "BOBET",
+        "Url": "/equities/bogazici-beton-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1174306",
+        "Symbol": "UNLU",
+        "Url": "/equities/unlu-yatirim-holding-as"
+      },
+      {
+        "Id": "1174540",
+        "Symbol": "BASGZ",
+        "Url": "/equities/baskent-dogalgaz-dagitim-gayrim"
+      },
+      {
+        "Id": "1174542",
+        "Symbol": "OYYAT",
+        "Url": "/equities/oyak-yatirim-menkul-degerler-as"
+      },
+      {
+        "Id": "1174866",
+        "Symbol": "EDATA",
+        "Url": "/equities/edata-teknoloji-pazarlama-as"
+      },
+      {
+        "Id": "1174867",
+        "Symbol": "KTSKR",
+        "Url": "/equities/kutahya-seker-fabrikasi-as"
+      },
+      {
+        "Id": "1174901",
+        "Symbol": "SELVA",
+        "Url": "/equities/selva-gida-sanayi-as"
+      },
+      {
+        "Id": "1175095",
+        "Symbol": "VBTYZ",
+        "Url": "/equities/vbt-yazilim-as"
+      },
+      {
+        "Id": "1175097",
+        "Symbol": "ESCAR",
+        "Url": "/equities/escar-turizm-tasimacilik-ticaret"
+      },
+      {
+        "Id": "1175306",
+        "Symbol": "MEDTR",
+        "Url": "/equities/meditera-tibbi-malzeme"
+      },
+      {
+        "Id": "1175307",
+        "Symbol": "MANAS",
+        "Url": "/equities/manas-enerji-yonetimi"
+      },
+      {
+        "Id": "1175465",
+        "Symbol": "KARYE",
+        "Url": "/equities/kartal-yenilenebilir-enerji-uretim"
+      },
+      {
+        "Id": "1175865",
+        "Symbol": "GENIL",
+        "Url": "/equities/gen-ilac-ve-saglik-urunleri"
+      },
+      {
+        "Id": "1176293",
+        "Symbol": "KZBGY",
+        "Url": "/equities/kizilbuk-gayrimenkul-yatirim-ortakl"
+      },
+      {
+        "Id": "1176603",
+        "Symbol": "BRLSM",
+        "Url": "/equities/birlesim-muhendislik-isitma-sogutma"
+      },
+      {
+        "Id": "1176604",
+        "Symbol": "GESAN",
+        "Url": "/equities/girisim-elektrik-taahhut"
+      },
+      {
+        "Id": "1176931",
+        "Symbol": "EGEPO",
+        "Url": "/equities/nasmed-ozel-saglik-hizmetleri"
+      },
+      {
+        "Id": "1176932",
+        "Symbol": "ORCAY",
+        "Url": "/equities/orcay-ortakoy-cay-sanayi-ticaret-as"
+      },
+      {
+        "Id": "1176962",
+        "Symbol": "YEOTK",
+        "Url": "/equities/yeo-teknoloji-enerji-ve-endustri-as"
+      },
+      {
+        "Id": "1177363",
+        "Symbol": "TEZOL",
+        "Url": "/equities/europap-tezol-kagit-sanayi"
+      },
+      {
+        "Id": "1177380",
+        "Symbol": "KIMMR",
+        "Url": "/equities/ersan-alisveris-hizmetleri-gida"
+      },
+      {
+        "Id": "1177677",
+        "Symbol": "MAGEN",
+        "Url": "/equities/margun-enerji-uretim-sanayi"
+      },
+      {
+        "Id": "1178550",
+        "Symbol": "ANGEN",
+        "Url": "/equities/anatolia-tani-ve-biyoteknoloji"
+      },
+      {
+        "Id": "1178551",
+        "Symbol": "HEDEF",
+        "Url": "/equities/hedef-holdings-as"
+      },
+      {
+        "Id": "1178875",
+        "Symbol": "GLCVY",
+        "Url": "/equities/gelecek-varlik-yonetimi-as"
+      },
+      {
+        "Id": "1179147",
+        "Symbol": "IHAAS",
+        "Url": "/equities/ihlas-haber-ajansi-as"
+      },
+      {
+        "Id": "1179574",
+        "Symbol": "ULUFA",
+        "Url": "/equities/ulusal-faktoring-as"
+      },
+      {
+        "Id": "1179575",
+        "Symbol": "ARASE",
+        "Url": "/equities/dogu-aras-enerji-yatirimlari-as"
+      },
+      {
+        "Id": "1179910",
+        "Symbol": "ELITE",
+        "Url": "/equities/elite-naturel-organik-gida"
+      },
+      {
+        "Id": "1179911",
+        "Symbol": "ISSEN",
+        "Url": "/equities/isbir-sentetik-dokuma-sanayi-as"
+      },
+      {
+        "Id": "1180239",
+        "Symbol": "GMTAS",
+        "Url": "/equities/gimat-magazacilik"
+      },
+      {
+        "Id": "1180353",
+        "Symbol": "MIATK",
+        "Url": "/equities/mia-teknoloji-as"
+      },
+      {
+        "Id": "1180500",
+        "Symbol": "KONKA",
+        "Url": "/equities/konya-kagit-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1180714",
+        "Symbol": "MOBTL",
+        "Url": "/equities/mobiltel-iletisim-hizmetleri-sanayi"
+      },
+      {
+        "Id": "1180715",
+        "Symbol": "PCILT",
+        "Url": "/equities/pc-iletisim-ve-medya-hizmetleri"
+      },
+      {
+        "Id": "1180732",
+        "Symbol": "RNPOL",
+        "Url": "/equities/rainbow-polikarbonat"
+      },
+      {
+        "Id": "1182889",
+        "Symbol": "PSGYO",
+        "Url": "/equities/pasifik-gayrimenkul-yatirim"
+      },
+      {
+        "Id": "1184209",
+        "Symbol": "ERCB",
+        "Url": "/equities/erciyas-celik-boru-sanayi-as"
+      },
+      {
+        "Id": "1185822",
+        "Symbol": "PNLSN",
+        "Url": "/equities/panelsan-cati-cephe-sistemleri"
+      },
+      {
+        "Id": "1185823",
+        "Symbol": "HUNER",
+        "Url": "/equities/hun-yenilenebilir-enerji-uretim-as"
+      },
+      {
+        "Id": "1185824",
+        "Symbol": "DAPGM",
+        "Url": "/equities/dap-gayrimenkul-gelistirme-as"
+      },
+      {
+        "Id": "1185931",
+        "Symbol": "INVES",
+        "Url": "/equities/investco-holding-as"
+      },
+      {
+        "Id": "1185934",
+        "Symbol": "HTTBT",
+        "Url": "/equities/hitit-bilgisayar-hizmetleri-as"
+      },
+      {
+        "Id": "1185935",
+        "Symbol": "KLSYN",
+        "Url": "/equities/koleksiyon-mobilya-sanayi-as"
+      },
+      {
+        "Id": "1186081",
+        "Symbol": "GZNMI",
+        "Url": "/equities/gezinomi-seyahat-turizm-ticaret-as"
+      },
+      {
+        "Id": "1186117",
+        "Symbol": "GRSEL",
+        "Url": "/equities/gursel-turizm-tasimacilik-ve"
+      },
+      {
+        "Id": "1187039",
+        "Symbol": "ENSRI",
+        "Url": "/equities/ensari-deri-gida-sanayi-ve-ticaret"
+      },
+      {
+        "Id": "1187123",
+        "Symbol": "SMRTG",
+        "Url": "/equities/smart-gunes-enerjisi-teknolojileri"
+      },
+      {
+        "Id": "1187370",
+        "Symbol": "LIDER",
+        "Url": "/equities/ldr-turizm-as"
+      },
+      {
+        "Id": "1187889",
+        "Symbol": "SUWEN",
+        "Url": "/equities/suwen-tekstil-sanayi-pazarlama-as"
+      },
+      {
+        "Id": "1187907",
+        "Symbol": "CONSE",
+        "Url": "/equities/consus-enerji-isletmeciligi-ve"
+      },
+      {
+        "Id": "1187954",
+        "Symbol": "BMSTL",
+        "Url": "/equities/bms-birlesik-metal-sanayi-ve"
+      },
+      {
+        "Id": "1187999",
+        "Symbol": "KMPUR",
+        "Url": "/equities/kimteks-poliuretan-sanayi-ve"
+      },
+      {
+        "Id": "1188000",
+        "Symbol": "IMASM",
+        "Url": "/equities/imas-makina-sanayi-as"
+      },
+      {
+        "Id": "1190452",
+        "Symbol": "YYLGD",
+        "Url": "/equities/yayla-agro-gida-sanayi-ve-ticaret"
+      },
+      {
+        "Id": "1190453",
+        "Symbol": "SUNTK",
+        "Url": "/equities/sun-tekstil-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1192069",
+        "Symbol": "SEGYO",
+        "Url": "/equities/seker-gayrimenkul-yatirim"
+      },
+      {
+        "Id": "1192080",
+        "Symbol": "EUREN",
+        "Url": "/equities/europen-endustri-insaat-sanayi-ve"
+      },
+      {
+        "Id": "1192253",
+        "Symbol": "PRDGS",
+        "Url": "/equities/pardus-girisim-sermayesi-yatirim"
+      },
+      {
+        "Id": "1192269",
+        "Symbol": "MAKIM",
+        "Url": "/equities/makim-makina-teknolojileri-sanayi"
+      },
+      {
+        "Id": "1192498",
+        "Symbol": "KCAER",
+        "Url": "/equities/kocaer-celik-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1192655",
+        "Symbol": "RUBNS",
+        "Url": "/equities/rubenis-tekstil-sanayi-ticaret-as"
+      },
+      {
+        "Id": "1192723",
+        "Symbol": "KLRHO",
+        "Url": "/equities/kiler-holding-as"
+      },
+      {
+        "Id": "1193071",
+        "Symbol": "KRPLS",
+        "Url": "/equities/koroplast-temizlik-ambalaj"
+      },
+      {
+        "Id": "1193240",
+        "Symbol": "OBASE",
+        "Url": "/equities/obase-bilgisayar-ve-danismanlik"
+      },
+      {
+        "Id": "1193350",
+        "Symbol": "BARMA",
+        "Url": "/equities/barem-ambalaj-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1193432",
+        "Symbol": "AZTEK",
+        "Url": "/equities/aztek-teknoloji-urunleri-ticaret-as"
+      },
+      {
+        "Id": "1193442",
+        "Symbol": "HKTM",
+        "Url": "/equities/hidropar-hareket-kontrol"
+      },
+      {
+        "Id": "1196303",
+        "Symbol": "AUODK",
+        "Url": "/equities/aura-portfoy-yonetimi-as"
+      },
+      {
+        "Id": "1196638",
+        "Symbol": "APYKS",
+        "Url": "/equities/albaraka-portfoy-yonetimi-as?cid=1196638"
+      },
+      {
+        "Id": "1197376",
+        "Symbol": "ALFAS",
+        "Url": "/equities/alfa-solar-enerji-as"
+      },
+      {
+        "Id": "1197643",
+        "Symbol": "ALTIN",
+        "Url": "/equities/turkiye-cumhuriyeti-hazine-ve"
+      },
+      {
+        "Id": "1197770",
+        "Symbol": "SNICA",
+        "Url": "/equities/sanica-isi-sanayi-as"
+      },
+      {
+        "Id": "1197897",
+        "Symbol": "OZSUB",
+        "Url": "/equities/ozsu-balik-uretim-as"
+      },
+      {
+        "Id": "1198255",
+        "Symbol": "PLTUR",
+        "Url": "/equities/platform-turizm-tasimacilik-gida"
+      },
+      {
+        "Id": "1198273",
+        "Symbol": "BRKVY",
+        "Url": "/equities/birikim-varlik-yonetim-as"
+      },
+      {
+        "Id": "1198396",
+        "Symbol": "AUKAK",
+        "Url": "/equities/aura-portfoy-yonetimi"
+      },
+      {
+        "Id": "1198405",
+        "Symbol": "AHGAZ",
+        "Url": "/equities/ahlatci-dogal-gaz-dagitim-enerji"
+      },
+      {
+        "Id": "1198406",
+        "Symbol": "TERA",
+        "Url": "/equities/tera-yatirim-menkul-degerler-as"
+      },
+      {
+        "Id": "1198528",
+        "Symbol": "EYGYO",
+        "Url": "/equities/eyg-gayrimenkul-yatirim-ortakligi"
+      },
+      {
+        "Id": "1198607",
+        "Symbol": "ONCSM",
+        "Url": "/equities/oncosem-onkolojik-sistemler-sanayi"
+      },
+      {
+        "Id": "1198608",
+        "Symbol": "SDTTR",
+        "Url": "/equities/sdt-uzay-ve-savunma-teknolojileri"
+      },
+      {
+        "Id": "1198728",
+        "Symbol": "SOKE",
+        "Url": "/equities/soke-degirmencilik-sanayi-ve"
+      },
+      {
+        "Id": "1198729",
+        "Symbol": "TNZTP",
+        "Url": "/equities/tapdi-oksijen-ozel-saglik-egitim"
+      },
+      {
+        "Id": "1199483",
+        "Symbol": "ASTOR",
+        "Url": "/equities/astor-enerji-as"
+      },
+      {
+        "Id": "1199653",
+        "Symbol": "MACKO",
+        "Url": "/equities/mackolik-internet-hizmetleri"
+      },
+      {
+        "Id": "1199884",
+        "Symbol": "BVSAN",
+        "Url": "/equities/bulbuloglu-vinc-sanayi-ve-ticaret"
+      },
+      {
+        "Id": "1200632",
+        "Symbol": "GOKNR",
+        "Url": "/equities/goknur-gida-maddeleri"
+      },
+      {
+        "Id": "1200686",
+        "Symbol": "AKFYE",
+        "Url": "/equities/akfen-yenilenebilir-enerji-as"
+      },
+      {
+        "Id": "1201307",
+        "Symbol": "EKSUN",
+        "Url": "/equities/eksun-gida-tarim"
+      },
+      {
+        "Id": "1202057",
+        "Symbol": "TPYTI",
+        "Url": "/equities/tera-portfoy-yonetimi-as"
+      },
+      {
+        "Id": "1202089",
+        "Symbol": "KOPOL",
+        "Url": "/equities/koza-polyester-sanayi-ve-ticaret-as"
+      },
+      {
+        "Id": "1202090",
+        "Symbol": "CVKMD",
+        "Url": "/equities/cvk-maden-isletmeleri-sanayi-ve"
+      },
+      {
+        "Id": "1202199",
+        "Symbol": "EUPWR",
+        "Url": "/equities/europower-enerji-ve-otomasyon"
+      },
+      {
+        "Id": "1202343",
+        "Symbol": "GRTRK",
+        "Url": "/equities/grainturk-tarim-as"
+      },
+      {
+        "Id": "1202525",
+        "Symbol": "CWENE",
+        "Url": "/equities/cw-enerji-muhendislik-ticaret-ve"
+      },
+      {
+        "Id": "1202620",
+        "Symbol": "BIGCH",
+        "Url": "/equities/buyuk-sefler-gida-turizm-tekstil"
+      },
+      {
+        "Id": "1202784",
+        "Symbol": "BIENY",
+        "Url": "/equities/bien-yapi-urunleri-sanayi-turizm"
+      },
+      {
+        "Id": "1202785",
+        "Symbol": "KAYSE",
+        "Url": "/equities/kayseri-seker-fabrikasi-as"
+      },
+      {
+        "Id": "1203283",
+        "Symbol": "KTLEV",
+        "Url": "/equities/katilimevim-tasarruf-finansman-as"
+      },
+      {
+        "Id": "1203354",
+        "Symbol": "PASEU",
+        "Url": "/equities/pasifik-eurasia-lojistik-dis"
+      },
+      {
+        "Id": "1203372",
+        "Symbol": "A1CAP",
+        "Url": "/equities/a1-capital-yatirim-menkul-degerler"
+      },
+      {
+        "Id": "1203373",
+        "Symbol": "FORTE",
+        "Url": "/equities/forte-bilgi-iletisim-teknolojileri"
+      },
+      {
+        "Id": "1205191",
+        "Symbol": "ATAKP",
+        "Url": "/equities/atakey-patates-gida-sanayi-ve"
+      },
+      {
+        "Id": "1205192",
+        "Symbol": "KLSER",
+        "Url": "/equities/kaleseramik-canakkale-kalebodur"
+      },
+      {
+        "Id": "1205225",
+        "Symbol": "FZLGY",
+        "Url": "/equities/fuzul-gayrimenkul-yatirim"
+      },
+      {
+        "Id": "1205402",
+        "Symbol": "ASGYO",
+        "Url": "/equities/asce-gayrimenkul-yatirim-ortakligi"
+      },
+      {
+        "Id": "1205812",
+        "Symbol": "IZENR",
+        "Url": "/equities/izdemir-enerji-elektrik-uretim-as"
+      },
+      {
+        "Id": "1205818",
+        "Symbol": "OFSYM",
+        "Url": "/equities/ofis-yem-gida-sanayi-ticaret-as"
+      },
+      {
+        "Id": "1205857",
+        "Symbol": "TATEN",
+        "Url": "/equities/tatlipinar-enerji-uretim-as"
+      },
+      {
+        "Id": "1205885",
+        "Symbol": "BYDNR",
+        "Url": "/equities/baydoner-restoranlari-as"
+      },
+      {
+        "Id": "1206033",
+        "Symbol": "ENERY",
+        "Url": "/equities/enerya-enerji-as"
+      }
+  ]
+}
