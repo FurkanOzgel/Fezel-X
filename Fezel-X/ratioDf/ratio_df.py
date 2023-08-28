@@ -133,10 +133,7 @@ def create_share_ratio_df(date):
         pass
     
     with open(f"data/{date}/faulty_shares_{date}.txt", "r", encoding="UTF-8") as file:
-        mistake_count = len(file.readlines()) - 1
-        
-        if mistake_count == -1:
-            mistake_count = 0
+        mistake_count = len(file.readlines())
     
     start_index = share_ratio_df.shape[0] + mistake_count
 
