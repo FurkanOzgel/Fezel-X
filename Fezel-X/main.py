@@ -19,6 +19,6 @@ config = {
 
 # ratioDf.create_share_ratio_df("2023/6")
 ratioDf.create_share_ratio_df("2023/3")
-# ratioDf.create_share_ratio_df("2022/12")
+ratioDf.create_share_ratio_df("2022/12")
 
 # ratioDf.produce_sector_average_df("2022-12")
