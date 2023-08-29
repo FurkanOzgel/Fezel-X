@@ -369,3 +369,7 @@ def produce_sector_average_df(date):
             print(e)
             
     df.to_csv(f"data/{date}/sector_average_df_{date}.csv")
+
+def get_price_increase_percentage(date):
+    date = date.replace("/", "-")
+    print(date)

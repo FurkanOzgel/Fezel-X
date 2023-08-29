@@ -1,8 +1,18 @@
 import json
 import pandas as pd
 
-def analyse_cari_oran(data):
+def produce_empty_point_df(date):
+    date = date.replace("/","-")
+    df = pd.read_csv(f"data/{date}/share_ratio_df_{date}.csv", index_col=0)
 
+    df['Total'] = 0
+
+    columns_to_zero = df.columns.difference(['Share_Name'])  
+    df[columns_to_zero] = 0
+
+    df.to_csv(f"data/{date}/share_point_df.csv")
+
+def analyse_cari_oran(data):
     deviation_percentage = data.config["cari_oran_deviation_percentage"]
     cari_oran_list = json.loads(data.ratios.iloc[0]["Cari_Oran"])
 
@@ -43,21 +53,10 @@ class Analyzer:
         share_ratio_df = pd.read_csv(f"data/{self.date}/share_ratio_df_{self.date}.csv", index_col=0)
         self.ratios = share_ratio_df[share_ratio_df["Share_Name"] == self.shareName]
 
-        sector_average_df = pd.read_csv(f"data/sector_average_df_{self.date}.csv", index_col=0)
+        sector_average_df = pd.read_csv(f"data/{self.date}/sector_average_df_{self.date}.csv", index_col=0)
         self.sector_average_ratios = sector_average_df[sector_average_df["Sector"] == sector]
         
-        self.point_df = pd.read_csv("data/point_df.csv", index_col=0)
-
-    def produce_empty_point_df(self):
-        print("selam")
-        df = pd.read_csv(f"data/{self.date}/share_ratio_df_{self.date}.csv", index_col=0)
-
-        df['Total'] = 0
-
-        columns_to_zero = df.columns.difference(['Share_Name'])  
-        df[columns_to_zero] = 0
-
-        df.to_csv(f"data/share_point_df_{self.date}.csv")
+        self.point_df = pd.read_csv(f"data/{self.date}/share_point_df.csv", index_col=0)
 
     def initilaze(self):
         analyse_cari_oran(self)

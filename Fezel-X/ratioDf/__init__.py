@@ -3,5 +3,6 @@ from .ratio_df import (
     update_share_ratio_df,
     create_share_sector_df, 
     update_share_sector_df, 
-    produce_sector_average_df
+    produce_sector_average_df,
+    get_price_increase_percentage
     )

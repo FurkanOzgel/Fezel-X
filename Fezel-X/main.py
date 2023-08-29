@@ -7,18 +7,26 @@ from analyzer import Analyzer
 # ratioDf.update_share_sector_df()
 # ratioDf.produce_sector_average_df()
 
+# ratioDf.create_share_ratio_df("2023/6")
+# ratioDf.create_share_ratio_df("2023/3")
+# ratioDf.create_share_ratio_df("2022/12")
+
+# ratioDf.produce_sector_average_df("2022/12")
+# ratioDf.produce_sector_average_df("2023/3")
+# ratioDf.produce_sector_average_df("2023/6")
+
+# analyzer.produce_empty_point_df("2022/12")
+# analyzer.produce_empty_point_df("2023/3")
+# analyzer.produce_empty_point_df("2023/6")
+
+ratioDf.get_price_increase_percentage("2022/12")
+# ratioDf.get_price_increase_percentage("2023/3")
+# ratioDf.get_price_increase_percentage("2023/6")
 
 config = {
     "share_name": "ODAS",
     "cari_oran_deviation_percentage": 20,
-    "df_date": "2023/6"
+    "df_date": "2023/3"
 }
 
-# Analyzer(config).produce_empty_point_df()
 # Analyzer(config).initilaze()
-
-# ratioDf.create_share_ratio_df("2023/6")
-ratioDf.create_share_ratio_df("2023/3")
-ratioDf.create_share_ratio_df("2022/12")
-
-# ratioDf.produce_sector_average_df("2022-12")
