@@ -373,3 +373,7 @@ def produce_sector_average_df(date):
 def get_price_increase_percentage(date):
     date = date.replace("/", "-")
     print(date)
+
+    df = pd.read_excel(f"data/report_date/{date}.xlsx")
+
+    print(df.to_csv("deneem.csv"))

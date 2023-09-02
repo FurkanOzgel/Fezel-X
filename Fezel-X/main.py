@@ -20,7 +20,7 @@ from analyzer import Analyzer
 # analyzer.produce_empty_point_df("2023/6")
 
 ratioDf.get_price_increase_percentage("2022/12")
-# ratioDf.get_price_increase_percentage("2023/3")
+#ratioDf.get_price_increase_percentage("2023/3")
 # ratioDf.get_price_increase_percentage("2023/6")
 
 config = {
