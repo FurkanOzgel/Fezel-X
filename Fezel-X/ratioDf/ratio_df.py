@@ -370,10 +370,18 @@ def produce_sector_average_df(date):
             
     df.to_csv(f"data/{date}/sector_average_df_{date}.csv")
 
-def get_price_increase_percentage(date):
+def get_price_increase_percentages(date):
     date = date.replace("/", "-")
-    print(date)
+    
+    df = pd.read_csv(f"data/report_date/{date}.csv")
 
-    df = pd.read_excel(f"data/report_date/{date}.xlsx")
+    try:
+        percentage_df = pd.read_csv(f"data/{date}/share_price_increase_df.csv", index_col=0)
+    except:
+        percentage_df = pd.DataFrame(columns=["Share", "Increase_Percentage"])
+    
+    start_index = percentage_df.shape[0]
 
-    print(df.to_csv("deneem.csv"))
+    for index, row in df[start_index:].iterrows():
+        percentage_df.loc[row.Index] = [row.Share, get_increase_value(row.Share, date)]
+        percentage_df.to_csv(f"data/{date}/share_price_increase_df.csv")

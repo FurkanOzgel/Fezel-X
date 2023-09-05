@@ -1,4 +1,5 @@
 import requests
+import os
 
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -35,7 +36,16 @@ def remove_unicode_control_characters(text):
 def run_driver():
     global driver
     driver = webdriver.Chrome()
-    
+
+def run_downloader_driver(path):
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_experimental_option("prefs", {
+        "download.default_directory": path
+    })
+
+    global driver
+    driver = webdriver.Chrome(options=chrome_options)
+        
 def stop_driver():
     driver.quit()
 
@@ -299,3 +309,53 @@ def get_historical_fko_with_date(share_name, date):
     historical_fko = list(map(remove_unicode_control_characters, historical_fko))
 
     return historical_fko[0]
+
+def get_increase_value(share_name, date):
+    file_list = os.listdir("data/report_date")
+
+    def get_date_from_file_name(file_name):
+        date_field = file_name.split('.')[0]  # Dosya adından tarih kısmını al
+        return date_field
+
+    sorted_file_list = sorted(file_list, key=get_date_from_file_name)
+
+    if sorted_file_list[-1].split(".")[0] == date:
+        raise BaseException("The date is the same as the last balance sheet date.")
+    
+    if date + ".csv" not in file_list:
+        raise BaseException("Invalid Date")
+
+    date_index = sorted_file_list.index(date+".csv")
+    interval = [sorted_file_list[date_index], sorted_file_list[date_index+1]]
+
+    df = pd.read_csv(f"data/report_date/{interval[0]}")
+    start_df = df[df['Share'] == share_name]
+
+    df = pd.read_csv(f"data/report_date/{interval[1]}")
+    end_df = df[df['Share'] == share_name]
+
+    detailed_interval = [start_df["Report_Date"].values[0].split(" ")[0], end_df["Report_Date"].values[0].split(" ")[0]]
+
+    start_date = datetime.datetime.strptime(detailed_interval[0], '%Y-%m-%d')
+    start_date = str(int(datetime.datetime.timestamp(start_date)))
+
+    end_date = datetime.datetime.strptime(detailed_interval[1], '%Y-%m-%d')
+    end_date = str(int(datetime.datetime.timestamp(end_date)))
+
+    url = f"https://query1.finance.yahoo.com/v7/finance/download/{share_name}.IS?period1={start_date}&period2={end_date}&interval=1d&events=history&includeAdjustedClose=true"
+
+    try:
+        run_downloader_driver(f"/home/furkanozgel/Desktop/Fezel-X/data/{date}/historical_price")
+
+        driver.get(url)
+
+        time.sleep(2)
+
+        price_df = pd.read_csv(f"data/{date}/historical_price/{share_name}.IS.csv")
+
+        change_percentage = (100 * price_df.iloc[-1]["Close"] / price_df.iloc[0]["Open"]) - 100
+        
+        return change_percentage
+
+    except:
+        return 'NaN'
