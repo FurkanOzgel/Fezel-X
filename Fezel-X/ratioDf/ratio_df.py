@@ -374,6 +374,7 @@ def get_price_increase_percentages(date):
     date = date.replace("/", "-")
     
     df = pd.read_csv(f"data/report_date/{date}.csv")
+    df = df.drop_duplicates(subset='Share')
 
     try:
         percentage_df = pd.read_csv(f"data/{date}/share_price_increase_df.csv", index_col=0)
