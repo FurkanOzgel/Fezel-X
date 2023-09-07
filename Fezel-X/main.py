@@ -20,12 +20,12 @@ from analyzer import Analyzer
 # analyzer.produce_empty_point_df("2023/6")
 
 # ratioDf.get_price_increase_percentages("2022/12")
-ratioDf.get_price_increase_percentages("2023/3")
+# ratioDf.get_price_increase_percentages("2023/3")
 
 config = {
     "share_name": "ODAS",
-    "cari_oran_deviation_percentage": 20,
+    "cari_oran_deviation_percentage": 30,
     "df_date": "2023/3"
 }
 
-# Analyzer(config).initilaze()
+Analyzer(config).initilaze()
