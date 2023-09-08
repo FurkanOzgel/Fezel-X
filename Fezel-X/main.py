@@ -25,6 +25,7 @@ from analyzer import Analyzer
 config = {
     "share_name": "ODAS",
     "cari_oran_deviation_percentage": 30,
+    "percentage_change_for_the_trend": 19,
     "df_date": "2023/3"
 }
 

@@ -15,10 +15,14 @@ iyi olduğunu gösterebilir.
 3-)  Şirketin cari oranı, zaman içinde değişebilir. Bu nedenle, şirketin cari oranının trendini takip etmek önemlidir.
 Cari oranın düşmesi, şirketin kısa vadeli borçlarını ödeyememe riskini artırabilir. Öte yandan, cari oranın yükselmesi,
 şirketin finansal durumunun iyileştiğine işaret edebilir.
+
+3.1-) Trend tespit edilmeli (Bizim için trend nedir ?)
+3.2-) Son oran trend doğrultusundaysa nötr (Ufak hareketler tred kırılımı sayılmamalıs)
+      Trendden farklı ama yararlıysa up 
+      Trendden farklı ama zararlıysa down
 '''
 
 import json
-
 
 def analyseCariOran(shareName):
 

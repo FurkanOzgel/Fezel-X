@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import matplotlib.pyplot as plt
 
 def produce_empty_point_df(date):
     date = date.replace("/","-")
@@ -49,30 +50,16 @@ def analyse_cari_oran(data):
     # Step-3 End
 
     # Step-4 Start
-        # Verilerinizi bir liste olarak tanımlayın
-    cari_oranlar = [1.0916864458208118, 1.4324812908967393, 1.5312603318479594, 1.1907992460130674, 1.1317271940113551, 0.8579107170646479, 1.1506225291007945, 0.5811862604474414, 0.4594617939415237, 0.46708185896399523, 0.35834716234604574, 0.5183270768489299]
+    cari_oran_list_copy = cari_oran_list[:] 
+    cari_oran_list_copy.reverse()
 
-    # Veri noktaları arasındaki değişimi hesaplayın
-    degisimler = [cari_oranlar[i] - cari_oranlar[i - 1] for i in range(1, len(cari_oranlar))]
-    puan = 0
-    print(cari_oranlar)
-    print(degisimler)
+    x = list(range(len(cari_oran_list_copy)))
+    plt.plot(x, cari_oran_list_copy)
+    plt.show()
 
-    for degisim in degisimler:
-        if degisim > 0:
-            puan += 1
-        elif degisim < 0:
-            puan -= 1
+    print(cari_oran_list_copy)
+    print(x)
 
-    # Puanı yorumlayın
-    if puan > 0:
-        print("Cari oranlar artıyor, bu iyi bir işaret olabilir.")
-    elif puan < 0:
-        print("Cari oranlar azalıyor, bu kötü bir işaret olabilir.")
-    else:
-        print("Cari oranlarda belirgin bir trend gözlemlenmiyor.")
-        print()
-        print(degisimler)
     # Step-4 End
 
     
