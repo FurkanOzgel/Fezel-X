@@ -50,76 +50,88 @@ def analyse_cari_oran(data):
     # Step-3 End
 
     # Step-4 Start
-    print()
-    cari_oran_list = cari_oran_list[:-7] 
+    cari_oran_list = cari_oran_list[:] 
     cari_oran_list.reverse()
 
-    min_value_trend = (float('inf'), 0)
-    max_value_trend = (0, 0)
-    finish_index = len(cari_oran_list)
-
-    trend_percentage = data.config['cari_oran_percentage_change_for_the_trend']
-
-    temporary_data = []
     trend_list = []
 
-    print(cari_oran_list)
-    print()
+    stop_trend_search_loop = False
 
-    for value in cari_oran_list[:]:
-        if value < min_value_trend[0]:
-            min_value_trend = (value, cari_oran_list.index(value))
-        
-        if value > max_value_trend[0]:
-            max_value_trend = (value, cari_oran_list.index(value))
-        
-        if max_value_trend[0] > min_value_trend[0] * (1 + trend_percentage) and max_value_trend[1] > min_value_trend[1]:
-            print("boğa")
+    while not stop_trend_search_loop:
 
-            min_value_trend = (float('inf'), 0)
-            max_value_trend = (0, 0)
+        stop_trend_search_loop = True
 
-            temporary_data = cari_oran_list[min_value_trend[1]+1:]
+        min_value_trend = (float('inf'), 0)
+        max_value_trend = (0, 0)
+        finish_index = len(cari_oran_list)
 
-            for value in temporary_data:
-                if value < min_value_trend[0]:
-                    min_value_trend = (value, cari_oran_list.index(value))
-                
-                if value > max_value_trend[0]:
-                    max_value_trend = (value, cari_oran_list.index(value))
-    
-                if max_value_trend[0] * (1 - trend_percentage) > min_value_trend[0] and max_value_trend[1] < min_value_trend[1]:   
-                    finish_index = max_value_trend[1] + 1
-                    break
+        trend_percentage = data.config['cari_oran_percentage_change_for_the_trend']
+
+        temporary_data = []
+
+        for value in cari_oran_list[:]:
+            if value < min_value_trend[0]:
+                min_value_trend = (value, cari_oran_list.index(value))
             
-            print(cari_oran_list[:finish_index])
-            break
-
-        elif max_value_trend[0] * (1 - trend_percentage) > min_value_trend[0] and max_value_trend[1] < min_value_trend[1]:
-            print("ayı")
-
-            min_value_trend = (float('inf'), 0)
-            max_value_trend = (0, 0)
-
-            temporary_data = cari_oran_list[max_value_trend[1]+1:]
-
-            for value in temporary_data:
-                if value < min_value_trend[0]:
-                    min_value_trend = (value, cari_oran_list.index(value))
-                
-                if value > max_value_trend[0]:
-                    max_value_trend = (value, cari_oran_list.index(value))
-
-                if max_value_trend[0] > min_value_trend[0] * (1 + trend_percentage) and max_value_trend[1] > min_value_trend[1]:
-                    finish_index = min_value_trend[1] + 1
-                    break
+            if value > max_value_trend[0]:
+                max_value_trend = (value, cari_oran_list.index(value))
             
-            print(cari_oran_list[:finish_index])
-            break
+            if max_value_trend[0] > min_value_trend[0] * (1 + trend_percentage) and max_value_trend[1] > min_value_trend[1]:
+                min_value_trend = (float('inf'), 0)
+                max_value_trend = (0, 0)
+
+                temporary_data = cari_oran_list[min_value_trend[1]+1:]
+
+                for value in temporary_data:
+                    if value < min_value_trend[0]:
+                        min_value_trend = (value, cari_oran_list.index(value))
+                    
+                    if value > max_value_trend[0]:
+                        max_value_trend = (value, cari_oran_list.index(value))
+        
+                    if max_value_trend[0] * (1 - trend_percentage) > min_value_trend[0] and max_value_trend[1] < min_value_trend[1]:   
+                        finish_index = max_value_trend[1] + 1
+                        break
+                
+                trend_list.append(("bull" ,cari_oran_list[:finish_index]))
+                cari_oran_list = cari_oran_list[finish_index-1:]
+                stop_trend_search_loop = False
+                break
+
+            elif max_value_trend[0] * (1 - trend_percentage) > min_value_trend[0] and max_value_trend[1] < min_value_trend[1]:
+                min_value_trend = (float('inf'), 0)
+                max_value_trend = (0, 0)
+
+                temporary_data = cari_oran_list[max_value_trend[1]+1:]
+
+                for value in temporary_data:
+                    if value < min_value_trend[0]:
+                        min_value_trend = (value, cari_oran_list.index(value))
+                    
+                    if value > max_value_trend[0]:
+                        max_value_trend = (value, cari_oran_list.index(value))
+
+                    if max_value_trend[0] > min_value_trend[0] * (1 + trend_percentage) and max_value_trend[1] > min_value_trend[1]:
+                        finish_index = min_value_trend[1] + 1
+                        break
+                
+                trend_list.append(("bear", cari_oran_list[:finish_index]))
+                cari_oran_list = cari_oran_list[finish_index-1:]
+                stop_trend_search_loop = False
+                break
     
-    plt.plot(json.loads(data.ratios.iloc[0]["Cari_Oran"])[::-1])
-    plt.plot([0, 0, 0, 0, 0] + cari_oran_list[:finish_index])
-    plt.show()  
+    if trend_list[-1][0] == "bull":
+        if trend_list[-1][1][-1] > trend_list[-1][1][-2]:
+            print("Step-1.4: nötr")
+        else:
+            print("Step-1.4: down")
+
+    elif trend_list[-1][0] == "bear":
+        if trend_list[-1][1][-1] < trend_list[-1][1][-2]:
+            print("Step-1.4: nötr")
+        else:
+            print("Step-1.4: up")
+
     # Step-4 End
 
     print()
