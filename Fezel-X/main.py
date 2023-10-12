@@ -1,5 +1,6 @@
 import ratioDf
 from analyzer import Analyzer
+import modelTest
 
 # ratioDf.create_share_ratio_df()
 # ratioDf.update_share_ratio_df()
@@ -30,3 +31,5 @@ config = {
 }
 
 Analyzer(config).initilaze()
+
+# modelTest.fill_point_df("2022/12")
