@@ -2,7 +2,7 @@
 Alacak devir hızı, bir şirketin ne kadar sürede alacaklarını 
 tahsil edebildiğini ölçen bir rasyodur.
 
-1-) Geçmiş yılların verileriyle karşılaştırma yap.
+cancel 1-) Geçmiş yılların verileriyle karşılaştırma yap.
 
 2-) Sektör ortalamasıyla karşılaştır.
 
