@@ -14,6 +14,8 @@ def produce_empty_point_df(date):
     df.to_csv(f"data/{date}/share_point_df.csv")
 
 def analyse_cari_oran(data):
+    cari_oran_point = 0
+    point_list = data.config["cari_oran_rating"]
     deviation_percentage = data.config["cari_oran_deviation_percentage"]
     cari_oran_list = json.loads(data.ratios.iloc[0]["Cari_Oran"])
     
@@ -22,8 +24,10 @@ def analyse_cari_oran(data):
     # Step-1 Start
     if cari_oran_list[0] > 1:
         print("\nStep-1.1: up")
+        cari_oran_point = cari_oran_point + point_list[0]
     else:
         print("\nStep-1.1: down")
+        cari_oran_point = cari_oran_point + point_list[1]
     # Step-1 End
 
     # Step-2 Start
@@ -32,12 +36,17 @@ def analyse_cari_oran(data):
 
     if 1.5 < cari_oran_list[0] < 2.5:
         print("Step-1.2: up")
+        cari_oran_point = cari_oran_point + point_list[2]
     elif max_deviation_value < cari_oran_list[0]:
         print("Step-1.2: nötr")
+        cari_oran_point = cari_oran_point + point_list[3]
     elif min_deviation_value > cari_oran_list[0]:
         print("Step-1.2: nötr")
+        cari_oran_point = cari_oran_point + point_list[4]
     else:
         print("Step-1.2: down ")
+        cari_oran_point = cari_oran_point + point_list[5]
+
     # Step-2 End
 
     # Step-3 Start
@@ -45,8 +54,11 @@ def analyse_cari_oran(data):
 
     if cari_oran_list[0] > sector_average:
         print("Step-1.3: up")
+        cari_oran_point = cari_oran_point + point_list[6]
     else:
         print("Step-1.3: down")
+        cari_oran_point = cari_oran_point + point_list[7]
+
     # Step-3 End
 
     # Step-4 Start
@@ -123,18 +135,28 @@ def analyse_cari_oran(data):
     if trend_list[-1][0] == "bull":
         if trend_list[-1][1][-1] > trend_list[-1][1][-2]:
             print("Step-1.4: nötr")
+            cari_oran_point = cari_oran_point + point_list[8]
         else:
             print("Step-1.4: down")
+            cari_oran_point = cari_oran_point + point_list[9]
+
 
     elif trend_list[-1][0] == "bear":
         if trend_list[-1][1][-1] < trend_list[-1][1][-2]:
             print("Step-1.4: nötr")
+            cari_oran_point = cari_oran_point + point_list[10]
         else:
             print("Step-1.4: up")
+            cari_oran_point = cari_oran_point + point_list[11]
 
     # Step-4 End
 
+    print(f"\n\033[1mCari Oran Puanı: {cari_oran_point}\033[0m")
+    print("=" * 50)
+
     print()
+
+
 
 class Analyzer:
     def __init__(self, config):

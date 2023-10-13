@@ -27,7 +27,8 @@ config = {
     "share_name": "ODAS",
     "cari_oran_deviation_percentage": 30,
     "cari_oran_percentage_change_for_the_trend": 0.19,
-    "df_date": "2023/3"
+    "df_date": "2023/3",
+    "cari_oran_rating": [5, 2, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5]
 }
 
 Analyzer(config).initilaze()
