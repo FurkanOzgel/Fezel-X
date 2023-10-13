@@ -177,6 +177,34 @@ def analyse_nakit_oran(data):
     print(f"\n\033[1mNakit Oran Puanı: {nakit_oran_point}\033[0m")
     print("=" * 50)
 
+def analyse_yabancı_kaynak_ozkaynak(data):
+    yabancı_kaynak_ozkaynak_point = 0
+    point_list = data.config["yabancı_kaynak_ozkaynak_rating"]
+    yabancı_kaynak_ozkaynak = json.loads(data.ratios.iloc[0]["Toplam_Yabancı_Kaynaklar_Oz_Kaynaklar_Oranı"])[0]
+
+    print(f"\n\033[1mToplam Yabancı Kaynaklar / Öz Kaynaklar: {yabancı_kaynak_ozkaynak}\033[0m")
+    print()
+
+    # Step-3.1 Start
+    if 0 < yabancı_kaynak_ozkaynak < 0.5:
+        print("Step-3.1: nötr")
+        yabancı_kaynak_ozkaynak_point = yabancı_kaynak_ozkaynak_point + point_list[0]
+
+    elif 0.5 < yabancı_kaynak_ozkaynak < 1:
+        print("Step-3.1: nötr")
+        yabancı_kaynak_ozkaynak_point = yabancı_kaynak_ozkaynak_point + point_list[1]
+
+    elif 1 < yabancı_kaynak_ozkaynak < 2:
+        print("Step-3.1: nötr")
+        yabancı_kaynak_ozkaynak_point = yabancı_kaynak_ozkaynak_point + point_list[2]
+    
+    else:
+        print("Step-3.1: nötr")
+        yabancı_kaynak_ozkaynak_point = yabancı_kaynak_ozkaynak_point + point_list[3]
+    # Step-3.1 End
+
+    print(f"\n\033[1mToplam Yabancı Kaynaklar / Öz Kaynaklar Puanı: {yabancı_kaynak_ozkaynak_point}\033[0m")
+    print("=" * 50)
 
 class Analyzer:
     def __init__(self, config):
@@ -198,4 +226,5 @@ class Analyzer:
     def initilaze(self):
         analyse_cari_oran(self)
         analyse_nakit_oran(self)
+        analyse_yabancı_kaynak_ozkaynak(self)
         
