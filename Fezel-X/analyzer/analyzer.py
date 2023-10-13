@@ -229,6 +229,29 @@ def analyse_alacak_devir_hızı(data):
     print(f"\n\033[1mAlacak Devir Hızı: {alacak_devir_hızı_point}\033[0m")
     print("=" * 50)
 
+def analyse_aktif_devir_hızı(data):
+    aktif_devir_hızı_point = 0
+    point_list = data.config["aktif_devir_hızı_rating"]
+    deviation_percentage = data.config["devir_hızı_deviation_percentage"]
+    aktif_devir_hızı = data.ratios.iloc[0]["Aktif_Devir_Hızı"]
+    sector_average = data.sector_average_ratios.iloc[0]["Aktif_Devir_Hızı"]
+
+    print(f"\n\033[1mAktif Devir Hızı: {aktif_devir_hızı}\033[0m")
+    print()
+
+    if sector_average * (1 + deviation_percentage) < aktif_devir_hızı:
+        print("Step-4.1: up")
+        aktif_devir_hızı_point = aktif_devir_hızı_point + point_list[0]
+    elif sector_average * (1 - deviation_percentage) < aktif_devir_hızı:
+        print("Step-4.1: down")
+        aktif_devir_hızı_point = aktif_devir_hızı_point + point_list[1]
+    else:
+        print("Step-4.1: nötr")
+        aktif_devir_hızı_point = aktif_devir_hızı_point + point_list[2]
+
+    print(f"\n\033[1mAktif Devir Hızı: {aktif_devir_hızı_point}\033[0m")
+    print("=" * 50)
+
 class Analyzer:
     def __init__(self, config):
         self.config = config
@@ -251,4 +274,5 @@ class Analyzer:
         analyse_nakit_oran(self)
         analyse_yabancı_kaynak_ozkaynak(self)
         analyse_alacak_devir_hızı(self)
+        analyse_aktif_devir_hızı(self)
         

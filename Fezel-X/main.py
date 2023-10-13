@@ -32,7 +32,8 @@ config = {
     "cari_oran_rating": [5, 2, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5],
     "nakit_oran_rating": [1, 1, 1],
     "yabancı_kaynak_ozkaynak_rating": [1, 1, 1, 1],
-    "alacak_devir_hızı_rating": [4, 5, 2]
+    "alacak_devir_hızı_rating": [4, 5, 2],
+    "aktif_devir_hızı_rating": [4, 5, 2]
 }
 
 Analyzer(config).initilaze()
