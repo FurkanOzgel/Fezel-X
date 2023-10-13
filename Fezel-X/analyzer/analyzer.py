@@ -226,7 +226,7 @@ def analyse_alacak_devir_hızı(data):
         print("Step-4.1: nötr")
         alacak_devir_hızı_point = alacak_devir_hızı_point + point_list[2]
 
-    print(f"\n\033[1mAlacak Devir Hızı: {alacak_devir_hızı_point}\033[0m")
+    print(f"\n\033[1mAlacak Devir Hızı Puanı: {alacak_devir_hızı_point}\033[0m")
     print("=" * 50)
 
 def analyse_aktif_devir_hızı(data):
@@ -240,17 +240,53 @@ def analyse_aktif_devir_hızı(data):
     print()
 
     if sector_average * (1 + deviation_percentage) < aktif_devir_hızı:
-        print("Step-4.1: up")
+        print("Step-5.1: up")
         aktif_devir_hızı_point = aktif_devir_hızı_point + point_list[0]
     elif sector_average * (1 - deviation_percentage) < aktif_devir_hızı:
-        print("Step-4.1: down")
+        print("Step-5.1: down")
         aktif_devir_hızı_point = aktif_devir_hızı_point + point_list[1]
     else:
-        print("Step-4.1: nötr")
+        print("Step-5.1: nötr")
         aktif_devir_hızı_point = aktif_devir_hızı_point + point_list[2]
 
-    print(f"\n\033[1mAktif Devir Hızı: {aktif_devir_hızı_point}\033[0m")
+    print(f"\n\033[1mAktif Devir Hızı Puanı: {aktif_devir_hızı_point}\033[0m")
     print("=" * 50)
+
+def analyse_ozvarlık_karlıgı(data):
+    ozvarlık_karlıgı_point = 0
+    point_list = data.config["ozvarlık_karlıgı_rating"]
+    deviation_percentage = data.config["oz_varlık_deviation_percentage"]
+    ozvarlık_karlıgı_list = eval(data.ratios.iloc[0]["Oz_Varlık_Karlılıgı"])
+    ozvarlık_karlıgı = float(ozvarlık_karlıgı_list[0])
+    sector_average = data.sector_average_ratios.iloc[0]["Oz_Varlık_Karlılıgı"]
+
+    print(f"\n\033[1mOz_Varlık_Karlılıgı: {ozvarlık_karlıgı_list[0]}\033[0m")
+    print()
+
+    if sector_average * (1 + deviation_percentage) < ozvarlık_karlıgı:
+        print("Step-6.1: up")
+        ozvarlık_karlıgı_point = ozvarlık_karlıgı_point + point_list[0]
+    elif sector_average * (1 - deviation_percentage) < ozvarlık_karlıgı:
+        print("Step-6.1: down")
+        ozvarlık_karlıgı_point = ozvarlık_karlıgı_point + point_list[1]
+    else:
+        print("Step-6.1: nötr")
+        ozvarlık_karlıgı_point = ozvarlık_karlıgı_point + point_list[2]
+
+    try:
+        if ozvarlık_karlıgı_list[0] > ozvarlık_karlıgı_list[3]:
+            print("Step-6.2: up")
+            ozvarlık_karlıgı_point = ozvarlık_karlıgı_point + point_list[3]
+        else:
+            print("Step-6.2: down")
+            ozvarlık_karlıgı_point = ozvarlık_karlıgı_point + point_list[4]
+    except:
+        pass
+
+
+    print(f"\n\033[1mÖz Varlık Kârlılığı Puanı: {ozvarlık_karlıgı_point}\033[0m")
+    print("=" * 50)
+
 
 class Analyzer:
     def __init__(self, config):
@@ -275,4 +311,5 @@ class Analyzer:
         analyse_yabancı_kaynak_ozkaynak(self)
         analyse_alacak_devir_hızı(self)
         analyse_aktif_devir_hızı(self)
+        analyse_ozvarlık_karlıgı(self)
         

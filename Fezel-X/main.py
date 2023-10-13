@@ -24,16 +24,18 @@ import modelTest
 # ratioDf.get_price_increase_percentages("2023/3")
 
 config = {
-    "share_name": "THYAO",
+    "share_name": "ODAS",
+    "df_date": "2023/3",
     "cari_oran_deviation_percentage": 30,
     "devir_hızı_deviation_percentage": 0.1,
+    "oz_varlık_deviation_percentage": 0.1,
     "cari_oran_percentage_change_for_the_trend": 0.19,
-    "df_date": "2023/3",
     "cari_oran_rating": [5, 2, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5],
     "nakit_oran_rating": [1, 1, 1],
     "yabancı_kaynak_ozkaynak_rating": [1, 1, 1, 1],
     "alacak_devir_hızı_rating": [4, 5, 2],
-    "aktif_devir_hızı_rating": [4, 5, 2]
+    "aktif_devir_hızı_rating": [4, 5, 2],
+    "ozvarlık_karlıgı_rating": [4, 5, 2, 2, 1]
 }
 
 Analyzer(config).initilaze()
