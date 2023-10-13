@@ -21,16 +21,16 @@ def analyse_cari_oran(data):
     
     print(f"\n\033[1mCari Oran: {cari_oran_list[0]}\033[0m")
 
-    # Step-1 Start
+    # Step-1.1 Start
     if cari_oran_list[0] > 1:
         print("\nStep-1.1: up")
         cari_oran_point = cari_oran_point + point_list[0]
     else:
         print("\nStep-1.1: down")
         cari_oran_point = cari_oran_point + point_list[1]
-    # Step-1 End
+    # Step-1.1 End
 
-    # Step-2 Start
+    # Step-1.2 Start
     max_deviation_value = 2.5 + (1.75 * deviation_percentage / 100)
     min_deviation_value = 1.5 - (1.75 * deviation_percentage / 100)
 
@@ -47,9 +47,9 @@ def analyse_cari_oran(data):
         print("Step-1.2: down ")
         cari_oran_point = cari_oran_point + point_list[5]
 
-    # Step-2 End
+    # Step-1.2 End
 
-    # Step-3 Start
+    # Step-1.3 Start
     sector_average = data.sector_average_ratios.iloc[0]["Cari_Oran"]
 
     if cari_oran_list[0] > sector_average:
@@ -59,9 +59,9 @@ def analyse_cari_oran(data):
         print("Step-1.3: down")
         cari_oran_point = cari_oran_point + point_list[7]
 
-    # Step-3 End
+    # Step-1.3 End
 
-    # Step-4 Start
+    # Step-1.4 Start
     cari_oran_list = cari_oran_list[:] 
     cari_oran_list.reverse()
 
@@ -149,13 +149,33 @@ def analyse_cari_oran(data):
             print("Step-1.4: up")
             cari_oran_point = cari_oran_point + point_list[11]
 
-    # Step-4 End
+    # Step-1.4 End
 
     print(f"\n\033[1mCari Oran Puanı: {cari_oran_point}\033[0m")
     print("=" * 50)
 
+def analyse_nakit_oran(data):
+    nakit_oran_point = 0
+    point_list = data.config["nakit_oran_rating"]
+    nakit_oran = json.loads(data.ratios.iloc[0]["Nakit_Oran"])[0]
+
+    print(f"\n\033[1mNakit Oran: {nakit_oran}\033[0m")
     print()
 
+    # Step-2.1 Start
+    if 0.18 > nakit_oran > 0.22:
+        print("Step-2.1: up")
+        nakit_oran_point = nakit_oran_point + point_list[0]
+    elif 0.22 < nakit_oran:
+        print("Step-2.1: down")
+        nakit_oran_point = nakit_oran_point + point_list[1]
+    elif 0.18 > nakit_oran:
+        print("Step-2.1: down")
+        nakit_oran_point = nakit_oran_point + point_list[2]
+    # Step-2.1 End
+
+    print(f"\n\033[1mNakit Oran Puanı: {nakit_oran_point}\033[0m")
+    print("=" * 50)
 
 
 class Analyzer:
@@ -177,4 +197,5 @@ class Analyzer:
 
     def initilaze(self):
         analyse_cari_oran(self)
+        analyse_nakit_oran(self)
         
