@@ -152,6 +152,7 @@ def analyse_cari_oran(data):
     # Step-1.4 End
 
     print(f"\n\033[1mCari Oran Puanı: {cari_oran_point}\033[0m")
+    data.point_list.append(cari_oran_point)
     print("=" * 50)
 
 def analyse_nakit_oran(data):
@@ -175,6 +176,7 @@ def analyse_nakit_oran(data):
     # Step-2.1 End
 
     print(f"\n\033[1mNakit Oran Puanı: {nakit_oran_point}\033[0m")
+    data.point_list.append(nakit_oran_point)
     print("=" * 50)
 
 def analyse_yabancı_kaynak_ozkaynak(data):
@@ -204,6 +206,7 @@ def analyse_yabancı_kaynak_ozkaynak(data):
     # Step-3.1 End
 
     print(f"\n\033[1mToplam Yabancı Kaynaklar / Öz Kaynaklar Puanı: {yabancı_kaynak_ozkaynak_point}\033[0m")
+    data.point_list.append(yabancı_kaynak_ozkaynak_point)
     print("=" * 50)
 
 def analyse_alacak_devir_hızı(data):
@@ -228,6 +231,7 @@ def analyse_alacak_devir_hızı(data):
         alacak_devir_hızı_point = alacak_devir_hızı_point + point_list[2]
 
     print(f"\n\033[1mAlacak Devir Hızı Puanı: {alacak_devir_hızı_point}\033[0m")
+    data.point_list.append(alacak_devir_hızı_point)
     print("=" * 50)
 
 def analyse_aktif_devir_hızı(data):
@@ -252,6 +256,7 @@ def analyse_aktif_devir_hızı(data):
         aktif_devir_hızı_point = aktif_devir_hızı_point + point_list[2]
 
     print(f"\n\033[1mAktif Devir Hızı Puanı: {aktif_devir_hızı_point}\033[0m")
+    data.point_list.append(aktif_devir_hızı_point)
     print("=" * 50)
 
 def analyse_ozvarlık_karlıgı(data):
@@ -287,6 +292,7 @@ def analyse_ozvarlık_karlıgı(data):
         pass
 
     print(f"\n\033[1mÖz Varlık Kârlılığı Puanı: {ozvarlık_karlıgı_point}\033[0m")
+    data.point_list.append(ozvarlık_karlıgı_point)
     print("=" * 50)
 
 def analyse_kar_marjları(data):
@@ -331,6 +337,7 @@ def analyse_kar_marjları(data):
         print()
     
     print(f"\n\033[1mKâr Marjları: Puanı: {kar_marjları_point}\033[0m")
+    data.point_list.append(kar_marjları_point)
     print("=" * 50)
 
 def analyse_hbk(data):
@@ -351,6 +358,7 @@ def analyse_hbk(data):
             hbk_point = hbk_point + point_list[1]
 
         print(f"\n\033[1mHisse Başı Kazanç Puanı: {hbk_point}\033[0m")
+        data.point_list.append(hbk_point)
     except:
         print("!!!HBK ERROR!!!")
     
@@ -378,6 +386,7 @@ def analyse_fs(data):
         fs_point = fs_point + point_list[2]
 
     print(f"\n\033[1mF/s Oranı Puanı: {fs_point}\033[0m")
+    data.point_list.append(fs_point)
     print("=" * 50)
 
 class Analyzer:
@@ -395,7 +404,7 @@ class Analyzer:
         sector_average_df = pd.read_csv(f"data/{self.date}/sector_average_df_{self.date}.csv", index_col=0)
         self.sector_average_ratios = sector_average_df[sector_average_df["Sector"] == sector]
         
-        self.point_df = pd.read_csv(f"data/{self.date}/share_point_df.csv", index_col=0)
+        self.point_list = []
 
     def initilaze(self):
         analyse_cari_oran(self)
@@ -407,4 +416,6 @@ class Analyzer:
         analyse_kar_marjları(self)
         analyse_hbk(self)
         analyse_fs(self)
+
+        return self.point_list
         

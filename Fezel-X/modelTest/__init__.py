@@ -1,1 +1,1 @@
-from .model_test import fill_point_df
+from .model_test import fill_point_df, run_test

@@ -24,25 +24,25 @@ import modelTest
 # ratioDf.get_price_increase_percentages("2023/3")
 
 config = {
-    "share_name": "ODAS",
-    "df_date": "2023/3",
     "cari_oran_deviation_percentage": 30,
     "devir_hızı_deviation_percentage": 0.1,
     "oz_varlık_deviation_percentage": 0.1,
     "kar_marjları_deviation_percentage": 0.1,
     "fs_deviation_percentage": 0.1,
     "cari_oran_percentage_change_for_the_trend": 0.19,
-    "cari_oran_rating": [5, 2, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+    "cari_oran_rating": [5, 2, 3, 5, 5, 5, 12, 5, 5, 5, 5, 5],
     "nakit_oran_rating": [1, 1, 1],
     "yabancı_kaynak_ozkaynak_rating": [1, 1, 1, 1],
     "alacak_devir_hızı_rating": [4, 5, 2],
-    "aktif_devir_hızı_rating": [4, 5, 2],
+    "aktif_devir_hızı_rating": [4, 5, 7],
     "ozvarlık_karlıgı_rating": [4, 5, 2, 2, 1],
     "kar_marjları_rating": [1, 2, 3, 4, 5],
     "hbk_rating": [1, 2],
     "fs_rating": [1, 2, 2]
 }
 
-Analyzer(config).initilaze()
+# Analyzer(config).initilaze()
+
+modelTest.run_test("2023/3", config)
 
 # modelTest.fill_point_df("2022/12")
