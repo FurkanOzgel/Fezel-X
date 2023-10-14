@@ -37,7 +37,8 @@ config = {
     "alacak_devir_hızı_rating": [4, 5, 2],
     "aktif_devir_hızı_rating": [4, 5, 2],
     "ozvarlık_karlıgı_rating": [4, 5, 2, 2, 1],
-    "kar_marjları_rating": [1, 2, 3, 4, 5]
+    "kar_marjları_rating": [1, 2, 3, 4, 5],
+    "hbk_rating": [1, 2]
 }
 
 Analyzer(config).initilaze()

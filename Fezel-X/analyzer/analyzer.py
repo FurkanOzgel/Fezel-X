@@ -260,7 +260,7 @@ def analyse_ozvarlık_karlıgı(data):
     ozvarlık_karlıgı = float(ozvarlık_karlıgı_list[0])
     sector_average = data.sector_average_ratios.iloc[0]["Oz_Varlık_Karlılıgı"]
 
-    print(f"\n\033[1mÖz Varlık Karlılığı: {ozvarlık_karlıgı_list[0]}\033[0m")
+    print(f"\n\033[1mÖz Varlık Kârlılığı: {ozvarlık_karlıgı_list[0]}\033[0m")
     print()
 
     if sector_average * (1 + deviation_percentage) < ozvarlık_karlıgı:
@@ -324,6 +324,29 @@ def analyse_kar_marjları(data):
     print(f"\n\033[1mKâr Marjları: Puanı: {kar_marjları_point}\033[0m")
     print("=" * 50)
 
+def analyse_hbk(data):
+    hbk_point = 0
+    point_list = data.config["hbk_rating"]
+    hbk_list = eval(data.ratios.iloc[0]["Hisse_Bası_Kazanc"])
+    hbk = float(hbk_list[0])
+
+    try:
+        print(f"\n\033[1mHisse Başı Kazanç: {hbk_list[0]}\033[0m")
+        print()
+
+        if hbk_list[0] > hbk_list[2]:
+            print("Step-8.1: up")
+            hbk_point = hbk_point + point_list[0]
+        else:
+            print("Step-8.1: down")
+            hbk_point = hbk_point + point_list[1]
+
+        print(f"\n\033[1mHisse Başı Kazanç Puanı: {hbk_point}\033[0m")
+    except:
+        print("!!!HBK ERROR!!!")
+    
+    print("=" * 50)
+
 
 class Analyzer:
     def __init__(self, config):
@@ -350,4 +373,5 @@ class Analyzer:
         analyse_aktif_devir_hızı(self)
         analyse_ozvarlık_karlıgı(self)
         analyse_kar_marjları(self)
+        analyse_hbk(self)
         
