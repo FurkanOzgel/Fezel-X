@@ -214,6 +214,7 @@ def analyse_alacak_devir_hızı(data):
     sector_average = data.sector_average_ratios.iloc[0]["Alacak_Devir_Hızı"]
 
     print(f"\n\033[1mAlacak Devir Hızı: {alacak_devir_hızı}\033[0m")
+    print(f"\033[1mSektör Ortalaması: {sector_average}\033[0m")
     print()
 
     if sector_average * (1 + deviation_percentage) < alacak_devir_hızı:
@@ -237,6 +238,7 @@ def analyse_aktif_devir_hızı(data):
     sector_average = data.sector_average_ratios.iloc[0]["Aktif_Devir_Hızı"]
 
     print(f"\n\033[1mAktif Devir Hızı: {aktif_devir_hızı}\033[0m")
+    print(f"\033[1mSektör Ortalaması: {sector_average}\033[0m")
     print()
 
     if sector_average * (1 + deviation_percentage) < aktif_devir_hızı:
@@ -261,6 +263,7 @@ def analyse_ozvarlık_karlıgı(data):
     sector_average = data.sector_average_ratios.iloc[0]["Oz_Varlık_Karlılıgı"]
 
     print(f"\n\033[1mÖz Varlık Kârlılığı: {ozvarlık_karlıgı_list[0]}\033[0m")
+    print(f"\033[1mSektör Ortalaması: {sector_average}\033[0m")
     print()
 
     if sector_average * (1 + deviation_percentage) < ozvarlık_karlıgı:
@@ -294,8 +297,14 @@ def analyse_kar_marjları(data):
     sector_average = eval(data.sector_average_ratios.iloc[0]["Kar_Marjları"])
 
     print(f"\n\033[1mKâr Marjları:\033[0m")
+
     for key, value in kar_marjları_list.items():
         print(f"   {key}: \033[1m{value[0]}\033[0m")
+    print()
+
+    print(f"\033[1mSektör Ortalaması:\033[0m")
+    for key, value in sector_average.items():
+        print(f"   {key}: \033[1m{value}\033[0m")
     print()
 
     for key, value in kar_marjları_list.items():
@@ -347,6 +356,29 @@ def analyse_hbk(data):
     
     print("=" * 50)
 
+def analyse_fs(data):
+    fs_point = 0
+    point_list = data.config["fs_rating"]
+    deviation_percentage = data.config["fs_deviation_percentage"]
+    fs = float(data.ratios.iloc[0]["Fiyat_Satıs_Oranı"])
+    sector_average = float(data.sector_average_ratios.iloc[0]["Fiyat_Satıs_Oranı"])
+
+    print(f"\n\033[1mF/s Oranı: {fs}\033[0m")
+    print(f"\033[1mSektör Ortalaması: {sector_average}\033[0m")
+    print()
+
+    if sector_average * (1 + deviation_percentage) < fs:
+        print("Step-9.1: down")
+        fs_point = fs_point + point_list[0]
+    elif sector_average * (1 - deviation_percentage) < fs:
+        print("Step-9.1: up")
+        fs_point = fs_point + point_list[1]
+    else:
+        print("Step-9.1: nötr")
+        fs_point = fs_point + point_list[2]
+
+    print(f"\n\033[1mF/s Oranı Puanı: {fs_point}\033[0m")
+    print("=" * 50)
 
 class Analyzer:
     def __init__(self, config):
@@ -374,4 +406,5 @@ class Analyzer:
         analyse_ozvarlık_karlıgı(self)
         analyse_kar_marjları(self)
         analyse_hbk(self)
+        analyse_fs(self)
         

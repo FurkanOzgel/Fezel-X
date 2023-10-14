@@ -30,6 +30,7 @@ config = {
     "devir_hızı_deviation_percentage": 0.1,
     "oz_varlık_deviation_percentage": 0.1,
     "kar_marjları_deviation_percentage": 0.1,
+    "fs_deviation_percentage": 0.1,
     "cari_oran_percentage_change_for_the_trend": 0.19,
     "cari_oran_rating": [5, 2, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5],
     "nakit_oran_rating": [1, 1, 1],
@@ -38,7 +39,8 @@ config = {
     "aktif_devir_hızı_rating": [4, 5, 2],
     "ozvarlık_karlıgı_rating": [4, 5, 2, 2, 1],
     "kar_marjları_rating": [1, 2, 3, 4, 5],
-    "hbk_rating": [1, 2]
+    "hbk_rating": [1, 2],
+    "fs_rating": [1, 2, 2]
 }
 
 Analyzer(config).initilaze()
