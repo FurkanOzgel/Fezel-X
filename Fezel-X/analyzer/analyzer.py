@@ -260,7 +260,7 @@ def analyse_ozvarlık_karlıgı(data):
     ozvarlık_karlıgı = float(ozvarlık_karlıgı_list[0])
     sector_average = data.sector_average_ratios.iloc[0]["Oz_Varlık_Karlılıgı"]
 
-    print(f"\n\033[1mOz_Varlık_Karlılıgı: {ozvarlık_karlıgı_list[0]}\033[0m")
+    print(f"\n\033[1mÖz Varlık Karlılığı: {ozvarlık_karlıgı_list[0]}\033[0m")
     print()
 
     if sector_average * (1 + deviation_percentage) < ozvarlık_karlıgı:
@@ -283,8 +283,45 @@ def analyse_ozvarlık_karlıgı(data):
     except:
         pass
 
-
     print(f"\n\033[1mÖz Varlık Kârlılığı Puanı: {ozvarlık_karlıgı_point}\033[0m")
+    print("=" * 50)
+
+def analyse_kar_marjları(data):
+    kar_marjları_point = 0
+    point_list = data.config["kar_marjları_rating"]
+    deviation_percentage = data.config["kar_marjları_deviation_percentage"]
+    kar_marjları_list = eval(data.ratios.iloc[0]["Kar_Marjları"])
+    sector_average = eval(data.sector_average_ratios.iloc[0]["Kar_Marjları"])
+
+    print(f"\n\033[1mKâr Marjları:\033[0m")
+    for key, value in kar_marjları_list.items():
+        print(f"   {key}: \033[1m{value[0]}\033[0m")
+    print()
+
+    for key, value in kar_marjları_list.items():
+        if float(sector_average[key]) * (1 + deviation_percentage) < float(value[0]):
+            print("Step-7.1: up")
+            kar_marjları_point = kar_marjları_point + point_list[0]
+        elif float(sector_average[key]) * (1 - deviation_percentage) < float(value[0]):
+            print("Step-7.1: down")
+            kar_marjları_point = kar_marjları_point + point_list[1]
+        else:
+            print("Step-7.1: nötr")
+            kar_marjları_point = kar_marjları_point + point_list[2]
+
+        try:
+            if float(value[0]) > float(value[3]):
+                print("Step-7.2: up")
+                kar_marjları_point = kar_marjları_point + point_list[3]
+            else:
+                print("Step-7.2: down")
+                kar_marjları_point = kar_marjları_point + point_list[4]
+        except:
+            pass
+
+        print()
+    
+    print(f"\n\033[1mKâr Marjları: Puanı: {kar_marjları_point}\033[0m")
     print("=" * 50)
 
 
@@ -312,4 +349,5 @@ class Analyzer:
         analyse_alacak_devir_hızı(self)
         analyse_aktif_devir_hızı(self)
         analyse_ozvarlık_karlıgı(self)
+        analyse_kar_marjları(self)
         
