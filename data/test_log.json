@@ -1,146 +1,6 @@
 [
     {
-        "id": 1042,
-        "config": {
-            "cari_oran_deviation_percentage": 30,
-            "devir_hızı_deviation_percentage": 0.1,
-            "oz_varlık_deviation_percentage": 0.1,
-            "kar_marjları_deviation_percentage": 0.1,
-            "fs_deviation_percentage": 0.1,
-            "cari_oran_percentage_change_for_the_trend": 0.19,
-            "cari_oran_rating": [
-                5,
-                2,
-                3,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5
-            ],
-            "nakit_oran_rating": [
-                1,
-                1,
-                1
-            ],
-            "yabancı_kaynak_ozkaynak_rating": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "alacak_devir_hızı_rating": [
-                4,
-                5,
-                2
-            ],
-            "aktif_devir_hızı_rating": [
-                4,
-                5,
-                2
-            ],
-            "ozvarlık_karlıgı_rating": [
-                4,
-                5,
-                2,
-                2,
-                1
-            ],
-            "kar_marjları_rating": [
-                1,
-                2,
-                3,
-                4,
-                5
-            ],
-            "hbk_rating": [
-                1,
-                2
-            ],
-            "fs_rating": [
-                1,
-                2,
-                2
-            ]
-        },
-        "succes_rate": -4.727682490635508
-    },
-    {
-        "id": 1043,
-        "config": {
-            "cari_oran_deviation_percentage": 30,
-            "devir_hızı_deviation_percentage": 0.1,
-            "oz_varlık_deviation_percentage": 0.1,
-            "kar_marjları_deviation_percentage": 0.1,
-            "fs_deviation_percentage": 0.1,
-            "cari_oran_percentage_change_for_the_trend": 0.19,
-            "cari_oran_rating": [
-                5,
-                2,
-                3,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5
-            ],
-            "nakit_oran_rating": [
-                1,
-                1,
-                1
-            ],
-            "yabancı_kaynak_ozkaynak_rating": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "alacak_devir_hızı_rating": [
-                4,
-                5,
-                2
-            ],
-            "aktif_devir_hızı_rating": [
-                4,
-                5,
-                7
-            ],
-            "ozvarlık_karlıgı_rating": [
-                4,
-                5,
-                2,
-                2,
-                1
-            ],
-            "kar_marjları_rating": [
-                1,
-                2,
-                3,
-                4,
-                5
-            ],
-            "hbk_rating": [
-                1,
-                2
-            ],
-            "fs_rating": [
-                1,
-                2,
-                2
-            ]
-        },
-        "succes_rate": -4.574310908750327
-    },
-    {
-        "id": 1044,
+        "id": 1060,
         "config": {
             "cari_oran_deviation_percentage": 30,
             "devir_hızı_deviation_percentage": 0.1,
@@ -205,8 +65,6683 @@
                 1,
                 2,
                 2
-            ]
+            ],
+            "df_date": "2022/12"
         },
-        "succes_rate": -4.462325496352831
+        "succes_rate": -36.051351016989635
+    },
+    {
+        "id": 1061,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                5,
+                2,
+                3,
+                5,
+                5,
+                5,
+                12,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "nakit_oran_rating": [
+                1,
+                1,
+                1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "alacak_devir_hızı_rating": [
+                4,
+                5,
+                2
+            ],
+            "aktif_devir_hızı_rating": [
+                4,
+                5,
+                7
+            ],
+            "ozvarlık_karlıgı_rating": [
+                4,
+                5,
+                2,
+                2,
+                1
+            ],
+            "kar_marjları_rating": [
+                1,
+                2,
+                5,
+                4,
+                5
+            ],
+            "hbk_rating": [
+                1,
+                2
+            ],
+            "fs_rating": [
+                1,
+                2,
+                2
+            ],
+            "df_date": "2022/12"
+        },
+        "succes_rate": -34.11225609433514
+    },
+    {
+        "id": 1062,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                6,
+                2,
+                3,
+                5,
+                5,
+                5,
+                12,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "nakit_oran_rating": [
+                1,
+                1,
+                1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "alacak_devir_hızı_rating": [
+                4,
+                5,
+                2
+            ],
+            "aktif_devir_hızı_rating": [
+                4,
+                5,
+                7
+            ],
+            "ozvarlık_karlıgı_rating": [
+                4,
+                5,
+                2,
+                2,
+                1
+            ],
+            "kar_marjları_rating": [
+                1,
+                2,
+                5,
+                4,
+                5
+            ],
+            "hbk_rating": [
+                1,
+                2
+            ],
+            "fs_rating": [
+                1,
+                2,
+                2
+            ],
+            "df_date": "2022/12"
+        },
+        "succes_rate": -33.73115452570834
+    },
+    {
+        "id": 1063,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                6,
+                2,
+                3,
+                5,
+                5,
+                5,
+                12,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "nakit_oran_rating": [
+                1,
+                1,
+                1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "alacak_devir_hızı_rating": [
+                4,
+                5,
+                2
+            ],
+            "aktif_devir_hızı_rating": [
+                4,
+                5,
+                7
+            ],
+            "ozvarlık_karlıgı_rating": [
+                4,
+                5,
+                2,
+                2,
+                1
+            ],
+            "kar_marjları_rating": [
+                1,
+                2,
+                5,
+                4,
+                5
+            ],
+            "hbk_rating": [
+                1,
+                2
+            ],
+            "fs_rating": [
+                1,
+                2,
+                2
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -4.183835774487855
+    },
+    {
+        "id": 1065,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -143.36744916498392
+    },
+    {
+        "id": 1066,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1067,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -143.36744916498392
+    },
+    {
+        "id": 1068,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1069,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -143.36744916498392
+    },
+    {
+        "id": 1070,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1071,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1072,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -100.56556723784335
+    },
+    {
+        "id": 1073,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -100.56556723784335
+    },
+    {
+        "id": 1074,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -95.36230688596075
+    },
+    {
+        "id": 1075,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -95.36230688596075
+    },
+    {
+        "id": 1076,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -91.29727914361413
+    },
+    {
+        "id": 1077,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -91.29727914361413
+    },
+    {
+        "id": 1079,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -143.36744916498392
+    },
+    {
+        "id": 1080,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1081,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1082,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -100.56556723784335
+    },
+    {
+        "id": 1083,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -100.56556723784335
+    },
+    {
+        "id": 1084,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -95.36230688596075
+    },
+    {
+        "id": 1085,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -95.36230688596075
+    },
+    {
+        "id": 1086,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                1.1,
+                1.1,
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -91.29727914361413
+    },
+    {
+        "id": 1088,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -143.36744916498392
+    },
+    {
+        "id": 1089,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1091,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -143.36744916498392
+    },
+    {
+        "id": 1092,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -106.76799953129446
+    },
+    {
+        "id": 1093,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.11000000000000001,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -142.84797925987607
+    },
+    {
+        "id": 1094,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.12100000000000002,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -142.28162500698477
+    },
+    {
+        "id": 1095,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.13310000000000002,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -141.66467581330838
+    },
+    {
+        "id": 1096,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.14641000000000004,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -140.99322934542877
+    },
+    {
+        "id": 1097,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.16105100000000006,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -140.2632023406014
+    },
+    {
+        "id": 1098,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.17715610000000007,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -139.47034664810434
+    },
+    {
+        "id": 1099,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.1948717100000001,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -138.61027134090202
+    },
+    {
+        "id": 1100,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.2143588810000001,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -137.6784717641033
+    },
+    {
+        "id": 1101,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.23579476910000013,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -136.6703663834602
+    },
+    {
+        "id": 1102,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.25937424601000014,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -135.58134225404854
+    },
+    {
+        "id": 1103,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.28531167061100016,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -134.4068098353056
+    },
+    {
+        "id": 1104,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.3138428376721002,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -133.1422677220157
+    },
+    {
+        "id": 1105,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.3452271214393102,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -131.78337763036257
+    },
+    {
+        "id": 1106,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.37974983358324127,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -130.32604966382956
+    },
+    {
+        "id": 1107,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.41772481694156544,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -128.76653747867775
+    },
+    {
+        "id": 1108,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.45949729863572203,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -127.1015424708344
+    },
+    {
+        "id": 1109,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.5054470284992942,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -125.3283255200952
+    },
+    {
+        "id": 1110,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.5559917313492238,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -123.44482416749803
+    },
+    {
+        "id": 1111,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.6115909044841462,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -121.44977239232435
+    },
+    {
+        "id": 1112,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.6727499949325609,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -119.34281943358118
+    },
+    {
+        "id": 1113,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.740024994425817,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -117.12464341655624
+    },
+    {
+        "id": 1114,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.8140274938683988,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -114.79705495898259
+    },
+    {
+        "id": 1115,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.8954302432552388,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -112.3630855123283
+    },
+    {
+        "id": 1116,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                0.9849732675807628,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -109.82705501326522
+    },
+    {
+        "id": 1117,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.0834705943388392,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -107.19461354518663
+    },
+    {
+        "id": 1118,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.1918176537727232,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -104.47275219266776
+    },
+    {
+        "id": 1119,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.3109994191499956,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -101.66977914245327
+    },
+    {
+        "id": 1120,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.4420993610649953,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -98.79525834001403
+    },
+    {
+        "id": 1121,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.586309297171495,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -95.8599096092455
+    },
+    {
+        "id": 1122,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.7449402268886445,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -92.87547100159298
+    },
+    {
+        "id": 1123,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                1.919434249577509,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -89.85452613877979
+    },
+    {
+        "id": 1124,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                2.11137767453526,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -86.81030130026967
+    },
+    {
+        "id": 1125,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                2.3225154419887866,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -83.75643881780015
+    },
+    {
+        "id": 1126,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                2.5547669861876656,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -80.70675481379794
+    },
+    {
+        "id": 1127,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                2.8102436848064323,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -77.6749903205545
+    },
+    {
+        "id": 1128,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                3.0912680532870755,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -74.67456524634869
+    },
+    {
+        "id": 1129,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                3.4003948586157833,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -71.71834447110004
+    },
+    {
+        "id": 1130,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                3.740434344477362,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -68.81842457552902
+    },
+    {
+        "id": 1131,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                4.114477778925099,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -65.9859484096877
+    },
+    {
+        "id": 1132,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                4.525925556817609,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -63.230953011939434
+    },
+    {
+        "id": 1133,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                4.97851811249937,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -60.56225445199489
+    },
+    {
+        "id": 1134,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                5.476369923749307,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -57.98737115726749
+    },
+    {
+        "id": 1135,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                6.024006916124239,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -55.51248534886413
+    },
+    {
+        "id": 1136,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                6.626407607736663,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -53.14244049646603
+    },
+    {
+        "id": 1137,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                7.28904836851033,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -50.88077129934183
+    },
+    {
+        "id": 1138,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                8.017953205361364,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -48.729761672244805
+    },
+    {
+        "id": 1139,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                8.8197485258975,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -46.69052557795639
+    },
+    {
+        "id": 1140,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                9.701723378487252,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -44.76310528532426
+    },
+    {
+        "id": 1141,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                10.671895716335978,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -42.94658169799739
+    },
+    {
+        "id": 1142,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                11.739085287969576,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -41.23919173221285
+    },
+    {
+        "id": 1143,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                12.912993816766535,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -39.63844825111297
+    },
+    {
+        "id": 1144,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                14.20429319844319,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -38.141258717329016
+    },
+    {
+        "id": 1145,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                15.624722518287511,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -36.74403944022027
+    },
+    {
+        "id": 1146,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                17.187194770116264,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -35.44282301476061
+    },
+    {
+        "id": 1147,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                18.905914247127892,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -34.23335723341243
+    },
+    {
+        "id": 1148,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                20.796505671840684,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -33.111194370752564
+    },
+    {
+        "id": 1149,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                22.876156239024755,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -32.0717702751017
+    },
+    {
+        "id": 1150,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                25.163771862927234,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -31.11047314378731
+    },
+    {
+        "id": 1151,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                27.68014904921996,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -30.22270220858848
+    },
+    {
+        "id": 1152,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                30.448163954141958,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -29.40391682063637
+    },
+    {
+        "id": 1153,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                33.492980349556156,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -28.64967660855258
+    },
+    {
+        "id": 1154,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                36.84227838451177,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -27.955673500860115
+    },
+    {
+        "id": 1155,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                40.52650622296295,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -27.317756465393916
+    },
+    {
+        "id": 1156,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                44.57915684525925,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -26.73194983600023
+    },
+    {
+        "id": 1157,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                49.03707252978518,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -26.194466080807583
+    },
+    {
+        "id": 1158,
+        "config": {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": [
+                53.9407797827637,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "nakit_oran_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "yabancı_kaynak_ozkaynak_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "alacak_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "aktif_devir_hızı_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ozvarlık_karlıgı_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "kar_marjları_rating": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "hbk_rating": [
+                0.1,
+                0.1
+            ],
+            "fs_rating": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "df_date": "2023/3"
+        },
+        "succes_rate": -25.701713826071355
     }
 ]

@@ -37,7 +37,6 @@ def fill_point_df(date):
     price_increase_df.to_csv(f"data/{date_path}/price_increase_df.csv")
         
 def run_test(date, config):
-
     with open('data/test_log.json', 'r', encoding="utf-8") as file:
         id_log_list = json.load(file)
 
@@ -103,7 +102,6 @@ def run_test(date, config):
 
         succes_rate = sum(succes_rating_list) / len(succes_rating_list)
 
-        config.pop("df_date")
         config.pop("share_name")
         new_log = {"id":id, "config": config}
         new_log["succes_rate"] = succes_rate
@@ -118,7 +116,154 @@ def run_test(date, config):
             json.dump(id_log_list, json_file, indent=4, ensure_ascii=False)
 
         point_df.to_csv(f"data/{date}/share_point_df.csv")
+
+        return succes_rate
     else:
         print("")
-        print(f"Already this configuration is tested. Succes rate: %{config_rate}")
+        print(f"\033[1mAlready this configuration is tested. Succes rate: %{config_rate}\033[0m")
         print("")
+
+        return config_rate
+
+def search_config_value(date):
+    rep_date = date.replace("/", "-")
+
+    with open(f'data/{rep_date}/model_config.json', 'r', encoding="utf-8") as file:
+        data = json.load(file)
+
+    last_index = data["last_index"]
+    optimum_list = data["points"]
+
+    for index, point in enumerate(optimum_list[last_index:]):
+        
+        config = {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": optimum_list[:12],
+            "nakit_oran_rating": optimum_list[12: 15],
+            "yabancı_kaynak_ozkaynak_rating": optimum_list[15: 19],
+            "alacak_devir_hızı_rating": optimum_list[19: 22],
+            "aktif_devir_hızı_rating": optimum_list[22: 25],
+            "ozvarlık_karlıgı_rating": optimum_list[25: 30],
+            "kar_marjları_rating": optimum_list[30: 35],
+            "hbk_rating": optimum_list[35: 37],
+            "fs_rating": optimum_list[37: 40]
+        }
+
+        succes_rate = run_test(date, config)
+
+        is_it_up = False
+
+        optimum_list[index] = point + 1
+
+        config = {
+            "cari_oran_deviation_percentage": 30,
+            "devir_hızı_deviation_percentage": 0.1,
+            "oz_varlık_deviation_percentage": 0.1,
+            "kar_marjları_deviation_percentage": 0.1,
+            "fs_deviation_percentage": 0.1,
+            "cari_oran_percentage_change_for_the_trend": 0.19,
+            "cari_oran_rating": optimum_list[:12],
+            "nakit_oran_rating": optimum_list[12: 15],
+            "yabancı_kaynak_ozkaynak_rating": optimum_list[15: 19],
+            "alacak_devir_hızı_rating": optimum_list[19: 22],
+            "aktif_devir_hızı_rating": optimum_list[22: 25],
+            "ozvarlık_karlıgı_rating": optimum_list[25: 30],
+            "kar_marjları_rating": optimum_list[30: 35],
+            "hbk_rating": optimum_list[35: 37],
+            "fs_rating": optimum_list[37: 40]
+        }
+
+        new_succes_rate = run_test(date, config)
+
+        if new_succes_rate > succes_rate:
+            is_it_up = True
+        else:
+            point = -0.1
+        
+        while True:
+
+            if is_it_up:
+                point = point * 1.1
+                optimum_list[index] = point
+
+                config = {
+                    "cari_oran_deviation_percentage": 30,
+                    "devir_hızı_deviation_percentage": 0.1,
+                    "oz_varlık_deviation_percentage": 0.1,
+                    "kar_marjları_deviation_percentage": 0.1,
+                    "fs_deviation_percentage": 0.1,
+                    "cari_oran_percentage_change_for_the_trend": 0.19,
+                    "cari_oran_rating": optimum_list[:12],
+                    "nakit_oran_rating": optimum_list[12: 15],
+                    "yabancı_kaynak_ozkaynak_rating": optimum_list[15: 19],
+                    "alacak_devir_hızı_rating": optimum_list[19: 22],
+                    "aktif_devir_hızı_rating": optimum_list[22: 25],
+                    "ozvarlık_karlıgı_rating": optimum_list[25: 30],
+                    "kar_marjları_rating": optimum_list[30: 35],
+                    "hbk_rating": optimum_list[35: 37],
+                    "fs_rating": optimum_list[37: 40]
+                }
+                
+                print(f"Puan: {point} için deneniyor.")
+                new_succes_rate = run_test(date, config)
+
+                if new_succes_rate > succes_rate:
+                    succes_rate = new_succes_rate
+                    continue
+                else:
+                    optimum_list[index] = point * 10 / 11
+                    json_data = {
+                        "last_index": index + 1,
+                        "points": optimum_list 
+                    }
+                    with open(f'data/{rep_date}/model_config.json', "w", encoding="utf-8") as json_file:
+                        json.dump(json_data, json_file, indent=4, ensure_ascii=False)
+                    break
+
+            else:
+                point = ((point*-1) * 1.1) * -1
+                optimum_list[index] = point
+
+                config = {
+                    "cari_oran_deviation_percentage": 30,
+                    "devir_hızı_deviation_percentage": 0.1,
+                    "oz_varlık_deviation_percentage": 0.1,
+                    "kar_marjları_deviation_percentage": 0.1,
+                    "fs_deviation_percentage": 0.1,
+                    "cari_oran_percentage_change_for_the_trend": 0.19,
+                    "cari_oran_rating": optimum_list[:12],
+                    "nakit_oran_rating": optimum_list[12: 15],
+                    "yabancı_kaynak_ozkaynak_rating": optimum_list[15: 19],
+                    "alacak_devir_hızı_rating": optimum_list[19: 22],
+                    "aktif_devir_hızı_rating": optimum_list[22: 25],
+                    "ozvarlık_karlıgı_rating": optimum_list[25: 30],
+                    "kar_marjları_rating": optimum_list[30: 35],
+                    "hbk_rating": optimum_list[35: 37],
+                    "fs_rating": optimum_list[37: 40]
+                }
+
+                print(f"Puan: {point} için deneniyor.")
+                new_succes_rate = run_test(date, config)
+
+                if new_succes_rate > succes_rate:
+                    succes_rate = new_succes_rate
+                    continue
+                else:
+                    optimum_list[index] = ((point* -1) * 10 / 11)* -1
+                    json_data = {
+                        "last_index": index + 1,
+                        "points": optimum_list 
+                    }
+                    with open(f'data/{rep_date}/model_config.json', "w", encoding="utf-8") as json_file:
+                        json.dump(json_data, json_file, indent=4, ensure_ascii=False)
+                    break
+
+            
+
+
+
