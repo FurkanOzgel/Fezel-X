@@ -134,7 +134,7 @@ def search_config_value(date):
     last_index = data["last_index"]
     optimum_list = data["points"]
 
-    for index, point in enumerate(optimum_list[last_index:]):
+    for index, point in enumerate(optimum_list[:]):
         
         config = {
             "cari_oran_deviation_percentage": 30,
@@ -157,6 +157,7 @@ def search_config_value(date):
         succes_rate = run_test(date, config)
 
         is_it_up = False
+        counter = 0
 
         optimum_list[index] = point + 1
 
@@ -182,8 +183,6 @@ def search_config_value(date):
 
         if new_succes_rate > succes_rate:
             is_it_up = True
-        else:
-            point = -0.1
         
         while True:
 
@@ -209,13 +208,20 @@ def search_config_value(date):
                     "fs_rating": optimum_list[37: 40]
                 }
                 
+                print()
+                print(f"Ratio: {index}")
                 print(f"Puan: {point} için deneniyor.")
+                print(f"Counter: {counter}")
+                print()
+
                 new_succes_rate = run_test(date, config)
 
-                if new_succes_rate > succes_rate:
+                if new_succes_rate > succes_rate and counter != 5:
+                    counter = counter + 1
                     succes_rate = new_succes_rate
                     continue
                 else:
+                    counter = 0
                     optimum_list[index] = point * 10 / 11
                     json_data = {
                         "last_index": index + 1,
@@ -247,13 +253,20 @@ def search_config_value(date):
                     "fs_rating": optimum_list[37: 40]
                 }
 
+                print()
+                print(f"Ratio: {index}")
                 print(f"Puan: {point} için deneniyor.")
+                print(f"Counter: {counter}")
+                print()
+                
                 new_succes_rate = run_test(date, config)
 
-                if new_succes_rate > succes_rate:
+                if new_succes_rate > succes_rate and counter != 5:
+                    counter = counter + 1
                     succes_rate = new_succes_rate
                     continue
                 else:
+                    counter = 0
                     optimum_list[index] = ((point* -1) * 10 / 11)* -1
                     json_data = {
                         "last_index": index + 1,
